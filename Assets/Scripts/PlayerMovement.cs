@@ -16,7 +16,23 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * speed, 0f, Input.GetAxis("Vertical") * Time.deltaTime * speed);
+        //transform.Translate(0f, 0f, Input.GetAxis("Vertical") * Time.deltaTime * speed);
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            transform.Translate(Vector3.forward);
+        }
+        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            transform.Translate(Vector3.forward * -1);
+        }
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            transform.Rotate(-Vector3.up*90);
+        }
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            transform.Rotate(Vector3.up*90);
+        }
         //if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         //{
         //    //print(GameObject.Find("Player(Clone)").transform.position.ToString());
@@ -25,15 +41,15 @@ public class PlayerMovement : MonoBehaviour
         //        100f);
 
         //}
-        
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-        {
-            transform.Rotate(-Vector3.up * rotatespeed * Time.deltaTime);
-        }
-        else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
-            transform.Rotate(Vector3.up * rotatespeed * Time.deltaTime);
-        }
+
+        //if (input.getkey(keycode.leftarrow) || input.getkey(keycode.a))
+        //{
+        //    transform.rotate(-vector3.up * rotatespeed * time.deltatime);
+        //}
+        //else if (input.getkey(keycode.rightarrow) || input.getkey(keycode.d))
+        //{
+        //    transform.rotate(vector3.up * rotatespeed * time.deltatime);
+        //}
 
     }
 }
