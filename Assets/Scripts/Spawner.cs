@@ -31,10 +31,10 @@ public class Spawner : MonoBehaviour
     void SpawnPlayer()
     {   
         GameObject playr = Instantiate(player, playerStart, Quaternion.identity);
-        GameObject camera = Instantiate(cam, new Vector3(playerStart.x, playerStart.y, playerStart.z), Quaternion.identity);        //first-person, egocentric
-        //GameObject camera = Instantiate(cam, new Vector3(5, 15, 5), Quaternion.identity);                                               //third-person, allocentric
-        //camera.transform.rotation = Quaternion.Euler(90,0,0);                                                                           //third-person, allocentric
-        camera.transform.SetParent(playr.transform);                                                                              //first-person, egocentric
+        //GameObject camera = Instantiate(cam, new Vector3(playerStart.x, playerStart.y, playerStart.z), Quaternion.identity);        //first-person, egocentric
+        GameObject camera = Instantiate(cam, new Vector3(5, 15, 5), Quaternion.identity);                                               //third-person, allocentric
+        camera.transform.rotation = Quaternion.Euler(90,0,0);                                                                           //third-person, allocentric
+        //camera.transform.SetParent(playr.transform);                                                                              //first-person, egocentric
         
     }
     void SpawnFences()
