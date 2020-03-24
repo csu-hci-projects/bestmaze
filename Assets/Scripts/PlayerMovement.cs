@@ -19,19 +19,19 @@ public class PlayerMovement : MonoBehaviour
         //transform.Translate(0f, 0f, Input.GetAxis("Vertical") * Time.deltaTime * speed);
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
-            transform.Translate(Vector3.forward);
+            StartCoroutine("Forward");
         }
         if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            transform.Translate(Vector3.forward * -1);
+            StartCoroutine("Backward");
         }
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            transform.Rotate(-Vector3.up*90);
+            StartCoroutine("Left");
         }
         if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
-            transform.Rotate(Vector3.up*90);
+            StartCoroutine("Right");
         }
         //if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         //{
@@ -51,5 +51,41 @@ public class PlayerMovement : MonoBehaviour
         //    transform.rotate(vector3.up * rotatespeed * time.deltatime);
         //}
 
+    }
+    
+    IEnumerator Forward()
+    {
+        for (int i = 0; i < 50; i++)
+        {
+            transform.Translate(Vector3.forward * 0.02f);
+            yield return null;
+        }
+    }
+
+    IEnumerator Left()
+    {
+        for (int i = 0; i < 50; i++)
+        {
+            transform.Rotate(-Vector3.up * 90 * 0.02f);
+            yield return null;
+        }
+    }
+
+    IEnumerator Right()
+    {
+        for (int i = 0; i < 50; i++)
+        {
+            transform.Rotate(Vector3.up * 90 * 0.02f);
+            yield return null;
+        }
+    }
+
+    IEnumerator Backward()
+    {
+        for (int i = 0; i < 50; i++)
+        {
+            transform.Translate(Vector3.forward * -1 * 0.02f);
+            yield return null;
+        }
     }
 }
