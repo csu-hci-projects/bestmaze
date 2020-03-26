@@ -10,6 +10,7 @@ public class Spawner : MonoBehaviour
     public GameObject pole;
     public GameObject player;
     public GameObject cam;
+    public GameObject light;
     public float worldSize;
     public Vector3 platformSize; 
     public Vector3 playerStart;
@@ -31,10 +32,18 @@ public class Spawner : MonoBehaviour
     void SpawnPlayer()
     {   
         GameObject playr = Instantiate(player, playerStart, Quaternion.identity);
+        GameObject lighting = Instantiate(light, playerStart, Quaternion.identity);
+        lighting.transform.SetParent(playr.transform);
+
+        //first-person
         //GameObject camera = Instantiate(cam, new Vector3(playerStart.x, playerStart.y, playerStart.z), Quaternion.identity);        //first-person, egocentric
-        GameObject camera = Instantiate(cam, new Vector3(5, 15, 5), Quaternion.identity);                                               //third-person, allocentric
-        camera.transform.rotation = Quaternion.Euler(90,0,0);                                                                           //third-person, allocentric
         //camera.transform.SetParent(playr.transform);                                                                              //first-person, egocentric
+
+
+        //third-person
+        GameObject camera = Instantiate(cam, new Vector3(worldSize/2, worldSize, worldSize/2), Quaternion.identity);                                               //third-person, allocentric
+        camera.transform.rotation = Quaternion.Euler(90,0,0);                                                                           //third-person, allocentric
+        
         
     }
     void SpawnFences()
