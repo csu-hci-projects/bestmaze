@@ -1,24 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using MazeGen;
 
 public class Spawner : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject platform;
     public GameObject fence;
-    public GameObject pole;
     public GameObject player;
     public GameObject cam;
-    public GameObject light;
+    public new GameObject light;
     public float worldSize;
     public Vector3 platformSize; 
     public Vector3 playerStart;
+    public MazeGen mazeGen;
+    
 
     void Start()
     {
-        worldSize = 12;
-        float a = worldSize / 2;
+        
+        ArrayList mazeRaw = mazeGen.create((int)worldSize);
+
+        float a = (worldSize+1)/2;
         platformSize = new Vector3(worldSize, 0.5f, worldSize);
         playerStart = new Vector3(1f, 1, 1f);
         //Instantiates the predefined platform prefab at the (0,0,0) position:
@@ -26,7 +30,7 @@ public class Spawner : MonoBehaviour
         //sets the prefab of the platform to a desired size:
         pf.transform.localScale = platformSize;
         SpawnPlayer();
-        SpawnFences();
+        SpawnFences(mazeRaw);
     }
 
     void SpawnPlayer()
@@ -46,30 +50,42 @@ public class Spawner : MonoBehaviour
         
         
     }
-    void SpawnFences()
+
+    
+    void SpawnFences(ArrayList maze)
     {
-        for (int i = 0; i < worldSize; i++)
+        for (int i = 0; i < maze.Count; i++)
         {
-            Instantiate(fence, new Vector3(0, 0, i), Quaternion.identity);
-            Instantiate(fence, new Vector3(i, 0, 0), Quaternion.identity);
-            Instantiate(fence, new Vector3(worldSize, 0, i), Quaternion.identity);
-            Instantiate(fence, new Vector3(i, 0, worldSize), Quaternion.identity);
-        }
-        Instantiate(fence, new Vector3(worldSize, 0, worldSize), Quaternion.identity); //fixes that one random border piece that's missing
-        for (int i = 0; i < worldSize; i++)
-        {
-            for(int j = 1; j< worldSize; j++)
+            for (int j = 0; j < maze[i].ToString().Length; j++)
             {
-                if (i % 4 == 0)
+                if (maze[i].ToString()[j] == '#')
                 {
-                    Instantiate(fence, new Vector3(i, 0, j + 1), Quaternion.identity);
-                }
-                else if (i % 2 == 0)
-                {
-                    Instantiate(fence, new Vector3(i, 0, j - 1), Quaternion.identity);
+                    Instantiate(fence, new Vector3(i, 0, j), Quaternion.identity);
                 }
             }
         }
+        //for (int i = 0; i < worldSize; i++)
+        //{
+        //    Instantiate(fence, new Vector3(0, 0, i), Quaternion.identity);
+        //    Instantiate(fence, new Vector3(i, 0, 0), Quaternion.identity);
+        //    Instantiate(fence, new Vector3(worldSize, 0, i), Quaternion.identity);
+        //    Instantiate(fence, new Vector3(i, 0, worldSize), Quaternion.identity);
+        //}
+        //Instantiate(fence, new Vector3(worldSize, 0, worldSize), Quaternion.identity); //fixes that one random border piece that's missing
+        //for (int i = 0; i < worldSize; i++)
+        //{
+        //    for (int j = 1; j < worldSize; j++)
+        //    {
+        //        if (i % 4 == 0)
+        //        {
+        //            Instantiate(fence, new Vector3(i, 0, j + 1), Quaternion.identity);
+        //        }
+        //        else if (i % 2 == 0)
+        //        {
+        //            Instantiate(fence, new Vector3(i, 0, j - 1), Quaternion.identity);
+        //        }
+        //    }
+        //}
 
 
     }
