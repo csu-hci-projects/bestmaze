@@ -40,13 +40,13 @@ public class Spawner : MonoBehaviour
         lighting.transform.SetParent(playr.transform);
 
         //first-person
-        //GameObject camera = Instantiate(cam, new Vector3(playerStart.x, playerStart.y, playerStart.z), Quaternion.identity);        //first-person, egocentric
-        //camera.transform.SetParent(playr.transform);                                                                              //first-person, egocentric
+        GameObject camera = Instantiate(cam, new Vector3(playerStart.x, playerStart.y, playerStart.z), Quaternion.identity);        //first-person, egocentric
+        camera.transform.SetParent(playr.transform);                                                                              //first-person, egocentric
 
 
         //third-person
-        GameObject camera = Instantiate(cam, new Vector3(worldSize/2, worldSize, worldSize/2), Quaternion.identity);                                               //third-person, allocentric
-        camera.transform.rotation = Quaternion.Euler(90,0,0);                                                                           //third-person, allocentric
+        //GameObject camera = Instantiate(cam, new Vector3(worldSize/2, worldSize, worldSize/2), Quaternion.identity);                                               //third-person, allocentric
+        //camera.transform.rotation = Quaternion.Euler(90,0,0);                                                                           //third-person, allocentric
         
         
     }
