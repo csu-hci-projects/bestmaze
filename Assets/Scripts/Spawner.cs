@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 //using MazeGen;
 
@@ -15,14 +17,17 @@ public class Spawner : MonoBehaviour
     public Vector3 platformSize; 
     public Vector3 playerStart;
     public MazeGen mazeGen;
+    //public MainMenu menu;
     public int perspective;
     public List<Material> colors;
     
 
     void Start()
     {
-        
-        ArrayList mazeRaw = mazeGen.create((int)worldSize);
+        //mazeGen = GameObject.Find("MazeGen").GetComponent<MazeGen>();
+
+        Debug.Log(MainMenu.mazeSize);
+        ArrayList mazeRaw = mazeGen.create(MainMenu.mazeSize);
 
         perspective = 1;    //egocentric: 0, allocentric: 1
 
@@ -42,7 +47,7 @@ public class Spawner : MonoBehaviour
     {
         for(int i = 0; i < worldSize; i++)
         {
-            Material strip = colors[Random.Range(0, colors.Count)];
+            Material strip = colors[UnityEngine.Random.Range(0, colors.Count)];
             for (int j = 0; j < worldSize; j++)
             {
                 GameObject floor = Instantiate(platform, new Vector3(i, 0, j), Quaternion.identity);
