@@ -20,6 +20,10 @@ public class Spawner : MonoBehaviour
     //public MainMenu menu;
     private int perspective = MainMenu.POV; //egocentric: 0, allocentric: 1
     public List<Material> colors;
+
+    public GameObject pole;
+    public GameObject audioCue;
+    public GameObject playr;
     
 
     void Start()
@@ -50,7 +54,7 @@ public class Spawner : MonoBehaviour
 
     void SpawnPlayer()
     {   
-        GameObject playr = Instantiate(player, playerStart, Quaternion.identity);
+        playr = Instantiate(player, playerStart, Quaternion.identity);
         GameObject lighting = Instantiate(light, new Vector3(1f, 0.5f, 1f), Quaternion.identity);
         lighting.transform.SetParent(playr.transform);
 
@@ -68,7 +72,7 @@ public class Spawner : MonoBehaviour
             GameObject camera = Instantiate(cam, new Vector3(worldSize / 2, worldSize, worldSize / 2), Quaternion.identity);            //third-person, allocentric
             camera.transform.rotation = Quaternion.Euler(90, 0, 0);                                                                     //third-person, allocentric
         }
-        
+   
     }
 
     
@@ -84,5 +88,86 @@ public class Spawner : MonoBehaviour
                 }
             }
         }
+
+        int startingWall = Random.Range(0, 4); //start at 0: left, 1: bottom, 2: right, 3: top
+        if (startingWall == 0)
+        {
+            int startingPosition = 0;
+            while(maze[1].ToString()[startingPosition] != ' ')
+            {
+                startingPosition = Random.Range(1, (int)worldSize);
+            }
+            playr.transform.position = new Vector3(1, 0.5f, startingPosition);
+            playr.transform.rotation = Quaternion.Euler(0, 90, 0);
+            int exitPosition = 0;
+            while(maze[(int)worldSize - 1].ToString()[exitPosition] != ' ')
+            {
+                exitPosition = Random.Range(1, (int)worldSize);
+            }
+            Instantiate(pole, new Vector3((int)worldSize - 1, 0, exitPosition), Quaternion.identity);
+        }
+        if (startingWall == 1)
+        {
+            int startingPosition = 0;
+            while (maze[startingPosition].ToString()[1] != ' ')
+            {
+                startingPosition = Random.Range(1, (int)worldSize);
+            }
+            playr.transform.position = new Vector3(startingPosition, 0.5f, 1);
+            playr.transform.rotation = Quaternion.Euler(0, 0, 0);
+            int exitPosition = 0;
+            while (maze[exitPosition].ToString()[(int)worldSize - 1] != ' ')
+            {
+                exitPosition = Random.Range(1, (int)worldSize);
+            }
+            Instantiate(pole, new Vector3(exitPosition, 0, (int)worldSize - 1), Quaternion.identity);
+        }
+        if (startingWall == 2)
+        {
+            int startingPosition = 0;
+            while (maze[(int)worldSize-1].ToString()[startingPosition] != ' ')
+            {
+                startingPosition = Random.Range(1, (int)worldSize);
+            }
+            playr.transform.position = new Vector3((int)worldSize-1, 0.5f, startingPosition);
+            playr.transform.rotation = Quaternion.Euler(0, 270, 0);
+            int exitPosition = 0;
+            while (maze[1].ToString()[exitPosition] != ' ')
+            {
+                exitPosition = Random.Range(1, (int)worldSize);
+            }
+            Instantiate(pole, new Vector3(1, 0, exitPosition), Quaternion.identity);
+        }
+        if (startingWall == 3)
+        {
+            int startingPosition = 0;
+            while (maze[startingPosition].ToString()[(int)worldSize - 1] != ' ')
+            {
+                startingPosition = Random.Range(1, (int)worldSize);
+            }
+            playr.transform.position = new Vector3(startingPosition, 0.5f, (int)worldSize - 1);
+            playr.transform.rotation = Quaternion.Euler(0, 180, 0);
+            int exitPosition = 0;
+            while (maze[exitPosition].ToString()[1] != ' ')
+            {
+                exitPosition = Random.Range(1, (int)worldSize);
+            }
+            Instantiate(pole, new Vector3(exitPosition, 0, 1), Quaternion.identity);
+        }
+
+        int numAudioCues = 5;
+        while (numAudioCues >= 0)
+        {
+            int audioCueSpawnX = 0;
+            int audioCueSpawnY = 0;
+            while (maze[audioCueSpawnX].ToString()[audioCueSpawnY] != ' ')
+            {
+                audioCueSpawnX = Random.Range(1, (int)worldSize);
+                audioCueSpawnY = Random.Range(1, (int)worldSize);
+            }
+            Instantiate(audioCue, new Vector3(audioCueSpawnX, 0, audioCueSpawnY), Quaternion.identity);
+            numAudioCues = numAudioCues - 1;
+        }
+        
     }
 }
