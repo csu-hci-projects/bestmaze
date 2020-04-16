@@ -8,14 +8,24 @@ public class MainMenu : MonoBehaviour
 {
 
     static public int mazeSize;
+    static public int POV;
+    static public string ID;
 
     public void StartGame()
     {
         SceneManager.LoadScene("MazeBasic");
     }
-    public void MazeSize(int text)
+    public void GetSize(string text)
     {
-        mazeSize = text;
-        
+        mazeSize = int.Parse(text);
+    }
+    public void GetPOV(int option)
+    {
+        Debug.Log(option);
+        POV = option;
+    }
+    public void GetID(string id)
+    {
+        ID = id;
     }
 }

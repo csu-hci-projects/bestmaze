@@ -13,31 +13,23 @@ public class Spawner : MonoBehaviour
     public GameObject player;
     public GameObject cam;
     public new GameObject light;
-    public float worldSize;
+    private float worldSize = (int)MainMenu.mazeSize;
     public Vector3 platformSize; 
     public Vector3 playerStart;
     public MazeGen mazeGen;
     //public MainMenu menu;
-    public int perspective;
+    private int perspective = MainMenu.POV; //egocentric: 0, allocentric: 1
     public List<Material> colors;
     
 
     void Start()
     {
         //mazeGen = GameObject.Find("MazeGen").GetComponent<MazeGen>();
+        if ((int)worldSize == 0) worldSize = 12;
+        ArrayList mazeRaw = mazeGen.create((int)worldSize);
 
-        Debug.Log(MainMenu.mazeSize);
-        ArrayList mazeRaw = mazeGen.create(MainMenu.mazeSize);
-
-        perspective = 1;    //egocentric: 0, allocentric: 1
-
-        float a = (worldSize+1)/2;
-        //platformSize = new Vector3(worldSize, 0.5f, worldSize);
+        //float center = (worldSize+1)/2;
         playerStart = new Vector3(1f, 0.5f, 1f);
-        //Instantiates the predefined platform prefab at the (0,0,0) position:
-        //GameObject pf = Instantiate(platform, new Vector3(a,0,a), Quaternion.identity);
-        //sets the prefab of the platform to a desired size:
-        //pf.transform.localScale = platformSize;
         SpawnPlatform(worldSize, mazeRaw);
         SpawnPlayer();
         SpawnFences(mazeRaw);
@@ -62,6 +54,7 @@ public class Spawner : MonoBehaviour
         GameObject lighting = Instantiate(light, new Vector3(1f, 0.5f, 1f), Quaternion.identity);
         lighting.transform.SetParent(playr.transform);
 
+        
         //first-person
         if (perspective == 0)
         {
