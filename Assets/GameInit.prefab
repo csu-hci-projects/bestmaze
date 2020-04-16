@@ -53,3 +53,6 @@ MonoBehaviour:
   platformSize: {x: 0, y: 0, z: 0}
   playerStart: {x: 0, y: 0, z: 0}
   mazeGen: {fileID: 2156969178030653025, guid: 8622afacd6b0655458b46801c14860df, type: 3}
+  menu: {fileID: 0}
+  perspective: 0
+  colors: []

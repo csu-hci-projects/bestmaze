@@ -10,7 +10,8 @@ The following project aims to create a Unity program that creates randomly gener
 
 ### Progress
 
-- [Project Proposal](https://docs.google.com/document/d/1SIoH7Qr9XcozCEpNmDsU156Rp9afkau_dbNbhsE1gYE/edit?usp=sharing)
+- [Updated Project Proposal](https://docs.google.com/document/d/1TsocKVridbSfAbfKtnouH__ijXrVK2Vo9TyZ15d5EGU/edit?usp=sharing)
 - [Checkpoint #2 Overview Video](https://youtu.be/YxyDx8iy3jk)
+- [Checkpoint #3 Overview Video](https://www.youtube.com/watch?v=xh_AnP34UmA&feature=youtu.be)
 - [Research Paper](https://www.overleaf.com/read/vgvvfjdncjxq
   )
