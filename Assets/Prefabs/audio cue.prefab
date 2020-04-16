@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 8310264572944081720}
   - component: {fileID: 8310264572944081721}
   - component: {fileID: 5992615326359626039}
-  - component: {fileID: -8360262374037285450}
+  - component: {fileID: 732955063257257496}
   m_Layer: 0
-  m_Name: Pole
+  m_Name: audio cue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1facbd089536de94db73f3a989b63b7f, type: 2}
+  - {fileID: 2100000, guid: 58861505415bb0d48b57380cc5335f0e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-8360262374037285450
+--- !u!114 &732955063257257496
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,6 +120,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8310264572944081726}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c83b0d791627244c8b555bcc4671d22, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ee398e4602367f4b8df0d8e2f3fb88c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
