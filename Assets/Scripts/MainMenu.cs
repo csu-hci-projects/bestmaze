@@ -18,10 +18,12 @@ public class MainMenu : MonoBehaviour
     public void GetSize(string text)
     {
         mazeSize = int.Parse(text);
+        if(mazeSize%2==1)
+            mazeSize += 1;
+
     }
     public void GetPOV(int option)
     {
-        Debug.Log(option);
         POV = option;
     }
     public void GetID(string id)
