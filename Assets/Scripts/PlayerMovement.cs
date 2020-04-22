@@ -73,6 +73,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    void LogMovement(Vector3 position)
+    {
+
+    }
     //IEnumerator Backward()
     //{
     //    for (int i = 0; i < 50; i++)
