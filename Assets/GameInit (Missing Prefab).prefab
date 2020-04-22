@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3418003700162835751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3418003700162835748}
+  - component: {fileID: 3418003700162835749}
+  - component: {fileID: 3418003700162835750}
+  m_Layer: 0
+  m_Name: GameInit (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3418003700162835748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418003700162835751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3418003700162835747}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3418003700162835749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418003700162835751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf8dc0e6820ba24e9cb913538ff0645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platform: {fileID: 6553184761658299274, guid: 110ea6512475c634d85c2b61996adb69,
+    type: 3}
+  fence: {fileID: 878141977182600257, guid: 7731defebd539bd479e5ed03b9693089, type: 3}
+  player: {fileID: 3957888803470641169, guid: 65c17679e5f12f244a6f3469822357ef, type: 3}
+  cam: {fileID: 94671557676443827, guid: 0fe657efb516bc449be521f1a62fc9ca, type: 3}
+  light: {fileID: 5319113220431379372, guid: e712b8cba93393d47874d4983297e817, type: 3}
+  platformSize: {x: 0, y: 0, z: 0}
+  playerStart: {x: 0, y: 0, z: 0}
+  mazeGen: {fileID: 0}
+  colors:
+  - {fileID: 2100000, guid: 98b8634d20e7bcb48a5b403dfa709202, type: 2}
+  - {fileID: 2100000, guid: 1db9f90ac8f160144b0dc6703a0a318d, type: 2}
+  - {fileID: 2100000, guid: fb52ddb57d84bb84c9dd38260e3f8fbc, type: 2}
+  - {fileID: 2100000, guid: dd3f056fb481af546a7ef973aac7a4e7, type: 2}
+  - {fileID: 2100000, guid: ce9d04d8b5721d04eaaebf01f697f6a4, type: 2}
+  - {fileID: 2100000, guid: 050a8955a3c434840a8d3cf3a110da36, type: 2}
+  - {fileID: 2100000, guid: 7bc4f8d2052611c47a236d6bd00b9c99, type: 2}
+  - {fileID: 2100000, guid: 7918ca4eadad7634ca3522bfa9f825d6, type: 2}
+  pole: {fileID: 8310264572944081726, guid: c2e4685ce1bfe724ba4f5b1da6d0f302, type: 3}
+  audioCue: {fileID: 8310264572944081726, guid: b165bd761d374b74f948c1dfa5b4d28b,
+    type: 3}
+  playr: {fileID: 0}
+--- !u!114 &3418003700162835750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418003700162835751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eba220ad218d344b1bd9124e2c8ebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3418003700162835769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3418003700162835747}
+  - component: {fileID: 3418003700162835768}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3418003700162835747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418003700162835769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3418003700162835748}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3418003700162835768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418003700162835769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf8dc0e6820ba24e9cb913538ff0645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platform: {fileID: 0}
+  fence: {fileID: 0}
+  player: {fileID: 0}
+  cam: {fileID: 0}
+  light: {fileID: 0}
+  platformSize: {x: 0, y: 0, z: 0}
+  playerStart: {x: 0, y: 0, z: 0}
+  mazeGen: {fileID: 0}
+  colors: []
+  pole: {fileID: 0}
+  audioCue: {fileID: 0}
+  playr: {fileID: 0}
