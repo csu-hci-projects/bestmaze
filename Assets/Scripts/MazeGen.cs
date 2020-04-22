@@ -125,6 +125,8 @@ public class Maze
         writer.WriteLine(firstLine + '#');
         mazeRaw.Add(firstLine + "#");
         writer.Close();
+        
+
         return mazeRaw;
         
     }
@@ -157,9 +159,10 @@ public class Maze
 
 public class MazeGen : MonoBehaviour
 {
-    public ArrayList create(int size)
-    {
-        var maze = new Maze((size/2), (size/2));  //width x height
+    public ArrayList create(int size) { 
+        size += 1;
+        size /= 2;
+        var maze = new Maze(size, size);  //width x height
         ArrayList mazeRaw = maze.Display();
         return mazeRaw;
     }

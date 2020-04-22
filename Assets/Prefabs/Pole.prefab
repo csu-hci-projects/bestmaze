@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8310264572944081720}
   - component: {fileID: 8310264572944081721}
   - component: {fileID: 5992615326359626039}
-  - component: {fileID: 5303300834633068802}
+  - component: {fileID: 7119645930824373368}
   m_Layer: 0
   m_Name: Pole
   m_TagString: Untagged
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 5e34d2753d4ebd94790e11fb21831c85, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5303300834633068802
+--- !u!114 &7119645930824373368
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,6 +120,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8310264572944081726}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aab2e14a6e1e75e4bb93ff24fd60d600, type: 3}
+  m_Script: {fileID: 11500000, guid: 64f0a4db8b6836043b09812b2fc51c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

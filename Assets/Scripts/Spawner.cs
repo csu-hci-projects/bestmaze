@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 //using MazeGen;
 
 public class Spawner : MonoBehaviour
@@ -18,7 +21,6 @@ public class Spawner : MonoBehaviour
     //public MainMenu menu;
     private int perspective = MainMenu.POV; //egocentric: 0, allocentric: 1
     public List<Material> colors;
-
     public GameObject pole;
     public GameObject audioCue;
     public GameObject playr;
@@ -26,15 +28,26 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
-        //mazeGen = GameObject.Find("MazeGen").GetComponent<MazeGen>();
-        if ((int)worldSize == 0) worldSize = 12;
+        if ((int)worldSize <= 0) worldSize = 10;                                                       
         ArrayList mazeRaw = mazeGen.create((int)worldSize);
-
+        CreateCSV();
         //float center = (worldSize+1)/2;
         playerStart = new Vector3(1f, 0.5f, 1f);
         SpawnPlatform(worldSize, mazeRaw);
         SpawnPlayer();
         SpawnFences(mazeRaw);
+    }
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+            SceneManager.LoadScene("Menu");
+    }
+
+    void CreateCSV()
+    {
+        string path = Application.dataPath + ("/ParticipantData.csv");
+        if (!File.Exists(path)) File.Create(path);
+        
     }
 
     void SpawnPlatform(float worldSize, ArrayList maze)
@@ -60,14 +73,16 @@ public class Spawner : MonoBehaviour
         //first-person
         if (perspective == 0)
         {
-            GameObject camera = Instantiate(cam, new Vector3(playerStart.x, playerStart.y, playerStart.z), Quaternion.identity);        //first-person, egocentric
+            GameObject camera = Instantiate(cam, playerStart, Quaternion.identity);                                                     //first-person, egocentric
             camera.transform.SetParent(playr.transform);                                                                                //first-person, egocentric
         }
 
         //third-person
         if (perspective == 1)
         {
-            GameObject camera = Instantiate(cam, new Vector3(worldSize / 2, worldSize, worldSize / 2), Quaternion.identity);            //third-person, allocentric
+            //GameObject camera = Instantiate(cam, new Vector3(worldSize / 2, worldSize, worldSize / 2), Quaternion.identity);            //third-person, allocentric
+            GameObject camera = Instantiate(cam, new Vector3(playerStart.x, worldSize, playerStart.z), Quaternion.identity);
+            //camera.transform.SetParent(playr.transform);
             camera.transform.rotation = Quaternion.Euler(90, 0, 0);                                                                     //third-person, allocentric
         }
    
@@ -87,18 +102,19 @@ public class Spawner : MonoBehaviour
             }
         }
 
+
         int startingWall = UnityEngine.Random.Range(0, 4); //start at 0: left, 1: bottom, 2: right, 3: top
         if (startingWall == 0)
         {
             int startingPosition = 0;
-            while(maze[1].ToString()[startingPosition] != ' ')
+            while (maze[1].ToString()[startingPosition] != ' ')
             {
                 startingPosition = UnityEngine.Random.Range(1, (int)worldSize);
             }
             playr.transform.position = new Vector3(1, 0.5f, startingPosition);
             playr.transform.rotation = Quaternion.Euler(0, 90, 0);
             int exitPosition = 0;
-            while(maze[(int)worldSize - 1].ToString()[exitPosition] != ' ')
+            while (maze[(int)worldSize - 1].ToString()[exitPosition] != ' ')
             {
                 exitPosition = UnityEngine.Random.Range(1, (int)worldSize);
             }
@@ -123,11 +139,11 @@ public class Spawner : MonoBehaviour
         if (startingWall == 2)
         {
             int startingPosition = 0;
-            while (maze[(int)worldSize-1].ToString()[startingPosition] != ' ')
+            while (maze[(int)worldSize - 1].ToString()[startingPosition] != ' ')
             {
                 startingPosition = UnityEngine.Random.Range(1, (int)worldSize);
             }
-            playr.transform.position = new Vector3((int)worldSize-1, 0.5f, startingPosition);
+            playr.transform.position = new Vector3((int)worldSize - 1, 0.5f, startingPosition);
             playr.transform.rotation = Quaternion.Euler(0, 270, 0);
             int exitPosition = 0;
             while (maze[1].ToString()[exitPosition] != ' ')
@@ -153,7 +169,7 @@ public class Spawner : MonoBehaviour
             Instantiate(pole, new Vector3(exitPosition, 0, 1), Quaternion.identity);
         }
 
-        int numAudioCues = 5;
+        int numAudioCues = MainMenu.cues;
         while (numAudioCues >= 0)
         {
             int audioCueSpawnX = 0;
@@ -166,6 +182,6 @@ public class Spawner : MonoBehaviour
             Instantiate(audioCue, new Vector3(audioCueSpawnX, 0, audioCueSpawnY), Quaternion.identity);
             numAudioCues = numAudioCues - 1;
         }
-        
+
     }
 }
