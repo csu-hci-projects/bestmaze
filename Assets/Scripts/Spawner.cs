@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 //using MazeGen;
@@ -27,7 +28,7 @@ public class Spawner : MonoBehaviour
     void Start()
     {
         //mazeGen = GameObject.Find("MazeGen").GetComponent<MazeGen>();
-        if ((int)worldSize == 0) worldSize = 12;
+        if ((int)worldSize <= 0) worldSize = 10; //DEFAULT SIZE = 9
         ArrayList mazeRaw = mazeGen.create((int)worldSize);
 
         //float center = (worldSize+1)/2;
@@ -87,18 +88,19 @@ public class Spawner : MonoBehaviour
             }
         }
 
+
         int startingWall = UnityEngine.Random.Range(0, 4); //start at 0: left, 1: bottom, 2: right, 3: top
         if (startingWall == 0)
         {
             int startingPosition = 0;
-            while(maze[1].ToString()[startingPosition] != ' ')
+            while (maze[1].ToString()[startingPosition] != ' ')
             {
                 startingPosition = UnityEngine.Random.Range(1, (int)worldSize);
             }
             playr.transform.position = new Vector3(1, 0.5f, startingPosition);
             playr.transform.rotation = Quaternion.Euler(0, 90, 0);
             int exitPosition = 0;
-            while(maze[(int)worldSize - 1].ToString()[exitPosition] != ' ')
+            while (maze[(int)worldSize - 1].ToString()[exitPosition] != ' ')
             {
                 exitPosition = UnityEngine.Random.Range(1, (int)worldSize);
             }
@@ -123,11 +125,11 @@ public class Spawner : MonoBehaviour
         if (startingWall == 2)
         {
             int startingPosition = 0;
-            while (maze[(int)worldSize-1].ToString()[startingPosition] != ' ')
+            while (maze[(int)worldSize - 1].ToString()[startingPosition] != ' ')
             {
                 startingPosition = UnityEngine.Random.Range(1, (int)worldSize);
             }
-            playr.transform.position = new Vector3((int)worldSize-1, 0.5f, startingPosition);
+            playr.transform.position = new Vector3((int)worldSize - 1, 0.5f, startingPosition);
             playr.transform.rotation = Quaternion.Euler(0, 270, 0);
             int exitPosition = 0;
             while (maze[1].ToString()[exitPosition] != ' ')
@@ -166,6 +168,6 @@ public class Spawner : MonoBehaviour
             Instantiate(audioCue, new Vector3(audioCueSpawnX, 0, audioCueSpawnY), Quaternion.identity);
             numAudioCues = numAudioCues - 1;
         }
-        
+
     }
 }
