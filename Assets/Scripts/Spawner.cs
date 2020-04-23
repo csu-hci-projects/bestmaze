@@ -47,7 +47,10 @@ public class Spawner : MonoBehaviour
     {
         string path = Application.dataPath + ("/ParticipantData.csv");
         if (!File.Exists(path)) File.Create(path);
-        
+        using (StreamWriter sw = File.AppendText(path))
+        {
+            sw.WriteLine("ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame");
+        }
     }
 
     void SpawnPlatform(float worldSize, ArrayList maze)
