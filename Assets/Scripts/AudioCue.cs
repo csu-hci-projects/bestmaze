@@ -32,7 +32,7 @@ public class AudioCue : MonoBehaviour
                 //chose random ego audio cue
                 if (!play.isPlaying)
                 {
-                    play.PlayOneShot(egoSounds[0]);
+                    play.PlayOneShot(egoSounds[Random.Range(0,egoSounds.Length)]);
                 }
             }
             else if(perspective == 1)
@@ -40,7 +40,7 @@ public class AudioCue : MonoBehaviour
                 //chose random allo audio cue
                 if (!play.isPlaying)
                 {
-                    play.PlayOneShot(alloSounds[1]);
+                    play.PlayOneShot(alloSounds[Random.Range(0, egoSounds.Length)]);
                 }
 
             }
