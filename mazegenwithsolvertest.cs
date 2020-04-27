@@ -102,7 +102,7 @@ public class Maze
         string file = "Assets/Scripts/Maze.txt";
         StreamWriter writer = new StreamWriter(file);
         ArrayList mazeRaw = new ArrayList();
-        
+
         var firstLine = string.Empty;
         for (var y = 0; y < _height; y++)
         {
@@ -125,28 +125,34 @@ public class Maze
         writer.WriteLine(firstLine + '#');
         mazeRaw.Add(firstLine + "#");
         writer.Close();
-        
+
 
         return mazeRaw;
-        
+
     }
 
 
 
 }
 
-
-public class MazeGen : MonoBehaviour
+class Class1
 {
-    public ArrayList create(int size) { 
-        size += 1;
+    static void Main(string[] args)
+    {
+        int size = 15;
         size /= 2;
-        var maze = new Maze(size, size);  //width x height
-        ArrayList mazeRaw = maze.Display();
-        return mazeRaw;
+        var maze = new Maze(size, size);
+        ArrayList EmptyMaze = maze.Display();
+        //ArrayList SolvedMaze = maze.Solve(EmptyMaze, 1, 1, EmptyMaze.Count - 1, EmptyMaze.Count - 1);
+        EmptyMaze = maze.Solve(EmptyMaze, 1, 1, EmptyMaze.Count - 1, EmptyMaze.Count - 1);
+        for (int i = 0; i < EmptyMaze.Count; i++)
+        {
+            for (int j = 0; j < EmptyMaze[i].ToString().Length; j++)
+            {
+                Debug.Write(EmptyMaze[i].ToString()[j]);
+            }
+            Debug.WriteLine(i);
+        }
+
     }
 }
-
-
-
-

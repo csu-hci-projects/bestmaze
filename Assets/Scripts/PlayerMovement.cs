@@ -17,10 +17,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //transform.Translate(0f, 0f, Input.GetAxis("Vertical") * Time.deltaTime * speed);
         if ((Time.time - lastTime > 0.2f) && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
         {
-                
+            
             if (!(Physics.Raycast(GameObject.Find("Player(Clone)").transform.position, GameObject.Find("Player(Clone)").transform.TransformDirection(Vector3.forward), 1)))
             {
                 StartCoroutine("Forward");
@@ -44,6 +45,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+
+
     
     IEnumerator Forward()
     {
