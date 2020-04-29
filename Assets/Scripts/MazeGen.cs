@@ -141,17 +141,34 @@ public class MazeGen : MonoBehaviour
         return mazeRaw;
     }
 
-    public bool solve(ArrayList Maze, int row, int col, int frow, int fcol)
+    public static bool solve(ArrayList Maze, int row, int col, int frow, int fcol)
     {
 
         StringBuilder str = new StringBuilder(Maze[frow].ToString());//Set Below
         str[fcol] = 'F';
         Maze[frow] = str;
 
-        char right = Maze[row].ToString()[col + 1];
-        char left = Maze[row].ToString()[col - 1];
-        char up = Maze[row - 1].ToString()[col];
-        char down = Maze[row + 1].ToString()[col];
+        char right = '#';
+        char left = '#';
+        char up = '#';
+        char down = '#';
+
+        if ((col + 1) < Maze[row].ToString().Length)
+        {
+            right = Maze[row].ToString()[col + 1];
+        }
+        if ((col - 1) > 0)
+        {
+            left = Maze[row].ToString()[col - 1];
+        }
+        if ((row - 1) > 0)
+        {
+            up = Maze[row - 1].ToString()[col];
+        }
+        if ((row + 1) < Maze[row].ToString().Length)
+        {
+            down = Maze[row + 1].ToString()[col];
+        }
         //Debug.WriteLine("Right: " + right +", Left: " + left +", Above: " + up + ", Below: " + down);
 
 
@@ -173,7 +190,7 @@ public class MazeGen : MonoBehaviour
                 }
                 writer.WriteLine("");
             }
-
+            writer.Close();
             return true;
         }
 

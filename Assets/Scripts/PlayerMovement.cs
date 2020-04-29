@@ -15,8 +15,6 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         lastTime = Time.time;
-        mazeGen = new MazeGen();
-
     }
 
     // Update is called once per frame
@@ -27,13 +25,14 @@ public class PlayerMovement : MonoBehaviour
         {
             if (!(Physics.Raycast(GameObject.Find("Player(Clone)").transform.position, GameObject.Find("Player(Clone)").transform.TransformDirection(Vector3.forward), 1)))
             {
-               mazeGen.solve(MazeGen.mazeRaw,
+               MazeGen.solve(MazeGen.mazeRaw,
                     (int)GameObject.Find("Player(Clone)").transform.position.x,
                     (int)GameObject.Find("Player(Clone)").transform.position.z,
                     (int)GameObject.Find("Pole(Clone)").transform.position.x,
                     (int)GameObject.Find("Pole(Clone)").transform.position.z);
                 StreamReader read = new StreamReader("Assets/Scripts/Maze.txt");
                 ArrayList mazeSolved = new ArrayList();
+                
                 while (!read.EndOfStream)
                 {
                     mazeSolved.Add(read.ReadLine());
@@ -47,18 +46,38 @@ public class PlayerMovement : MonoBehaviour
 
                 if (mazeSolved[(int)GameObject.Find("Player(Clone)").transform.position.x].ToString()[(int)GameObject.Find("Player(Clone)").transform.position.z] != '.')
                 {
-                    using (StreamWriter sw = File.AppendText(Application.dataPath + ("/ParticipantData.csv")))
+                    using (StreamWriter sw = File.AppendText(Application.dataPath + Spawner.path))
                     {
-                        //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-                        sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Forward"+",yes"+",TBD"+"," + Time.time);
+                        if (AudioCue.play.isPlaying)
+                        {
+                            //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
+                            sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Forward" + ",yes" + ","+ AudioCue.currentlyPlaying + "," + Time.time);
+                            sw.Close();
+                        }
+                        else
+                        {
+                            //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
+                            sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Forward" + ",yes" + ",0," + Time.time);
+                            sw.Close();
+                        }
+                        
                     }
                 }
                 else
                 {
-                    using (StreamWriter sw = File.AppendText(Application.dataPath + ("/ParticipantData.csv")))
+                    using (StreamWriter sw = File.AppendText(Application.dataPath + Spawner.path))
                     {
-                        //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-                        sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Forward" + ",no" + ",TBD" + "," + Time.time);
+                        if (AudioCue.play.isPlaying)
+                        {
+                            //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
+                            sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Forward" + ",no" + ","+ AudioCue.currentlyPlaying + "," + Time.time);
+                            sw.Close();
+                        } else
+                        {
+                            //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
+                            sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Forward" + ",no" + ",0" + "," + Time.time);
+                            sw.Close();
+                        }
                     }
                 }
 
@@ -75,20 +94,41 @@ public class PlayerMovement : MonoBehaviour
         {
             StartCoroutine("Left");
             lastTime = Time.time;
-            using (StreamWriter sw = File.AppendText(Application.dataPath + ("/ParticipantData.csv")))
+            using (StreamWriter sw = File.AppendText(Application.dataPath + Spawner.path))
             {
-                //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-                sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Turns Left" + ",no" + ",TBD" + "," + Time.time);
+                if (AudioCue.play.isPlaying)
+                {
+                    //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
+                    sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Turns Left" + ",N/A" + ","+ AudioCue.currentlyPlaying + "," + Time.time);
+                    sw.Close();
+                }
+                else
+                {
+                    //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
+                    sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Turns Left" + ",N/A" + ",0" + "," + Time.time);
+                    sw.Close();
+                }
             }
         }
         if ((Time.time - lastTime > 0.2f) && (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)))
         {
             StartCoroutine("Right");
             lastTime = Time.time;
-            using (StreamWriter sw = File.AppendText(Application.dataPath + ("/ParticipantData.csv")))
+            using (StreamWriter sw = File.AppendText(Application.dataPath + Spawner.path))
             {
-                //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-                sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Turns Right" + ",no" + ",TBD" + "," + Time.time);
+                if (AudioCue.play.isPlaying)
+                {
+                    //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
+                    sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Turns Right" + ",N/A" + ","+ AudioCue.currentlyPlaying + "," + Time.time);
+                    sw.Close();
+                }
+                else
+                {
+                    //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
+                    sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Turns Right" + ",N/A" + ",0" + "," + Time.time);
+                    sw.Close();
+                }
+                
             }
         }
 
