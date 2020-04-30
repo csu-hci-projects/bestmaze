@@ -476,6 +476,75 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
+--- !u!1001 &376566413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 94671557676443827, guid: 0fe657efb516bc449be521f1a62fc9ca,
+        type: 3}
+      propertyPath: m_Name
+      value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 94671557676443831, guid: 0fe657efb516bc449be521f1a62fc9ca,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94671557676443831, guid: 0fe657efb516bc449be521f1a62fc9ca,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 94671557676443831, guid: 0fe657efb516bc449be521f1a62fc9ca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 94671557676443831, guid: 0fe657efb516bc449be521f1a62fc9ca,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 94671557676443831, guid: 0fe657efb516bc449be521f1a62fc9ca,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94671557676443831, guid: 0fe657efb516bc449be521f1a62fc9ca,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94671557676443831, guid: 0fe657efb516bc449be521f1a62fc9ca,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 94671557676443831, guid: 0fe657efb516bc449be521f1a62fc9ca,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 94671557676443831, guid: 0fe657efb516bc449be521f1a62fc9ca,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 94671557676443831, guid: 0fe657efb516bc449be521f1a62fc9ca,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94671557676443831, guid: 0fe657efb516bc449be521f1a62fc9ca,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fe657efb516bc449be521f1a62fc9ca, type: 3}
 --- !u!1 &439641559
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,7 +778,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Egocentric
+  m_Text: Egocentric View
 --- !u!222 &472789126
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1238,7 +1307,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -123.8}
+  m_AnchoredPosition: {x: 0, y: -123}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905999756
@@ -1400,7 +1469,7 @@ GameObject:
   - component: {fileID: 1004344418}
   - component: {fileID: 1004344417}
   m_Layer: 5
-  m_Name: Dropdown
+  m_Name: maze type
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1476,9 +1545,9 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Egocentric
+    - m_Text: Egocentric View
       m_Image: {fileID: 0}
-    - m_Text: Allocentric
+    - m_Text: Allocentric View
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2543,8 +2612,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1596907863}
-        m_MethodName: GetSize
+      - m_Target: {fileID: 1596907861}
+        m_MethodName: 
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

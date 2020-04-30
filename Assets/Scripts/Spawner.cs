@@ -24,6 +24,7 @@ public class Spawner : MonoBehaviour
     public GameObject pole;
     public GameObject audioCue;
     public GameObject playr;
+    public static List<int> audioCueBank;
     
 
     void Start()
@@ -31,11 +32,15 @@ public class Spawner : MonoBehaviour
         if ((int)worldSize <= 0) worldSize = 10;                                                       
         ArrayList mazeRaw = mazeGen.create((int)worldSize);
         CreateCSV();
-        //float center = (worldSize+1)/2;
         playerStart = new Vector3(1f, 0.5f, 1f);
         SpawnPlatform(worldSize, mazeRaw);
+        //float center = (worldSize+1)/2;
         SpawnPlayer();
         SpawnFences(mazeRaw);
+        audioCueBank = new List<int>();
+        audioCueBank.Clear();
+        
+
     }
     void Update()
     {
@@ -73,6 +78,7 @@ public class Spawner : MonoBehaviour
         //first-person
         if (perspective == 0)
         {
+            MainMenu.setAudioPOV(0);
             GameObject camera = Instantiate(cam, playerStart, Quaternion.identity);                                                     //first-person, egocentric
             camera.transform.SetParent(playr.transform);                                                                                //first-person, egocentric
         }
@@ -80,6 +86,7 @@ public class Spawner : MonoBehaviour
         //third-person
         if (perspective == 1)
         {
+            MainMenu.setAudioPOV(1);
             GameObject camera = Instantiate(cam, new Vector3(worldSize / 2, worldSize, worldSize / 2), Quaternion.identity);            //third-person, allocentric
             //GameObject camera = Instantiate(cam, new Vector3(playerStart.x, worldSize, playerStart.z), Quaternion.identity);
             //camera.transform.SetParent(playr.transform);

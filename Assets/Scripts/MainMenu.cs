@@ -11,6 +11,9 @@ public class MainMenu : MonoBehaviour
     static public int POV;
     static public string ID;
     static public int cues;
+    static public int audioPOV;
+    
+
 
     public void StartGame()
     {
@@ -33,5 +36,10 @@ public class MainMenu : MonoBehaviour
     public void setCues(string num)
     {
         cues = int.Parse(num);
+    }
+    public static void setAudioPOV(int option)
+    {
+        // ego = 0, allo = 1, no cues = 2
+        audioPOV = option;
     }
 }

@@ -6,25 +6,27 @@ using UnityEngine;
 
 public class AudioCue : MonoBehaviour
 {
-    private int perspective = MainMenu.POV; //egocentric: 0, allocentric: 1
+    private int perspective = MainMenu.audioPOV; //egocentric: 0, allocentric: 1
     static AudioSource play;
-    public static AudioClip [] egoSounds;
-    public static AudioClip[] alloSounds;
+    public static AudioClip egoSound;
+    public static AudioClip alloSound;
+    public static int chosen; 
 
     void Start()
     {
-        egoSounds = new AudioClip[60];
-        alloSounds = new AudioClip[60];
-        for (int i = 0; i < 60; i++)
-        {
-            egoSounds [i] = Resources.Load<AudioClip>("Ego_" + (i+1));
-            alloSounds [i]= Resources.Load<AudioClip>("Allo_" + (i+1));
-        }
-        Debug.Log(egoSounds);
         play = GetComponent<AudioSource>();
     }
     private void OnTriggerEnter(Collider other)
     {
+        chosen = Random.Range(0, 60) + 1;
+        while (Spawner.audioCueBank.Contains(chosen))
+        {
+            chosen = Random.Range(0, 60) + 1;
+        }
+        Spawner.audioCueBank.Add(chosen);
+        egoSound = Resources.Load<AudioClip>("Ego_" + (chosen));
+        alloSound = Resources.Load<AudioClip>("Allo_" + (chosen));
+        Debug.Log(chosen);
         if (other.tag == "Player")
         {
             if (perspective == 0)
@@ -32,7 +34,7 @@ public class AudioCue : MonoBehaviour
                 //chose random ego audio cue
                 if (!play.isPlaying)
                 {
-                    play.PlayOneShot(egoSounds[Random.Range(0,egoSounds.Length)]);
+                    play.PlayOneShot(egoSound);
                 }
             }
             else if(perspective == 1)
@@ -40,12 +42,12 @@ public class AudioCue : MonoBehaviour
                 //chose random allo audio cue
                 if (!play.isPlaying)
                 {
-                    play.PlayOneShot(alloSounds[Random.Range(0, egoSounds.Length)]);
+                    play.PlayOneShot(alloSound);
+            
                 }
 
             }
-
-            Debug.Log("AUDIO CUE");
         }
     }
+
 }
