@@ -1,0 +1,41 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame
+8,D,1,Turns Right,N/A,0,9.277297
+8,D,1,Forward,no,0,9.752794
+8,D,1,Turns Left,N/A,0,10.19829
+8,D,1,Turns Left,N/A,0,10.63752
+8,D,1,Forward,yes,0,11.00012
+8,D,1,Forward,no,0,11.42215
+8,D,1,Forward,no,0,11.74809
+8,D,1,Forward,no,0,12.17783
+8,D,1,Turns Right,N/A,0,12.43163
+8,D,1,Forward,no,0,12.78603
+8,D,1,Forward,no,0,13.15679
+8,D,1,Forward,no,0,13.53321
+8,D,1,Forward,no,0,13.95518
+8,D,1,Forward,no,0,14.32828
+8,D,1,Forward,no,0,14.85552
+8,D,1,Turns Right,N/A,0,15.46675
+8,D,1,Forward,no,0,15.88255
+8,D,1,Forward,no,0,16.30844
+8,D,1,Turns Left,N/A,0,16.60068
+8,D,1,Forward,no,0,16.97592
+8,D,1,Forward,no,0,17.37122
+8,D,1,Turns Left,N/A,18,17.74736
+8,D,1,Forward,yes,18,18.17387
+8,D,1,Forward,yes,18,18.56302
+8,D,1,Turns Right,N/A,18,18.9938
+8,D,1,Forward,yes,18,21.01777
+8,D,1,Forward,yes,18,21.38485
+8,D,1,Turns Right,N/A,18,21.67107
+8,D,1,Forward,no,18,22.0296
+8,D,1,Forward,yes,18,22.32519
+8,D,1,Forward,yes,18,22.64713
+8,D,1,Forward,yes,18,23.0047
+8,D,1,Forward,yes,18,23.36972
+8,D,1,Forward,yes,18,23.79724
+8,D,1,Forward,yes,18,24.21845
+8,D,1,Forward,yes,18,24.61336
+8,D,1,Turns Right,N/A,18,25.16394
+8,D,1,Forward,yes,18,25.5767
+8,D,1,Turns Left,N/A,18,26.17265
+8,D,1,Turns Left,N/A,18,26.53597

@@ -131,7 +131,7 @@ public class Maze
 
 public class MazeGen : MonoBehaviour
 {
-
+    public static ArrayList mazeRaw = new ArrayList();
     public ArrayList create(int size) { 
         size += 1;
         size /= 2;
