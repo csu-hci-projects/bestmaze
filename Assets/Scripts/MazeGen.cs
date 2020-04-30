@@ -97,10 +97,10 @@ public class Maze
         }
     }
 
+    
+
     public ArrayList Display()
     {
-        string file = "Assets/Scripts/Maze.txt";
-        StreamWriter writer = new StreamWriter(file);
         ArrayList mazeRaw = new ArrayList();
         
         var firstLine = string.Empty;
@@ -116,17 +116,10 @@ public class Maze
                 //sbMid.Append(this[x, y].HasFlag(CellState.Left) ? "#" : " ");
             }
             if (firstLine == string.Empty) firstLine = sbTop.ToString();
-
-            writer.WriteLine(sbTop + "#");
             mazeRaw.Add(sbTop + "#");
-            writer.WriteLine(sbMid + "#");
             mazeRaw.Add(sbMid + "#");
         }
-        writer.WriteLine(firstLine + '#');
         mazeRaw.Add(firstLine + "#");
-        writer.Close();
-        
-
         return mazeRaw;
         
     }
@@ -136,35 +129,111 @@ public class Maze
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class MazeGen : MonoBehaviour
 {
+
+    public static ArrayList mazeRaw = new ArrayList();
     public ArrayList create(int size) { 
         size += 1;
         size /= 2;
         var maze = new Maze(size, size);  //width x height
-        ArrayList mazeRaw = maze.Display();
+        mazeRaw = maze.Display();
         return mazeRaw;
+    }
+
+    public static bool solve(ArrayList Maze, int row, int col, int frow, int fcol)
+    {
+
+        StringBuilder str = new StringBuilder(Maze[frow].ToString());//Set Below
+        str[fcol] = 'F';
+        Maze[frow] = str;
+
+        char right = '#';
+        char left = '#';
+        char up = '#';
+        char down = '#';
+
+        if ((col + 1) < Maze[row].ToString().Length)
+        {
+            right = Maze[row].ToString()[col + 1];
+        }
+        if ((col - 1) > 0)
+        {
+            left = Maze[row].ToString()[col - 1];
+        }
+        if ((row - 1) > 0)
+        {
+            up = Maze[row - 1].ToString()[col];
+        }
+        if ((row + 1) < Maze[row].ToString().Length)
+        {
+            down = Maze[row + 1].ToString()[col];
+        }
+        //Debug.WriteLine("Right: " + right +", Left: " + left +", Above: " + up + ", Below: " + down);
+
+
+
+
+        if (right == 'F' || left == 'F' || up == 'F' || down == 'F')
+        {
+            str = new StringBuilder(Maze[row].ToString());//Set Current position as .
+            str[col] = '.';
+            Maze[row] = str;
+
+            string file = "Assets/Scripts/Maze.txt";
+            StreamWriter writer = new StreamWriter(file);
+            for (int i = 0; i < Maze.Count; i++)
+            {
+                for (int j = 0; j < Maze.Count; j++)
+                {
+                    writer.Write(Maze[i].ToString()[j]);
+                }
+                writer.WriteLine("");
+            }
+            writer.Close();
+            return true;
+        }
+
+
+        bool solved = false;
+
+        if (right == ' ' && !solved)
+        {
+            str = new StringBuilder(Maze[row].ToString());//Set Current position as .
+            str[col] = '.';
+            Maze[row] = str;
+            solved = solve(Maze, row, col + 1, frow, fcol);
+        }
+        if (down == ' ' && !solved)
+        {
+            str = new StringBuilder(Maze[row].ToString());//Set Current position as .
+            str[col] = '.';
+            Maze[row] = str;
+            solved = solve(Maze, row + 1, col, frow, fcol);
+        }
+        if (left == ' ' && !solved)
+        {
+            str = new StringBuilder(Maze[row].ToString());//Set Current position as .
+            str[col] = '.';
+            Maze[row] = str;
+            solved = solve(Maze, row, col - 1, frow, fcol);
+        }
+        if (up == ' ' && !solved)
+        {
+            str = new StringBuilder(Maze[row].ToString());//Set Current position as .
+            str[col] = '.';
+            Maze[row] = str;
+            solved = solve(Maze, row - 1, col, frow, fcol);
+        }
+
+        if (!solved)
+        {
+            str = new StringBuilder(Maze[row].ToString());//Set Current position as .
+            str[col] = ' ';
+            Maze[row] = str;
+            //solve(Maze, prevrow, prevcol, frow, fcol, row, col);
+        }
+        return solved;
     }
 }
 

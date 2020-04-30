@@ -24,8 +24,9 @@ public class Spawner : MonoBehaviour
     public GameObject pole;
     public GameObject audioCue;
     public GameObject playr;
+    public static string path = "/Data Output/ParticipantData_ID" + MainMenu.ID + "_POV" + MainMenu.POV + "_mazeSize" + MainMenu.mazeSize + ".csv";
     public static List<int> audioCueBank;
-    
+
 
     void Start()
     {
@@ -39,8 +40,6 @@ public class Spawner : MonoBehaviour
         SpawnFences(mazeRaw);
         audioCueBank = new List<int>();
         audioCueBank.Clear();
-        
-
     }
     void Update()
     {
@@ -50,16 +49,20 @@ public class Spawner : MonoBehaviour
 
     void CreateCSV()
     {
-        string path = Application.dataPath + ("/ParticipantData.csv");
-        if (!File.Exists(path)) File.Create(path);
-        
+        StreamWriter sw = new StreamWriter(Application.dataPath + path, true);
+        sw.WriteLine("ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame");
+        sw.Close();
     }
 
     void SpawnPlatform(float worldSize, ArrayList maze)
     {
-        for(int i = 0; i < worldSize; i++)
+        Material strip = colors[0];
+        for (int i = 0; i < worldSize; i++)
         {
-            Material strip = colors[UnityEngine.Random.Range(0, colors.Count)];
+            if (i % 2 == 0)
+            {
+                strip = colors[UnityEngine.Random.Range(0, colors.Count)];
+            }
             for (int j = 0; j < worldSize; j++)
             {
                 GameObject floor = Instantiate(platform, new Vector3(i, 0, j), Quaternion.identity);
@@ -67,6 +70,7 @@ public class Spawner : MonoBehaviour
             }
         }
     }
+
 
     void SpawnPlayer()
     {   
@@ -111,6 +115,11 @@ public class Spawner : MonoBehaviour
 
 
         int startingWall = UnityEngine.Random.Range(0, 4); //start at 0: left, 1: bottom, 2: right, 3: top
+        int exitWall = UnityEngine.Random.Range(0, 4);
+        while(startingWall == exitWall)
+        {
+            exitWall = UnityEngine.Random.Range(0, 4);
+        }
         if (startingWall == 0)
         {
             int startingPosition = 0;

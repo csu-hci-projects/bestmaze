@@ -6,11 +6,14 @@ using UnityEngine;
 
 public class AudioCue : MonoBehaviour
 {
-    private int perspective = MainMenu.audioPOV; //egocentric: 0, allocentric: 1
-    static AudioSource play;
+
+    private int perspective = MainMenu.POV; //egocentric: 0, allocentric: 1
+    public static AudioSource play;
     public static AudioClip egoSound;
     public static AudioClip alloSound;
-    public static int chosen; 
+    public static int chosen;
+    public static int currentlyPlaying;
+
 
     void Start()
     {
@@ -24,9 +27,11 @@ public class AudioCue : MonoBehaviour
             chosen = Random.Range(0, 60) + 1;
         }
         Spawner.audioCueBank.Add(chosen);
+        currentlyPlaying = chosen;
         egoSound = Resources.Load<AudioClip>("Ego_" + (chosen));
         alloSound = Resources.Load<AudioClip>("Allo_" + (chosen));
-        Debug.Log(chosen);
+        //Debug.Log(chosen);
+
         if (other.tag == "Player")
         {
             if (perspective == 0)
@@ -37,13 +42,14 @@ public class AudioCue : MonoBehaviour
                     play.PlayOneShot(egoSound);
                 }
             }
-            else if(perspective == 1)
+
+            else if (perspective == 1)
             {
                 //chose random allo audio cue
                 if (!play.isPlaying)
                 {
                     play.PlayOneShot(alloSound);
-            
+
                 }
 
             }

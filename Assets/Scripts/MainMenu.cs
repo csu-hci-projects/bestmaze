@@ -15,6 +15,7 @@ public class MainMenu : MonoBehaviour
     
 
 
+
     public void StartGame()
     {
         SceneManager.LoadScene("MazeBasic");
@@ -31,7 +32,14 @@ public class MainMenu : MonoBehaviour
     }
     public void GetID(string id)
     {
-        ID = id;
+        if(id == null)
+        {
+            ID = "0";
+        }
+        else
+        {
+            ID = id;
+        }
     }
     public void setCues(string num)
     {
