@@ -1,0 +1,71 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame
+,D,1,Forward,no,0,20.82355
+,D,1,Forward,yes,0,21.16432
+,D,1,Turns Left,N/A,0,21.51548
+,D,1,Forward,yes,0,21.85854
+,D,1,Forward,yes,0,22.14016
+,D,1,Turns Right,N/A,0,22.41077
+,D,1,Forward,yes,0,22.72929
+,D,1,Forward,yes,0,23.04247
+,D,1,Turns Right,N/A,0,23.35455
+,D,1,Forward,yes,0,23.63569
+,D,1,Forward,yes,0,23.92904
+,D,1,Turns Left,N/A,0,24.20345
+,D,1,Forward,no,0,24.51463
+,D,1,Forward,yes,0,24.82837
+,D,1,Forward,yes,0,25.11379
+,D,1,Turns Right,N/A,0,25.50591
+,D,1,Turns Left,N/A,0,26.02597
+,D,1,Forward,yes,0,76.08913
+,D,1,Turns Right,N/A,0,76.36375
+,D,1,Turns Left,N/A,0,76.7778
+,D,1,Turns Left,N/A,0,77.05126
+,D,1,Forward,yes,0,77.30746
+,D,1,Forward,yes,0,77.58623
+,D,1,Turns Left,N/A,0,77.80922
+,D,1,Forward,yes,0,78.05111
+,D,1,Turns Left,N/A,0,78.36234
+,D,1,Turns Left,N/A,0,78.63617
+,D,1,Forward,yes,0,78.88152
+,D,1,Turns Right,N/A,0,79.298
+,D,1,Forward,yes,0,79.63344
+,D,1,Forward,yes,0,80.48132
+,D,1,Turns Right,N/A,0,80.8571
+,D,1,Forward,yes,0,81.20194
+,D,1,Forward,yes,0,88.7793
+,D,1,Forward,yes,0,89.10751
+,D,1,Forward,no,0,89.42875
+,D,1,Turns Right,N/A,0,89.68443
+,D,1,Forward,yes,0,90.04386
+,D,1,Forward,yes,0,90.31431
+,D,1,Turns Left,N/A,0,90.87585
+,D,1,Forward,yes,0,91.1376
+,D,1,Forward,yes,0,91.41882
+,D,1,Forward,yes,0,91.68143
+,D,1,Turns Left,N/A,0,92.14617
+,D,1,Turns Left,N/A,0,92.40672
+,D,1,Forward,yes,0,92.66768
+,D,1,Turns Right,N/A,0,92.95904
+,D,1,Forward,yes,0,93.17906
+,D,1,Forward,yes,0,93.41534
+,D,1,Turns Right,N/A,0,93.72403
+,D,1,Forward,yes,0,93.96942
+,D,1,Forward,no,0,94.20179
+,D,1,Turns Left,N/A,0,94.46883
+,D,1,Forward,no,0,94.6972
+,D,1,Forward,no,0,94.93898
+,D,1,Forward,no,0,95.17134
+,D,1,Forward,no,0,95.62891
+,D,1,Turns Left,N/A,0,95.85052
+,D,1,Forward,yes,0,96.08968
+,D,1,Forward,no,0,96.32918
+,D,1,Turns Right,N/A,0,96.56914
+,D,1,Forward,no,0,96.88721
+,D,1,Forward,no,8,97.1604
+,D,1,Turns Left,N/A,8,97.41709
+,D,1,Forward,yes,8,97.6918
+,D,1,Forward,yes,8,98.10643
+,D,1,Forward,yes,8,98.41951
+,D,1,Forward,yes,8,98.68178
+,D,1,Forward,yes,8,98.93953
+,D,1,Forward,yes,8,99.23346

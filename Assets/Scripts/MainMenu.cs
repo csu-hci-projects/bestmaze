@@ -13,9 +13,9 @@ public class MainMenu : MonoBehaviour
     static public int cues;
 
 
-    public void StartGame()
+    public void DisplayConsent()
     {
-        SceneManager.LoadScene("MazeBasic");
+        SceneManager.LoadScene("Consent");
     }
     public void GetSize(string text)
     {
