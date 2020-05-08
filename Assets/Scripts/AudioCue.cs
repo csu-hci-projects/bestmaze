@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class AudioCue : MonoBehaviour
 {
-    private int perspective = MainMenu.POV; //egocentric: 0, allocentric: 1
+    public static int perspective = MainMenu.POV; //egocentric: 0, allocentric: 1, none: 2
     public static AudioSource play;
     public static AudioClip egoSound;
     public static AudioClip alloSound;
