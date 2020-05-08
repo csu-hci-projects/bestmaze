@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MazeBasic.unity
     guid: 16d22bf676a92d4418bae22a01f01756
   - enabled: 1
-    path: Assets/Scenes/Win.unity
-    guid: ea106eb11be6f104786bf8554551c3fe
+    path: Assets/Scenes/Consent.unity
+    guid: f1fac09726458f54d9ab466958fb1ead
+  - enabled: 1
+    path: Assets/Scenes/IntroTrial.unity
+    guid: 9b1548a9068a08b48bfee7bdfe339bc9
   m_configObjects: {}

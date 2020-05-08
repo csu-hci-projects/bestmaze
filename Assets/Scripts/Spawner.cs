@@ -31,6 +31,8 @@ public class Spawner : MonoBehaviour
     public static ArrayList mazeRaw;
     public static Quaternion playerRotation;
     public static ArrayList mazeCopy;
+    public static GameObject PracticeAlert;
+    public static GameObject TestAlert;
 
     void Start()
     {
@@ -46,12 +48,23 @@ public class Spawner : MonoBehaviour
         audioCueBank = new List<int>();
         audioCueBank.Clear();
         attemptNumber = 1;
-
+        TestAlert = GameObject.Find("TestIntro");
+        TestAlert.SetActive(false);
+        PracticeAlert = GameObject.Find("PracticeIntro");
 }
     void Update()
     {
         if (Input.GetKey(KeyCode.Escape))
             SceneManager.LoadScene("Menu");
+    }
+
+    public void hidePracticePanel()
+    {
+        PracticeAlert.SetActive(false);
+    }
+    public void hideTestPanel()
+    {
+        TestAlert.SetActive(false);
     }
 
     void CreateCSV()
