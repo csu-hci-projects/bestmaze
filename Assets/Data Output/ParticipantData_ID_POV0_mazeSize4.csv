@@ -1,0 +1,187 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame
+,D,1,Forward,no,0,11.49376
+,D,1,Forward,no,0,11.72293
+,D,1,Turns Right,N/A,21,12.12341
+,D,1,Forward,yes,21,12.47651
+,D,2,Forward,no,21,13.24445
+,D,2,Forward,no,21,13.46117
+,D,2,Turns Right,N/A,54,13.77581
+,D,2,Forward,yes,54,14.30699
+,T,3,Turns Left,N/A,54,14.93146
+,T,3,Turns Left,N/A,54,15.21163
+,T,3,Turns Right,N/A,54,15.62254
+,T,3,Forward,no,54,15.91552
+,T,3,Forward,no,54,16.1892
+,T,3,Turns Right,N/A,43,16.47618
+,T,3,Forward,no,43,16.70868
+,T,4,Turns Left,N/A,43,17.22698
+,T,4,Forward,no,43,17.75524
+,T,4,Forward,no,43,17.99531
+,T,4,Turns Left,N/A,43,18.25894
+,T,4,Forward,no,43,18.61934
+,T,1,Turns Left,N/A,0,19.71487
+,T,1,Forward,no,0,20.251
+,T,1,Forward,no,2,20.47301
+,T,1,Turns Right,N/A,2,20.72173
+,T,1,Forward,yes,2,21.25079
+,T,1,Forward,no,2,21.51399
+,T,1,Turns Right,N/A,2,21.7641
+,T,1,Forward,no,2,22.13165
+,T,1,Forward,yes,2,22.37964
+,D,2,Turns Left,N/A,2,22.83587
+,D,2,Forward,yes,2,23.30465
+,D,2,Forward,yes,43,23.51439
+,D,2,Turns Right,N/A,43,23.77838
+,D,2,Forward,yes,43,24.0026
+,D,2,Forward,no,43,24.24229
+,D,2,Turns Right,N/A,43,24.47549
+,D,2,Forward,no,43,24.7143
+,D,2,Forward,yes,43,25.12097
+,T,3,Turns Left,N/A,13,25.59283
+,T,3,Turns Left,N/A,13,25.86644
+,T,3,Forward,yes,13,26.15405
+,T,3,Turns Right,N/A,13,26.48289
+,T,3,Forward,yes,13,26.71424
+,T,3,Forward,no,13,26.93773
+,T,3,Turns Right,N/A,13,27.20177
+,T,3,Forward,no,13,27.44316
+,T,3,Forward,yes,13,27.69027
+,T,4,Turns Left,N/A,0,28.65948
+,T,4,Turns Left,N/A,0,30.26786
+,T,4,Turns Left,N/A,0,30.66576
+,T,4,Turns Left,N/A,0,30.97664
+,T,4,Turns Left,N/A,0,31.75289
+,D,1,Forward,yes,35,11.92391
+,D,2,Turns Right,N/A,35,13.22863
+,D,2,Turns Left,N/A,35,13.70977
+,D,2,Turns Left,N/A,35,14.02652
+,D,2,Forward,yes,35,14.32543
+,D,2,Turns Right,N/A,35,14.57328
+,D,2,Forward,no,35,14.84451
+,D,2,Forward,yes,54,15.08258
+,D,1,Forward,no,0,9.6971
+,D,1,Forward,yes,0,10.03007
+,D,2,Forward,no,0,10.70976
+,D,2,Forward,yes,0,11.00853
+,D,1,Turns Right,N/A,0,7.075024
+,D,1,Forward,no,0,7.686655
+,D,1,Turns Left,N/A,0,7.961379
+,D,1,Forward,no,0,8.24113
+,D,1,Forward,no,30,8.521561
+,D,1,Turns Left,N/A,30,8.79228
+,D,1,Forward,no,30,9.096867
+,D,1,Forward,no,30,9.366969
+,D,2,Turns Right,N/A,30,9.944455
+,D,2,Forward,yes,30,10.19139
+,D,2,Turns Left,N/A,30,10.54261
+,D,2,Forward,yes,30,10.79853
+,D,2,Forward,yes,45,11.04698
+,D,2,Turns Left,N/A,45,11.32725
+,D,2,Forward,yes,45,11.57671
+,D,2,Forward,no,45,11.85626
+,D,2,Turns Right,N/A,45,14.47903
+,D,2,Turns Right,N/A,45,14.71148
+,D,2,Forward,no,45,15.11047
+,D,2,Forward,yes,45,15.41788
+,D,2,Turns Right,N/A,45,15.65681
+,D,2,Forward,yes,45,16.07309
+,D,2,Forward,yes,27,16.41694
+,D,2,Turns Right,N/A,27,16.69014
+,D,2,Forward,yes,27,17.05758
+,D,2,Turns Right,N/A,27,17.4089
+,D,2,Turns Right,N/A,27,17.70622
+,D,2,Forward,yes,27,18.04758
+,D,2,Turns Left,N/A,0,18.34484
+,D,2,Forward,yes,0,18.63265
+,D,2,Forward,yes,16,18.92119
+,D,2,Turns Left,N/A,16,19.13732
+,D,2,Forward,yes,16,19.42411
+,D,2,Forward,yes,16,19.7028
+,D,2,Turns Right,N/A,16,20.04816
+,D,2,Turns Right,N/A,16,21.89618
+,D,2,Forward,no,16,22.32096
+,D,2,Forward,yes,16,22.71978
+,D,2,Turns Right,N/A,16,22.95047
+,D,2,Forward,yes,16,23.48863
+,D,2,Forward,yes,5,23.82273
+,D,2,Turns Right,N/A,5,24.15088
+,D,2,Forward,yes,5,24.49751
+,D,2,Turns Right,N/A,5,24.7518
+,D,2,Turns Right,N/A,5,25.06685
+,D,2,Forward,yes,5,25.3273
+,D,2,Turns Left,N/A,5,25.5985
+,D,2,Forward,yes,5,25.90363
+,D,2,Forward,yes,38,26.28758
+,D,2,Turns Left,N/A,38,26.64956
+,D,2,Forward,yes,38,27.04105
+,D,2,Forward,yes,38,27.39925
+,D,1,Turns Right,N/A,0,9.535712
+,D,1,Forward,no,0,10.0124
+,D,1,Forward,yes,0,10.30845
+,D,1,Turns Left,N/A,21,10.57428
+,D,1,Forward,no,21,10.85363
+,D,1,Forward,yes,21,11.10184
+,D,1,Turns Left,N/A,21,11.35855
+,D,1,Forward,yes,21,11.60456
+,D,1,Forward,no,21,11.84363
+,D,2,Turns Right,N/A,21,12.62035
+,D,2,Turns Right,N/A,21,12.95729
+,D,2,Turns Left,N/A,21,13.29101
+,D,2,Forward,no,21,13.55844
+,D,2,Forward,yes,21,13.8141
+,D,2,Turns Left,N/A,3,14.08665
+,D,2,Forward,yes,3,14.3907
+,D,2,Forward,yes,3,14.66291
+,D,2,Turns Left,N/A,3,14.93223
+,D,2,Forward,yes,3,15.31584
+,D,2,Forward,no,3,15.61984
+,D,2,Turns Right,N/A,3,18.61153
+,D,2,Turns Right,N/A,3,18.87659
+,D,2,Forward,no,3,19.19019
+,D,2,Forward,yes,3,19.4616
+,D,2,Turns Right,N/A,3,19.68627
+,D,2,Forward,no,3,19.97318
+,D,2,Forward,no,3,20.47607
+,D,2,Turns Right,N/A,6,20.734
+,D,2,Forward,yes,6,21.06128
+,D,2,Forward,yes,0,21.38113
+,D,2,Turns Right,N/A,0,21.61268
+,D,2,Turns Right,N/A,0,21.90001
+,D,2,Forward,yes,0,22.21411
+,D,2,Forward,yes,0,22.55066
+,D,2,Turns Left,N/A,38,22.8201
+,D,2,Forward,no,38,23.15192
+,D,2,Forward,no,38,23.47051
+,D,2,Turns Left,N/A,38,23.8227
+,D,2,Forward,no,38,24.13489
+,D,2,Forward,yes,38,24.46071
+,D,1,Forward,no,0,9.199463
+,D,1,Forward,yes,0,9.501504
+,D,2,Forward,no,0,10.04831
+,D,2,Forward,yes,0,10.31944
+,T,3,Forward,no,0,12.2634
+,T,3,Forward,yes,0,12.51912
+,T,4,Forward,no,0,13.03875
+,T,4,Forward,yes,0,13.2634
+,T,1,Forward,no,0,20.11043
+,T,1,Forward,yes,0,20.38229
+,T,1,Turns Right,N/A,0,20.64584
+,T,1,Forward,no,0,20.96448
+,T,1,Forward,yes,4,21.24119
+,D,2,Turns Right,N/A,4,21.51668
+,D,2,Turns Left,N/A,4,21.99696
+,D,2,Forward,no,4,22.28619
+,D,2,Forward,no,4,22.73505
+,D,2,Turns Right,N/A,4,22.99024
+,D,2,Forward,no,4,23.35313
+,D,2,Forward,yes,31,23.62885
+,T,3,Turns Left,N/A,31,25.21409
+,T,3,Forward,no,31,25.53303
+,T,3,Turns Right,N/A,31,25.8128
+,T,3,Forward,no,31,26.11053
+,T,3,Forward,yes,32,26.36447
+,T,4,Turns Left,N/A,32,26.79123
+,T,4,Forward,no,32,27.16782
+,T,4,Turns Right,N/A,32,27.4948
+,T,4,Forward,no,32,27.8236
+,T,4,Forward,no,22,28.11671

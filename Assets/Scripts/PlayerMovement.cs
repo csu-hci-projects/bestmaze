@@ -22,10 +22,14 @@ public class PlayerMovement : MonoBehaviour
     {
 
         //transform.Translate(0f, 0f, Input.GetAxis("Vertical") * Time.deltaTime * speed);
-        if ((Time.time - lastTime > 0.2f) && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
+        //if ((Time.time - lastTime > 0.2f) && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
         {
 
-            if (!(Physics.Raycast(GameObject.Find("Player(Clone)").transform.position, GameObject.Find("Player(Clone)").transform.TransformDirection(Vector3.forward), 1)))
+            //if (!(Physics.Raycast(GameObject.Find("Player(Clone)").transform.position, GameObject.Find("Player(Clone)").transform.TransformDirection(Vector3.forward), 0.7f))) 
+            RaycastHit hit = new RaycastHit();
+            Ray ray = new Ray(GameObject.Find("Player(Clone)").transform.position, GameObject.Find("Player(Clone)").transform.forward);
+            if ( !Physics.Raycast(ray, out hit, 1) || (Physics.Raycast(ray, out hit, 1) && hit.collider.gameObject.name!="Fence(Clone)"))
             {
                MazeGen.solve(MazeGen.mazeRaw,
                     (int)GameObject.Find("Player(Clone)").transform.position.x,

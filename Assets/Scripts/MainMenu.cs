@@ -16,7 +16,6 @@ public class MainMenu : MonoBehaviour
     static public int timeOut;
     static public string trialType; //learning: D, testing: T, survey: S
 
-
     public void DisplayConsent()
     {
         trialType = "D";
@@ -28,10 +27,11 @@ public class MainMenu : MonoBehaviour
         mazeSize = int.Parse(text);
         if(mazeSize%2==1)
             mazeSize += 1;
+        
     }
     public void GetPOV(int option)
     {
-        POV = 0;
+        POV = option;
     }
     public void GetID(string id)
     {
