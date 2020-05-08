@@ -32,12 +32,13 @@ public class MazeExit : MonoBehaviour
                     //other.transform.position = Spawner.playerSpawn;
                     other.transform.rotation = Spawner.playerRotation;
                 }
-                else if (Spawner.attemptNumber == MainMenu.mazesPerBlock)
-                {
-                    Spawner.TestAlert.SetActive(true);
-                }
+                
                 else //testing trials
                 {
+                    if (Spawner.attemptNumber == MainMenu.mazesPerBlock)
+                    {
+                        Spawner.TestAlert.SetActive(true);
+                    }
                     MainMenu.trialType = "T";
                     Spawner.attemptNumber = Spawner.attemptNumber + 1;
                     int randomX = 0;

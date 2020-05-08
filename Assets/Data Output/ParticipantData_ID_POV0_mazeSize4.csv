@@ -115,3 +115,73 @@ ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGa
 ,D,2,Turns Left,N/A,38,26.64956
 ,D,2,Forward,yes,38,27.04105
 ,D,2,Forward,yes,38,27.39925
+,D,1,Turns Right,N/A,0,9.535712
+,D,1,Forward,no,0,10.0124
+,D,1,Forward,yes,0,10.30845
+,D,1,Turns Left,N/A,21,10.57428
+,D,1,Forward,no,21,10.85363
+,D,1,Forward,yes,21,11.10184
+,D,1,Turns Left,N/A,21,11.35855
+,D,1,Forward,yes,21,11.60456
+,D,1,Forward,no,21,11.84363
+,D,2,Turns Right,N/A,21,12.62035
+,D,2,Turns Right,N/A,21,12.95729
+,D,2,Turns Left,N/A,21,13.29101
+,D,2,Forward,no,21,13.55844
+,D,2,Forward,yes,21,13.8141
+,D,2,Turns Left,N/A,3,14.08665
+,D,2,Forward,yes,3,14.3907
+,D,2,Forward,yes,3,14.66291
+,D,2,Turns Left,N/A,3,14.93223
+,D,2,Forward,yes,3,15.31584
+,D,2,Forward,no,3,15.61984
+,D,2,Turns Right,N/A,3,18.61153
+,D,2,Turns Right,N/A,3,18.87659
+,D,2,Forward,no,3,19.19019
+,D,2,Forward,yes,3,19.4616
+,D,2,Turns Right,N/A,3,19.68627
+,D,2,Forward,no,3,19.97318
+,D,2,Forward,no,3,20.47607
+,D,2,Turns Right,N/A,6,20.734
+,D,2,Forward,yes,6,21.06128
+,D,2,Forward,yes,0,21.38113
+,D,2,Turns Right,N/A,0,21.61268
+,D,2,Turns Right,N/A,0,21.90001
+,D,2,Forward,yes,0,22.21411
+,D,2,Forward,yes,0,22.55066
+,D,2,Turns Left,N/A,38,22.8201
+,D,2,Forward,no,38,23.15192
+,D,2,Forward,no,38,23.47051
+,D,2,Turns Left,N/A,38,23.8227
+,D,2,Forward,no,38,24.13489
+,D,2,Forward,yes,38,24.46071
+,D,1,Forward,no,0,9.199463
+,D,1,Forward,yes,0,9.501504
+,D,2,Forward,no,0,10.04831
+,D,2,Forward,yes,0,10.31944
+,T,3,Forward,no,0,12.2634
+,T,3,Forward,yes,0,12.51912
+,T,4,Forward,no,0,13.03875
+,T,4,Forward,yes,0,13.2634
+,T,1,Forward,no,0,20.11043
+,T,1,Forward,yes,0,20.38229
+,T,1,Turns Right,N/A,0,20.64584
+,T,1,Forward,no,0,20.96448
+,T,1,Forward,yes,4,21.24119
+,D,2,Turns Right,N/A,4,21.51668
+,D,2,Turns Left,N/A,4,21.99696
+,D,2,Forward,no,4,22.28619
+,D,2,Forward,no,4,22.73505
+,D,2,Turns Right,N/A,4,22.99024
+,D,2,Forward,no,4,23.35313
+,D,2,Forward,yes,31,23.62885
+,T,3,Turns Left,N/A,31,25.21409
+,T,3,Forward,no,31,25.53303
+,T,3,Turns Right,N/A,31,25.8128
+,T,3,Forward,no,31,26.11053
+,T,3,Forward,yes,32,26.36447
+,T,4,Turns Left,N/A,32,26.79123
+,T,4,Forward,no,32,27.16782
+,T,4,Turns Right,N/A,32,27.4948
+,T,4,Forward,no,32,27.8236
+,T,4,Forward,no,22,28.11671
