@@ -100,8 +100,6 @@ public class Spawner : MonoBehaviour
         if (perspective == 1)
         {
             GameObject camera = Instantiate(cam, new Vector3(worldSize / 2, worldSize, worldSize / 2), Quaternion.identity);            //third-person, allocentric
-            //GameObject camera = Instantiate(cam, new Vector3(playerStart.x, worldSize, playerStart.z), Quaternion.identity);
-            //camera.transform.SetParent(playr.transform);
             camera.transform.rotation = Quaternion.Euler(90, 0, 0);                                                                     //third-person, allocentric
         }
         

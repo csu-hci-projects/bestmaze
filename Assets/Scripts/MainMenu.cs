@@ -17,10 +17,10 @@ public class MainMenu : MonoBehaviour
     static public string trialType; //learning: D, testing: T, survey: S
 
 
-    public void StartGame()
+    public void DisplayConsent()
     {
         trialType = "D";
-        SceneManager.LoadScene("MazeBasic");
+        SceneManager.LoadScene("Consent");
     }
 
     public void GetSize(string text)
