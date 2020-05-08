@@ -20,9 +20,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //transform.Translate(0f, 0f, Input.GetAxis("Vertical") * Time.deltaTime * speed);
         if ((Time.time - lastTime > 0.2f) && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
         {
+
             if (!(Physics.Raycast(GameObject.Find("Player(Clone)").transform.position, GameObject.Find("Player(Clone)").transform.TransformDirection(Vector3.forward), 1)))
             {
                MazeGen.solve(MazeGen.mazeRaw,
@@ -51,13 +53,13 @@ public class PlayerMovement : MonoBehaviour
                         if (AudioCue.play.isPlaying)
                         {
                             //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-                            sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Forward" + ",yes" + ","+ AudioCue.currentlyPlaying + "," + Time.time);
+                            sw.WriteLine(MainMenu.ID + "," + MainMenu.trialType + "," + Spawner.attemptNumber + ",Forward" + ",yes" + ","+ AudioCue.currentlyPlaying + "," + Time.time);
                             sw.Close();
                         }
                         else
                         {
                             //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-                            sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Forward" + ",yes" + ",0," + Time.time);
+                            sw.WriteLine(MainMenu.ID + "," + MainMenu.trialType + "," + Spawner.attemptNumber + ",Forward" + ",yes" + ",0," + Time.time);
                             sw.Close();
                         }
                         
@@ -70,12 +72,12 @@ public class PlayerMovement : MonoBehaviour
                         if (AudioCue.play.isPlaying)
                         {
                             //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-                            sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Forward" + ",no" + ","+ AudioCue.currentlyPlaying + "," + Time.time);
+                            sw.WriteLine(MainMenu.ID + "," + MainMenu.trialType + "," + Spawner.attemptNumber + ",Forward" + ",no" + ","+ AudioCue.currentlyPlaying + "," + Time.time);
                             sw.Close();
                         } else
                         {
                             //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-                            sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Forward" + ",no" + ",0" + "," + Time.time);
+                            sw.WriteLine(MainMenu.ID + "," + MainMenu.trialType + "," + Spawner.attemptNumber + ",Forward" + ",no" + ",0" + "," + Time.time);
                             sw.Close();
                         }
                     }
@@ -99,13 +101,13 @@ public class PlayerMovement : MonoBehaviour
                 if (AudioCue.play.isPlaying)
                 {
                     //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-                    sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Turns Left" + ",N/A" + ","+ AudioCue.currentlyPlaying + "," + Time.time);
+                    sw.WriteLine(MainMenu.ID + "," + MainMenu.trialType + "," + Spawner.attemptNumber + ",Turns Left" + ",N/A" + ","+ AudioCue.currentlyPlaying + "," + Time.time);
                     sw.Close();
                 }
                 else
                 {
                     //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-                    sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Turns Left" + ",N/A" + ",0" + "," + Time.time);
+                    sw.WriteLine(MainMenu.ID + "," + MainMenu.trialType + "," + Spawner.attemptNumber + ",Turns Left" + ",N/A" + ",0" + "," + Time.time);
                     sw.Close();
                 }
             }
@@ -119,13 +121,13 @@ public class PlayerMovement : MonoBehaviour
                 if (AudioCue.play.isPlaying)
                 {
                     //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-                    sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Turns Right" + ",N/A" + ","+ AudioCue.currentlyPlaying + "," + Time.time);
+                    sw.WriteLine(MainMenu.ID + "," + MainMenu.trialType + "," + Spawner.attemptNumber + ",Turns Right" + ",N/A" + ","+ AudioCue.currentlyPlaying + "," + Time.time);
                     sw.Close();
                 }
                 else
                 {
                     //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-                    sw.WriteLine(MainMenu.ID + ",D" + ",1" + ",Turns Right" + ",N/A" + ",0" + "," + Time.time);
+                    sw.WriteLine(MainMenu.ID + "," + MainMenu.trialType + "," + Spawner.attemptNumber + ",Turns Right" + ",N/A" + ",0" + "," + Time.time);
                     sw.Close();
                 }
                 
@@ -133,15 +135,16 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+
+
     
-    IEnumerator Forward()
+    public IEnumerator Forward()
     {
         for (int i = 0; i < 25; i++)
         {
             transform.Translate(Vector3.forward * 0.04f);
             yield return null;
         }
-
     }
 
     IEnumerator Left()
