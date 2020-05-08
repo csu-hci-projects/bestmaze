@@ -50,7 +50,8 @@ public class PlayerMovement : MonoBehaviour
 
                 StartCoroutine("Forward");
 
-                if (mazeSolved[(int)GameObject.Find("Player(Clone)").transform.position.x].ToString()[(int)GameObject.Find("Player(Clone)").transform.position.z] != '.')
+                if (mazeSolved[(int)GameObject.Find("Player(Clone)").transform.position.x].ToString()[(int)GameObject.Find("Player(Clone)").transform.position.z] != '.' ||
+                    mazeSolved[(int)GameObject.Find("Player(Clone)").transform.position.x].ToString()[(int)GameObject.Find("Player(Clone)").transform.position.z] != 'F')
                 {
                     using (StreamWriter sw = File.AppendText(Application.dataPath + Spawner.path))
                     {
