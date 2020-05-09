@@ -15,6 +15,7 @@ public class MazeExit : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            AudioCue.play.Stop();
             Debug.Log("attempt number: " + Spawner.attemptNumber);
             GameObject.Find("Player(Clone)").GetComponent<PlayerMovement>().StopCoroutine("Forward");
             
@@ -54,14 +55,19 @@ public class MazeExit : MonoBehaviour
             else
             {
                 AudioCue.perspective = AudioCue.perspective + 1;
-                if (AudioCue.perspective == 3)
+                if (AudioCue.perspective < 3)
                 {
-                    //end of experiment
-                    Debug.Log("end of experiment reached");
+                    MainMenu.trialType = "D";
+                    Spawner.attemptNumber = 1;
+                    //regenerate maze
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
                 }
-                Spawner.attemptNumber = 1;
-                //regenerate maze
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                else
+                {
+                    SceneManager.LoadScene("Survey");
+                }
+                
+               
             }
         }
     }

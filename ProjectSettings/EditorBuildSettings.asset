@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Consent.unity
     guid: f1fac09726458f54d9ab466958fb1ead
   - enabled: 1
-    path: Assets/Scenes/IntroTrial.unity
-    guid: 9b1548a9068a08b48bfee7bdfe339bc9
+    path: Assets/Scenes/Survey.unity
+    guid: a61c6a7613664db4bbda48c826266670
+  - enabled: 1
+    path: Assets/Scenes/EndGame.unity
+    guid: 2d91334dbdd8ff346824f76651292e96
   m_configObjects: {}

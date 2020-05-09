@@ -33,6 +33,7 @@ public class Spawner : MonoBehaviour
     public static ArrayList mazeCopy;
     public static GameObject PracticeAlert;
     public static GameObject TestAlert;
+    public static GameObject Survey;
 
     void Start()
     {
@@ -48,6 +49,8 @@ public class Spawner : MonoBehaviour
         audioCueBank = new List<int>();
         audioCueBank.Clear();
         attemptNumber = 1;
+        Survey = GameObject.Find("Survey");
+        Survey.SetActive(false);
         TestAlert = GameObject.Find("TestIntro");
         TestAlert.SetActive(false);
         PracticeAlert = GameObject.Find("PracticeIntro");
