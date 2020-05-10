@@ -14,8 +14,8 @@ The following project aims to create a Unity program that creates randomly gener
 - [Checkpoint #2 Overview Video](https://youtu.be/YxyDx8iy3jk)
 - [Checkpoint #3 Overview Video](https://www.youtube.com/watch?v=xh_AnP34UmA&feature=youtu.be)
 - [Checkpoint #4 Overview Video](https://www.youtube.com/watch?v=OxIcumU--44&feature=youtu.be)
-- [Final Overview Video]()
-- [Final Presentation Video](https://youtu.be/Tj5PiZE2_FU)
+- [Final Overview Video](https://youtu.be/N99bJfQnk4I)
+- [Final Presentation Video](https://www.youtube.com/watch?v=ewfZLvx2sCI)
 - [Research Paper](https://www.overleaf.com/read/vgvvfjdncjxq)
 
 ### How to Run
