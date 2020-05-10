@@ -15,3 +15,9 @@ The following project aims to create a Unity program that creates randomly gener
 - [Checkpoint #3 Overview Video](https://www.youtube.com/watch?v=xh_AnP34UmA&feature=youtu.be)
 - [Checkpoint #4 Overview Video](https://www.youtube.com/watch?v=OxIcumU--44&feature=youtu.be)
 - [Research Paper](https://www.overleaf.com/read/vgvvfjdncjxq)
+
+### How to Run
+1. Open the project in the Unity Editor
+2. Make sure that the Menu scene is selected from the Scenes folder
+3. Make sure "Maximize on Play" is highlighted and "Mute Audio," "Stats," and "Gizmos" are all unhighlighted.
+4. Press the play button at the middle of the top of the window
