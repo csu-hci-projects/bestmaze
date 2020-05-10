@@ -1,0 +1,220 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+testing123,P,1,Turns Right,N/A,0,137.5554,practice
+testing123,P,1,Forward,no,0,139.2588,practice
+testing123,P,1,Forward,no,0,140.3457,practice
+testing123,P,1,Turns Left,N/A,0,140.4029,practice
+testing123,P,1,Forward,yes,0,142.0968,practice
+testing123,P,1,Forward,yes,0,142.7048,practice
+testing123,P,1,Turns Left,N/A,0,142.7624,practice
+testing123,P,1,Forward,yes,5,144.4346,practice
+testing123,P,1,Turns Right,N/A,5,145.0871,practice
+testing123,P,1,Forward,yes,5,145.0871,practice
+testing123,P,1,Forward,no,48,153.4938,practice
+testing123,P,1,Forward,no,0,154.4853,practice
+testing123,P,1,Forward,no,32,155.6011,practice
+testing123,D,1,Forward,no,0,158.9807,egocentric
+testing123,D,1,Forward,no,45,159.9393,egocentric
+testing123,D,1,Turns Left,N/A,45,160.0025,egocentric
+testing123,D,1,Forward,no,45,161.5274,egocentric
+testing123,D,1,Forward,no,45,162.4526,egocentric
+testing123,D,1,Turns Right,N/A,45,162.6785,egocentric
+testing123,D,1,Turns Left,N/A,45,163.2841,egocentric
+testing123,D,1,Forward,no,45,164.7802,egocentric
+testing123,D,1,Turns Right,N/A,17,165.9241,egocentric
+testing123,D,1,Forward,no,17,166.0172,egocentric
+testing123,D,1,Forward,yes,17,167.6199,egocentric
+testing123,D,1,Forward,yes,17,168.4302,egocentric
+testing123,D,1,Forward,no,17,169.2414,egocentric
+testing123,D,1,Forward,no,0,170.2626,egocentric
+testing123,D,1,Turns Right,N/A,0,170.3249,egocentric
+testing123,D,1,Forward,yes,0,171.9435,egocentric
+testing123,D,1,Forward,yes,0,172.5967,egocentric
+testing123,D,1,Forward,yes,0,173.2379,egocentric
+testing123,D,1,Forward,yes,15,174.1988,egocentric
+testing123,D,1,Forward,yes,15,174.8999,egocentric
+testing123,D,2,Forward,no,0,179.2756,egocentric
+testing123,D,2,Forward,no,40,180.4198,egocentric
+testing123,D,2,Turns Left,N/A,40,180.5211,egocentric
+testing123,D,2,Forward,no,40,182.1962,egocentric
+testing123,D,2,Forward,yes,40,183.2008,egocentric
+testing123,D,2,Forward,yes,40,183.7708,egocentric
+testing123,D,2,Forward,no,42,184.9221,egocentric
+testing123,D,2,Turns Right,N/A,42,185.1642,egocentric
+testing123,D,2,Forward,no,42,186.8318,egocentric
+testing123,D,2,Forward,yes,42,187.6448,egocentric
+testing123,D,2,Forward,yes,42,188.3255,egocentric
+testing123,D,2,Forward,no,42,189.2628,egocentric
+testing123,D,2,Turns Right,N/A,42,189.3269,egocentric
+testing123,D,2,Forward,no,0,190.8732,egocentric
+testing123,D,2,Forward,yes,0,191.744,egocentric
+testing123,D,2,Forward,yes,0,192.4301,egocentric
+testing123,D,2,Forward,yes,43,193.2061,egocentric
+testing123,D,2,Forward,no,43,194.173,egocentric
+testing123,D,3,Forward,no,0,208.8571,egocentric
+testing123,D,3,Turns Left,N/A,21,210.0726,egocentric
+testing123,D,3,Forward,no,21,210.1336,egocentric
+testing123,D,3,Forward,no,21,211.7607,egocentric
+testing123,D,3,Forward,no,21,212.6969,egocentric
+testing123,D,3,Forward,no,21,213.5726,egocentric
+testing123,D,3,Turns Right,N/A,29,214.4665,egocentric
+testing123,D,3,Forward,no,29,214.5402,egocentric
+testing123,D,3,Forward,no,29,216.025,egocentric
+testing123,D,3,Forward,no,29,216.7076,egocentric
+testing123,D,3,Forward,no,29,217.4846,egocentric
+testing123,D,3,Turns Right,N/A,29,218.1709,egocentric
+testing123,D,3,Forward,no,29,218.2663,egocentric
+testing123,D,3,Forward,yes,29,219.703,egocentric
+testing123,D,3,Forward,yes,29,220.3372,egocentric
+testing123,D,3,Forward,yes,0,221.0362,egocentric
+testing123,D,3,Forward,yes,6,221.8203,egocentric
+testing123,D,3,Forward,yes,6,222.4108,egocentric
+testing123,T,4,Forward,no,0,231.8064,egocentric
+testing123,T,4,Forward,no,0,232.7345,egocentric
+testing123,T,4,Turns Left,N/A,0,232.9286,egocentric
+testing123,T,4,Forward,no,0,234.7831,egocentric
+testing123,T,4,Forward,no,39,235.871,egocentric
+testing123,T,4,Turns Left,N/A,39,235.9743,egocentric
+testing123,T,4,Forward,no,39,237.6231,egocentric
+testing123,T,4,Forward,no,39,238.4606,egocentric
+testing123,T,4,Forward,no,39,239.4221,egocentric
+testing123,T,4,Turns Right,N/A,28,240.4676,egocentric
+testing123,T,4,Forward,no,28,240.5566,egocentric
+testing123,T,4,Forward,no,28,242.2467,egocentric
+testing123,T,4,Forward,no,28,243.087,egocentric
+testing123,T,4,Forward,no,28,244.2171,egocentric
+testing123,T,4,Turns Right,N/A,28,244.9289,egocentric
+testing123,T,4,Forward,no,28,244.9289,egocentric
+testing123,T,4,Forward,no,0,246.4412,egocentric
+testing123,T,4,Forward,no,0,247.9243,egocentric
+testing123,T,4,Forward,no,0,248.5866,egocentric
+testing123,T,4,Forward,yes,59,249.7838,egocentric
+testing123,T,4,Forward,yes,59,250.3634,egocentric
+testing123,D,1,Turns Right,N/A,0,263.9735,allocentric
+testing123,D,1,Forward,no,0,265.8112,allocentric
+testing123,D,1,Forward,no,0,266.9006,allocentric
+testing123,D,1,Forward,no,0,267.977,allocentric
+testing123,D,1,Turns Left,N/A,0,268.084,allocentric
+testing123,D,1,Forward,no,0,269.6058,allocentric
+testing123,D,1,Forward,no,27,270.6823,allocentric
+testing123,D,1,Turns Right,N/A,27,271.2357,allocentric
+testing123,D,1,Forward,no,27,272.7216,allocentric
+testing123,D,1,Forward,no,27,273.6099,allocentric
+testing123,D,1,Turns Left,N/A,27,273.9904,allocentric
+testing123,D,1,Forward,yes,27,275.5236,allocentric
+testing123,D,1,Forward,yes,27,276.1836,allocentric
+testing123,D,1,Turns Left,N/A,27,276.5438,allocentric
+testing123,D,1,Forward,no,27,278.062,allocentric
+testing123,D,1,Forward,no,0,279.1745,allocentric
+testing123,D,1,Turns Right,N/A,0,279.3135,allocentric
+testing123,D,1,Forward,no,0,280.851,allocentric
+testing123,D,1,Forward,no,0,281.5517,allocentric
+testing123,D,1,Turns Left,N/A,0,281.8562,allocentric
+testing123,D,1,Forward,no,0,283.3243,allocentric
+testing123,D,2,Turns Right,N/A,48,286.5753,allocentric
+testing123,D,2,Forward,no,48,288.2328,allocentric
+testing123,D,2,Forward,no,48,289.0431,allocentric
+testing123,D,2,Forward,no,48,290.0901,allocentric
+testing123,D,2,Turns Left,N/A,48,290.4201,allocentric
+testing123,D,2,Turns Left,N/A,48,291.6789,allocentric
+testing123,D,2,Turns Right,N/A,48,292.3045,allocentric
+testing123,D,2,Forward,no,0,293.9767,allocentric
+testing123,D,2,Forward,no,60,295.0726,allocentric
+testing123,D,2,Turns Right,N/A,60,295.352,allocentric
+testing123,D,2,Forward,no,60,297.0051,allocentric
+testing123,D,2,Forward,no,60,298.2056,allocentric
+testing123,D,2,Turns Left,N/A,60,298.3766,allocentric
+testing123,D,2,Forward,no,60,299.9792,allocentric
+testing123,D,2,Turns Left,N/A,60,300.52,allocentric
+testing123,D,2,Turns Right,N/A,60,301.3185,allocentric
+testing123,D,2,Forward,no,60,302.9865,allocentric
+testing123,D,2,Turns Left,N/A,60,303.0867,allocentric
+testing123,D,2,Forward,no,0,304.5939,allocentric
+testing123,D,2,Forward,no,0,305.7139,allocentric
+testing123,D,2,Turns Right,N/A,0,306.0072,allocentric
+testing123,D,2,Forward,no,0,307.2472,allocentric
+testing123,D,2,Forward,no,0,308.3085,allocentric
+testing123,D,2,Turns Left,N/A,0,308.5016,allocentric
+testing123,D,2,Forward,no,0,309.7751,allocentric
+testing123,D,3,Turns Right,N/A,36,312.4347,allocentric
+testing123,D,3,Forward,no,36,314.0456,allocentric
+testing123,D,3,Forward,no,36,314.8438,allocentric
+testing123,D,3,Forward,no,36,315.9139,allocentric
+testing123,D,3,Turns Left,N/A,36,316.0724,allocentric
+testing123,D,3,Forward,no,36,317.5208,allocentric
+testing123,D,3,Forward,no,6,318.6135,allocentric
+testing123,D,3,Turns Right,N/A,6,318.6831,allocentric
+testing123,D,3,Forward,no,0,320.3637,allocentric
+testing123,D,3,Forward,no,0,321.2695,allocentric
+testing123,D,3,Turns Left,N/A,0,321.4047,allocentric
+testing123,D,3,Forward,no,0,322.8122,allocentric
+testing123,D,3,Forward,no,0,323.829,allocentric
+testing123,D,3,Turns Left,N/A,0,323.9128,allocentric
+testing123,D,3,Forward,no,0,325.3572,allocentric
+testing123,D,3,Forward,no,0,326.2581,allocentric
+testing123,D,3,Turns Right,N/A,0,326.3909,allocentric
+testing123,D,3,Forward,no,0,327.8742,allocentric
+testing123,D,3,Forward,no,0,328.7538,allocentric
+testing123,D,3,Turns Left,N/A,0,328.8066,allocentric
+testing123,D,3,Forward,no,0,330.278,allocentric
+testing123,T,4,Turns Right,N/A,7,333.0179,allocentric
+testing123,T,4,Forward,no,7,334.5301,allocentric
+testing123,T,4,Forward,no,7,335.743,allocentric
+testing123,T,4,Turns Left,N/A,7,335.8249,allocentric
+testing123,T,4,Forward,no,7,337.2975,allocentric
+testing123,T,4,Forward,no,7,338.2448,allocentric
+testing123,T,4,Turns Right,N/A,7,338.456,allocentric
+testing123,T,4,Forward,no,0,340.0334,allocentric
+testing123,T,4,Forward,no,0,341.1155,allocentric
+testing123,T,4,Turns Left,N/A,0,341.1873,allocentric
+testing123,T,4,Forward,no,0,342.8409,allocentric
+testing123,D,1,Forward,no,0,348.156,none
+testing123,D,1,Forward,no,0,349.0715,none
+testing123,D,1,Forward,no,0,350.2747,none
+testing123,D,1,Forward,no,0,351.1167,none
+testing123,D,1,Turns Left,N/A,0,351.1905,none
+testing123,D,1,Forward,no,0,352.8205,none
+testing123,D,1,Turns Right,N/A,0,354.0662,none
+testing123,D,1,Forward,no,0,354.1325,none
+testing123,D,1,Forward,no,0,355.8404,none
+testing123,D,1,Forward,no,0,356.7289,none
+testing123,D,1,Turns Left,N/A,0,356.8056,none
+testing123,D,1,Forward,no,0,358.3452,none
+testing123,D,1,Forward,yes,0,359.2591,none
+testing123,D,1,Forward,yes,0,359.9007,none
+testing123,D,2,Forward,no,0,363.6242,none
+testing123,D,2,Forward,no,0,364.4466,none
+testing123,D,2,Forward,no,0,365.3448,none
+testing123,D,2,Turns Left,N/A,0,366.1026,none
+testing123,D,2,Forward,no,0,366.1026,none
+testing123,D,2,Forward,no,0,367.3707,none
+testing123,D,2,Forward,no,0,368.3067,none
+testing123,D,2,Turns Right,N/A,0,368.5635,none
+testing123,D,2,Forward,no,0,370.1127,none
+testing123,D,2,Forward,no,0,370.9601,none
+testing123,D,2,Turns Left,N/A,0,371.0388,none
+testing123,D,2,Forward,no,0,372.4697,none
+testing123,D,2,Forward,no,0,373.5155,none
+testing123,D,2,Forward,no,0,374.5755,none
+testing123,D,3,Forward,no,0,377.8082,none
+testing123,D,3,Forward,no,0,378.5855,none
+testing123,D,3,Forward,no,0,379.4573,none
+testing123,D,3,Forward,no,0,380.5931,none
+testing123,D,3,Turns Left,N/A,0,380.6435,none
+testing123,D,3,Forward,no,0,382.07,none
+testing123,D,3,Forward,no,0,383.0773,none
+testing123,D,3,Turns Right,N/A,0,383.3333,none
+testing123,D,3,Forward,no,0,384.8396,none
+testing123,D,3,Turns Left,N/A,0,385.5864,none
+testing123,D,3,Forward,no,0,385.5864,none
+testing123,D,3,Forward,yes,0,386.8887,none
+testing123,D,3,Forward,yes,0,387.298,none
+testing123,D,3,Forward,no,0,388.2822,none
+testing123,T,4,Forward,no,0,394.0661,none
+testing123,T,4,Turns Right,N/A,0,394.2972,none
+testing123,T,4,Forward,no,0,395.9886,none
+testing123,T,4,Forward,no,0,396.8391,none
+testing123,T,4,Turns Left,N/A,0,396.9835,none
+testing123,T,4,Forward,no,0,398.5666,none
+testing123,T,4,Forward,no,0,399.5003,none
+testing123,T,4,Forward,no,0,400.2185,none
+testing123,S,4, Survey Data,N/A,19,418.2371,none,Male,5

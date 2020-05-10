@@ -39,7 +39,7 @@ public class AudioCue : MonoBehaviour
                     play.PlayOneShot(egoSound);
                 }
             }
-            else if (perspective == 1)
+            else if (perspective == 2)
             {
                 //chose random allo audio cue
                 if (!play.isPlaying)

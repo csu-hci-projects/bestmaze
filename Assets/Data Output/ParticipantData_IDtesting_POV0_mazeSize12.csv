@@ -1,0 +1,146 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+testing,P,1,Forward,yes,0,38.32011,practice
+testing,P,1,Forward,yes,0,39.90044,practice
+testing,P,1,Forward,yes,0,41.46986,practice
+testing,P,1,Forward,yes,0,43.19706,practice
+testing,P,1,Forward,yes,0,44.46706,practice
+testing,P,1,Turns Left,N/A,0,45.77822,practice
+testing,P,1,Forward,yes,0,45.93645,practice
+testing,P,1,Forward,yes,0,48.32756,practice
+testing,P,1,Forward,yes,0,49.71807,practice
+testing,P,1,Turns Left,N/A,0,49.87169,practice
+testing,P,1,Forward,yes,0,53.30385,practice
+testing,P,1,Forward,yes,0,54.7471,practice
+testing,P,1,Forward,yes,0,56.59587,practice
+testing,P,1,Turns Right,N/A,0,58.7007,practice
+testing,P,1,Forward,yes,0,58.80268,practice
+testing,P,1,Forward,yes,0,61.12415,practice
+testing,P,1,Forward,yes,0,62.5568,practice
+testing,P,1,Turns Left,N/A,0,62.69545,practice
+testing,P,1,Forward,yes,0,65.12584,practice
+testing,P,1,Turns Left,N/A,0,66.1764,practice
+testing,P,1,Forward,yes,0,66.26607,practice
+testing,P,1,Turns Left,N/A,0,68.23185,practice
+testing,P,1,Forward,yes,0,68.50014,practice
+testing,P,1,Turns Left,N/A,0,69.65379,practice
+testing,P,1,Forward,no,0,71.66237,practice
+testing,P,1,Turns Right,N/A,0,71.76778,practice
+testing,P,1,Forward,yes,0,73.98394,practice
+testing,P,1,Forward,yes,0,75.04057,practice
+testing,P,1,Forward,yes,0,75.76184,practice
+testing,P,1,Forward,yes,0,76.54022,practice
+testing,P,1,Forward,yes,0,78.93672,practice
+testing,P,1,Forward,yes,0,80.28944,practice
+testing,P,1,Forward,yes,60,81.62936,practice
+testing,P,1,Forward,yes,60,82.47945,practice
+testing,P,1,Turns Right,N/A,60,87.17056,practice
+testing,P,1,Forward,yes,60,89.68608,practice
+testing,P,1,Turns Right,N/A,60,90.49602,practice
+testing,P,1,Forward,yes,60,90.93112,practice
+testing,P,1,Turns Right,N/A,0,92.00286,practice
+testing,P,1,Forward,no,0,94.22758,practice
+testing,P,1,Forward,no,0,95.43816,practice
+testing,P,1,Turns Left,N/A,0,95.53098,practice
+testing,P,1,Forward,yes,3,97.83056,practice
+testing,P,1,Forward,no,3,98.72641,practice
+testing,P,1,Forward,yes,3,99.36581,practice
+testing,P,1,Forward,yes,3,100.1644,practice
+testing,P,1,Forward,yes,3,100.8903,practice
+testing,P,1,Turns Left,N/A,3,101.909,practice
+testing,P,1,Forward,yes,3,102.0902,practice
+testing,P,1,Forward,yes,3,104.2839,practice
+testing,P,1,Turns Left,N/A,3,105.128,practice
+testing,P,1,Forward,yes,3,105.3262,practice
+testing,P,1,Forward,yes,3,107.4682,practice
+testing,P,1,Forward,yes,0,108.2719,practice
+testing,P,1,Forward,yes,0,109.2395,practice
+testing,P,1,Turns Right,N/A,0,110.2235,practice
+testing,P,1,Forward,yes,0,110.3166,practice
+testing,P,1,Forward,no,0,112.5854,practice
+testing,P,1,Forward,no,0,113.835,practice
+testing,P,1,Turns Right,N/A,0,114.1644,practice
+testing,P,1,Forward,yes,0,116.3333,practice
+testing,P,1,Forward,yes,0,117.2839,practice
+testing,P,1,Forward,no,0,118.9103,practice
+testing,P,1,Forward,no,0,120.0946,practice
+testing,P,1,Forward,no,0,121.3736,practice
+testing,P,1,Forward,no,0,122.8193,practice
+testing,P,1,Turns Left,N/A,0,122.9023,practice
+testing,P,1,Forward,no,0,125.1239,practice
+testing,P,1,Turns Left,N/A,59,126.5014,practice
+testing,P,1,Forward,no,59,126.6179,practice
+testing,P,1,Forward,no,59,128.836,practice
+testing,P,1,Forward,no,59,130.017,practice
+testing,P,1,Forward,no,59,131.381,practice
+testing,P,1,Forward,no,59,133.035,practice
+testing,P,1,Turns Right,N/A,59,133.1463,practice
+testing,P,1,Forward,no,59,135.4972,practice
+testing,P,1,Forward,no,0,136.785,practice
+testing,P,1,Forward,no,0,138.2897,practice
+testing,P,1,Forward,no,0,139.5206,practice
+testing,P,1,Turns Left,N/A,0,139.6143,practice
+testing,P,1,Forward,no,0,141.8312,practice
+testing,P,1,Turns Left,N/A,0,143.1711,practice
+testing,P,1,Forward,no,0,143.2555,practice
+testing,P,1,Forward,yes,0,145.4068,practice
+testing,P,1,Forward,yes,0,146.2576,practice
+testing,P,1,Forward,yes,0,147.3191,practice
+testing,P,1,Forward,no,0,148.6421,practice
+testing,P,1,Turns Right,N/A,0,148.8832,practice
+testing,P,1,Forward,no,0,151.3162,practice
+testing,P,1,Forward,no,0,152.816,practice
+testing,P,1,Turns Right,N/A,0,153.2729,practice
+testing,P,1,Forward,no,0,155.4686,practice
+testing,P,1,Forward,no,25,156.9133,practice
+testing,P,1,Forward,no,25,158.1088,practice
+testing,P,1,Forward,no,25,159.2909,practice
+testing,P,1,Turns Left,N/A,25,159.4433,practice
+testing,P,1,Forward,no,25,161.6429,practice
+testing,P,1,Turns Left,N/A,25,162.743,practice
+testing,P,1,Forward,no,25,162.8372,practice
+testing,P,1,Forward,yes,25,165.2158,practice
+testing,P,1,Forward,yes,25,166.0912,practice
+testing,P,1,Forward,no,0,167.3136,practice
+testing,P,1,Forward,no,0,168.5556,practice
+testing,P,1,Forward,no,0,169.7457,practice
+testing,P,1,Forward,no,0,171.0587,practice
+testing,D,1,Turns Left,N/A,0,174.2631,egocentric
+testing,D,1,Forward,yes,0,177.0497,egocentric
+testing,D,1,Forward,yes,0,178.4162,egocentric
+testing,D,1,Turns Right,N/A,0,178.5042,egocentric
+testing,D,1,Forward,yes,0,180.8197,egocentric
+testing,D,1,Turns Right,N/A,0,182.3051,egocentric
+testing,D,1,Turns Right,N/A,0,183.8263,egocentric
+testing,D,1,Forward,no,0,186.1616,egocentric
+testing,D,1,Turns Left,N/A,0,186.3222,egocentric
+testing,D,1,Forward,no,0,188.5855,egocentric
+testing,D,1,Turns Left,N/A,0,189.5749,egocentric
+testing,D,1,Forward,no,0,189.7204,egocentric
+testing,D,1,Forward,yes,0,191.7776,egocentric
+testing,D,1,Forward,yes,0,192.9641,egocentric
+testing,D,1,Forward,no,0,195.7589,egocentric
+testing,D,1,Forward,no,0,197.2403,egocentric
+testing,D,1,Forward,no,0,198.567,egocentric
+testing,D,1,Turns Left,N/A,0,200.1727,egocentric
+testing,D,1,Forward,no,0,200.2723,egocentric
+testing,D,1,Forward,yes,0,202.5326,egocentric
+testing,D,1,Turns Right,N/A,0,203.5444,egocentric
+testing,D,1,Forward,yes,0,203.5444,egocentric
+testing,D,1,Forward,no,0,205.8916,egocentric
+testing,D,1,Forward,yes,19,207.3138,egocentric
+testing,D,1,Forward,yes,19,208.1767,egocentric
+testing,D,1,Forward,yes,19,209.3326,egocentric
+testing,D,1,Turns Right,N/A,19,209.4426,egocentric
+testing,D,1,Forward,no,19,211.9078,egocentric
+testing,D,2,Forward,no,0,216.622,egocentric
+testing,D,2,Forward,no,0,218.098,egocentric
+testing,D,2,Forward,no,0,219.2592,egocentric
+testing,D,2,Forward,no,0,220.8713,egocentric
+testing,D,2,Forward,no,0,222.4845,egocentric
+testing,D,2,Forward,no,0,224.0946,egocentric
+testing,D,2,Turns Left,N/A,0,224.9818,egocentric
+testing,D,2,Forward,no,0,230.4869,egocentric
+testing,D,2,Forward,no,0,233.142,egocentric
+testing,D,2,Turns Right,N/A,0,247.4285,egocentric
+testing,D,2,Forward,no,0,252.9618,egocentric
+testing,D,2,Forward,no,7,265.211,egocentric
