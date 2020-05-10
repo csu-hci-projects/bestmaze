@@ -1,0 +1,17 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+dgfhdfhd,P,1,Turns Left,N/A,0,24.85227,practice
+dgfhdfhd,P,1,Forward,yes,59,25.74399,practice
+dgfhdfhd,P,1,Forward,yes,59,26.16273,practice
+dgfhdfhd,P,1,Turns Right,N/A,59,28.39802,practice
+dgfhdfhd,P,1,Forward,yes,59,31.77368,practice
+dgfhdfhd,P,1,Turns Right,N/A,59,32.21644,practice
+dgfhdfhd,P,1,Turns Right,N/A,59,32.81937,practice
+dgfhdfhd,P,1,Forward,no,59,33.55326,practice
+dgfhdfhd,P,1,Turns Left,N/A,59,33.71794,practice
+dgfhdfhd,P,1,Forward,no,35,34.40257,practice
+dgfhdfhd,P,1,Forward,no,35,34.8774,practice
+dgfhdfhd,P,1,Turns Left,N/A,35,35.13829,practice
+dgfhdfhd,P,1,Forward,no,0,35.91513,practice
+dgfhdfhd,P,1,Forward,no,0,36.41238,practice
+dgfhdfhd,P,1,Forward,no,0,36.97572,practice
+dgfhdfhd,P,1,Forward,no,0,37.44435,practice
