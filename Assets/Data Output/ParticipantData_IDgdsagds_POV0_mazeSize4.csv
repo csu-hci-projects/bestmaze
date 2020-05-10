@@ -1,0 +1,46 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+gdsagds,P,1,Turns Right,N/A,0,10.33477,practice
+gdsagds,P,1,Forward,no,0,10.80802,practice
+gdsagds,P,1,Turns Left,N/A,0,11.13119,practice
+gdsagds,P,1,Forward,yes,0,11.42198,practice
+gdsagds,P,1,Forward,no,0,11.73381,practice
+gdsagds,P,1,Turns Left,N/A,0,11.95215,practice
+gdsagds,P,1,Forward,no,46,12.31101,practice
+gdsagds,P,1,Forward,no,46,12.53488,practice
+gdsagds,D,1,Turns Right,N/A,0,13.96026,egocentric
+gdsagds,D,1,Forward,no,0,14.23528,egocentric
+gdsagds,D,1,Turns Left,N/A,0,14.72705,egocentric
+gdsagds,D,1,Forward,no,0,15.04118,egocentric
+gdsagds,D,1,Forward,yes,0,15.35695,egocentric
+gdsagds,D,1,Turns Left,N/A,0,15.58564,egocentric
+gdsagds,D,1,Forward,yes,9,15.90277,egocentric
+gdsagds,D,1,Forward,no,9,16.14267,egocentric
+gdsagds,T,2,Turns Right,N/A,0,17.44224,egocentric
+gdsagds,T,2,Turns Right,N/A,0,18.05664,egocentric
+gdsagds,T,2,Forward,yes,0,18.37044,egocentric
+gdsagds,T,2,Turns Left,N/A,0,18.64632,egocentric
+gdsagds,T,2,Forward,yes,0,18.89584,egocentric
+gdsagds,T,2,Forward,yes,0,19.09909,egocentric
+gdsagds,T,2,Turns Left,N/A,24,19.4543,egocentric
+gdsagds,T,2,Forward,no,24,19.70131,egocentric
+gdsagds,T,2,Forward,no,24,20.05178,egocentric
+gdsagds,D,1,Turns Left,N/A,0,21.56506,allocentric
+gdsagds,D,1,Forward,no,0,21.88058,allocentric
+gdsagds,D,1,Turns Right,N/A,0,22.18131,allocentric
+gdsagds,D,1,Forward,yes,0,22.57947,allocentric
+gdsagds,D,1,Forward,no,0,22.95734,allocentric
+gdsagds,T,2,Turns Left,N/A,0,24.10875,allocentric
+gdsagds,T,2,Forward,yes,0,24.43236,allocentric
+gdsagds,T,2,Forward,yes,0,24.7411,allocentric
+gdsagds,T,2,Turns Right,N/A,0,25.04165,allocentric
+gdsagds,T,2,Forward,no,0,25.32577,allocentric
+gdsagds,T,2,Forward,no,0,25.69673,allocentric
+gdsagds,D,1,Forward,no,0,26.90763,none
+gdsagds,D,1,Forward,no,0,27.27204,none
+gdsagds,T,2,Turns Left,N/A,0,28.48128,none
+gdsagds,T,2,Forward,yes,0,28.79704,none
+gdsagds,T,2,Turns Right,N/A,0,29.03147,none
+gdsagds,T,2,Turns Right,N/A,0,29.37197,none
+gdsagds,T,2,Forward,yes,0,29.67264,none
+gdsagds,T,2,Forward,no,0,30.03462,none
+gdsagds,S,2, Survey Data,N/A,53,35.42399,none,Male,5

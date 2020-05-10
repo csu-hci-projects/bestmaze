@@ -226,7 +226,7 @@ public class MazeGen : MonoBehaviour
             solved = solve(Maze, row - 1, col, frow, fcol);
         }
 
-        if (!solved)
+        if (!solved && (Maze[row].ToString()[col] == '.'))
         {
             str = new StringBuilder(Maze[row].ToString());//Set Current position as .
             str[col] = ' ';

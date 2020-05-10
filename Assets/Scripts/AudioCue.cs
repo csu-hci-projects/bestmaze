@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class AudioCue : MonoBehaviour
 {
-    public static int perspective = MainMenu.POV; //egocentric: 0, allocentric: 1, none: 2
+    public static int perspective = 0; //practice: 0, egocentric: 1, allocentric: 2, none: 3
     public static AudioSource play;
     public static AudioClip egoSound;
     public static AudioClip alloSound;
@@ -31,7 +31,7 @@ public class AudioCue : MonoBehaviour
         //Debug.Log(chosen);
         if (other.tag == "Player")
         {
-            if (perspective == 0)
+            if (perspective == 0 || perspective == 1)
             {
                 //chose random ego audio cue
                 if (!play.isPlaying)

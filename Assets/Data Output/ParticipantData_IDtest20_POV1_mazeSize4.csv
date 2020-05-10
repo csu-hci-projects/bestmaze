@@ -1,0 +1,22 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+test20,P,1,Forward,no,0,11.10894,practice
+test20,P,1,Forward,no,13,18.87027,practice
+test20,P,1,Turns Left,N/A,13,19.8625,practice
+test20,P,1,Turns Left,N/A,13,20.20777,practice
+test20,P,1,Forward,no,0,22.18723,practice
+test20,P,1,Forward,no,14,25.80068,practice
+test20,P,1,Turns Right,N/A,14,26.37369,practice
+test20,P,1,Forward,no,14,27.09174,practice
+test20,P,1,Forward,no,14,27.82715,practice
+test20,P,1,Turns Right,N/A,14,28.83781,practice
+test20,P,1,Turns Right,N/A,14,29.20565,practice
+test20,P,1,Forward,no,14,29.75257,practice
+test20,P,1,Forward,no,0,56.64189,practice
+test20,P,1,Turns Left,N/A,0,59.14641,practice
+test20,P,1,Forward,no,0,59.56906,practice
+test20,P,1,Forward,no,49,64.38822,practice
+test20,P,1,Turns Left,N/A,49,66.93693,practice
+test20,P,1,Forward,no,49,67.37862,practice
+test20,P,1,Turns Right,N/A,0,78.96012,practice
+test20,P,1,Turns Right,N/A,0,79.28522,practice
+test20,P,1,Forward,no,0,79.90979,practice

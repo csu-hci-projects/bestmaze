@@ -1,0 +1,29 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+test34,P,1,Forward,yes,0,11.53361,practice
+test34,P,1,Forward,yes,0,12.06858,practice
+test34,P,1,Forward,yes,0,12.80309,practice
+test34,P,1,Forward,yes,0,13.69813,practice
+test34,P,1,Turns Right,N/A,0,27.27639,practice
+test34,P,1,Turns Right,N/A,0,27.5806,practice
+test34,P,1,Forward,no,0,28.14457,practice
+test34,P,1,Forward,no,0,28.58811,practice
+test34,P,1,Forward,no,0,29.00643,practice
+test34,P,1,Forward,no,0,29.39323,practice
+test34,P,1,Turns Left,N/A,0,29.55967,practice
+test34,P,1,Forward,no,0,30.20824,practice
+test34,P,1,Forward,no,0,30.62769,practice
+test34,P,1,Forward,no,0,30.9938,practice
+test34,P,1,Forward,yes,0,44.35279,practice
+test34,P,1,Forward,yes,0,44.64419,practice
+test34,P,1,Forward,yes,0,45.12243,practice
+test34,P,1,Turns Right,N/A,0,45.27375,practice
+test34,P,1,Forward,yes,0,45.77153,practice
+test34,P,1,Forward,yes,0,46.2351,practice
+test34,P,1,Forward,yes,0,46.90912,practice
+test34,P,1,Turns Right,N/A,0,47.02058,practice
+test34,P,1,Forward,no,0,61.83511,practice
+test34,P,1,Forward,no,0,62.12233,practice
+test34,P,1,Forward,no,0,62.49617,practice
+test34,P,1,Forward,no,0,62.87615,practice
+test34,P,1,Turns Left,N/A,0,63.32473,practice
+test34,P,1,Forward,no,0,63.87645,practice

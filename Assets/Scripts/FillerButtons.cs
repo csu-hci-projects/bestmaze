@@ -21,8 +21,8 @@ public class FillerButtons : MonoBehaviour
 
     public void GetGender(int option)
     {
-        Debug.Log("Dropdown option: " + option);
-        Debug.Log("Dropdown variable: " + genders[option]);
+        //Debug.Log("Dropdown option: " + option);
+        //Debug.Log("Dropdown variable: " + genders[option]);
         gender = genders[option];
     }
 
@@ -36,7 +36,7 @@ public class FillerButtons : MonoBehaviour
         using (StreamWriter sw = File.AppendText(Application.dataPath + Spawner.path))
         {
             //"ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame"
-            sw.WriteLine(MainMenu.ID + ",S," + Spawner.attemptNumber + ", Survey Data" + ",N/A" + "," + AudioCue.currentlyPlaying + "," + Time.time + "," + gender + "," + hour);
+            sw.WriteLine(MainMenu.ID + ",S," + Spawner.attemptNumber + ", Survey Data" + ",N/A" + "," + AudioCue.currentlyPlaying + "," + Time.time + "," + Spawner.currentAudioType + ","+ gender + "," + hour);
             sw.Close();
         }
         SceneManager.LoadScene("EndGame");
