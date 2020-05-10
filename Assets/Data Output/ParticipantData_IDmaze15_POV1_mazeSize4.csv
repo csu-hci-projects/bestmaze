@@ -1,0 +1,29 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+maze15,P,1,Turns Left,N/A,0,11.90069,practice
+maze15,P,1,Forward,yes,0,12.53075,practice
+maze15,P,1,Forward,yes,30,19.63406,practice
+maze15,P,1,Turns Right,N/A,0,27.62617,practice
+maze15,P,1,Forward,yes,0,28.06119,practice
+maze15,P,1,Turns Right,N/A,0,30.77018,practice
+maze15,P,1,Turns Right,N/A,0,31.16891,practice
+maze15,P,1,Forward,yes,0,31.63597,practice
+maze15,P,1,Turns Left,N/A,0,33.57744,practice
+maze15,P,1,Forward,yes,0,34.70446,practice
+maze15,P,1,Forward,yes,41,36.37888,practice
+maze15,P,1,Turns Left,N/A,41,36.97971,practice
+maze15,P,1,Forward,yes,41,37.64095,practice
+maze15,P,1,Turns Left,N/A,0,45.77308,practice
+maze15,P,1,Turns Left,N/A,0,46.08819,practice
+maze15,P,1,Forward,yes,0,46.46777,practice
+maze15,P,1,Turns Right,N/A,0,47.75387,practice
+maze15,P,1,Forward,yes,0,48.08081,practice
+maze15,P,1,Forward,yes,58,53.25432,practice
+maze15,P,1,Turns Right,N/A,58,53.83785,practice
+maze15,P,1,Forward,yes,58,54.21967,practice
+maze15,P,1,Forward,yes,58,54.90386,practice
+maze15,P,1,Turns Right,N/A,0,59.26539,practice
+maze15,P,1,Turns Right,N/A,0,59.79095,practice
+maze15,P,1,Forward,yes,0,60.1778,practice
+maze15,P,1,Forward,yes,0,62.89392,practice
+maze15,P,1,Turns Left,N/A,0,63.78906,practice
+maze15,P,1,Forward,yes,0,64.43526,practice

@@ -1,0 +1,97 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+sid,P,1,Turns Left,N/A,0,12.69848,practice
+sid,P,1,Forward,yes,0,13.04632,practice
+sid,P,1,Turns Right,N/A,0,13.34766,practice
+sid,P,1,Forward,no,0,13.81178,practice
+sid,P,1,Forward,no,0,14.18893,practice
+sid,D,1,Forward,no,0,16.21309,egocentric
+sid,D,1,Forward,no,0,16.60629,egocentric
+sid,D,2,Forward,no,0,18.01882,egocentric
+sid,D,2,Forward,no,0,18.36618,egocentric
+sid,D,3,Forward,no,0,20.18189,egocentric
+sid,D,3,Forward,no,0,20.46741,egocentric
+sid,T,4,Turns Left,N/A,0,27.36064,egocentric
+sid,T,4,Forward,no,0,27.72573,egocentric
+sid,T,4,Forward,no,0,28.0848,egocentric
+sid,T,5,Forward,yes,0,30.07503,egocentric
+sid,T,5,Forward,yes,26,30.46056,egocentric
+sid,T,5,Turns Right,N/A,26,30.90631,egocentric
+sid,T,5,Turns Right,N/A,26,31.57775,egocentric
+sid,T,5,Turns Left,N/A,26,32.0776,egocentric
+sid,T,5,Forward,yes,26,32.58196,egocentric
+sid,T,5,Forward,yes,26,33.00624,egocentric
+sid,D,1,Turns Left,N/A,0,36.61316,allocentric
+sid,D,1,Turns Right,N/A,0,36.96704,allocentric
+sid,D,1,Forward,no,0,37.25526,allocentric
+sid,D,1,Forward,yes,0,37.60983,allocentric
+sid,D,1,Turns Right,N/A,0,37.91594,allocentric
+sid,D,1,Forward,no,0,38.30725,allocentric
+sid,D,1,Forward,yes,0,38.71825,allocentric
+sid,D,2,Forward,no,0,40.56039,allocentric
+sid,D,2,Forward,yes,0,40.93697,allocentric
+sid,D,2,Turns Right,N/A,0,41.25262,allocentric
+sid,D,2,Forward,no,0,41.54982,allocentric
+sid,D,2,Forward,yes,0,41.94021,allocentric
+sid,D,3,Forward,no,0,43.21126,allocentric
+sid,D,3,Forward,yes,0,43.62717,allocentric
+sid,D,3,Turns Right,N/A,0,43.97991,allocentric
+sid,D,3,Forward,no,0,44.3344,allocentric
+sid,D,3,Forward,yes,0,44.73119,allocentric
+sid,T,4,Turns Left,N/A,0,47.88116,allocentric
+sid,T,4,Turns Right,N/A,0,48.43568,allocentric
+sid,T,4,Forward,yes,0,48.75467,allocentric
+sid,T,4,Turns Left,N/A,0,49.04321,allocentric
+sid,T,4,Forward,yes,0,49.40558,allocentric
+sid,T,4,Forward,no,0,50.03371,allocentric
+sid,T,4,Forward,no,0,50.44608,allocentric
+sid,T,4,Turns Right,N/A,0,50.95008,allocentric
+sid,T,4,Forward,yes,0,51.32834,allocentric
+sid,T,4,Forward,no,0,51.64191,allocentric
+sid,T,5,Forward,yes,0,53.05995,allocentric
+sid,T,5,Turns Left,N/A,0,53.36076,allocentric
+sid,T,5,Forward,yes,0,53.73708,allocentric
+sid,T,5,Turns Right,N/A,0,54.04427,allocentric
+sid,T,5,Turns Left,N/A,0,54.5561,allocentric
+sid,T,5,Forward,no,0,55.03623,allocentric
+sid,T,5,Forward,yes,0,55.48445,allocentric
+sid,T,5,Turns Right,N/A,0,55.7509,allocentric
+sid,T,5,Forward,yes,0,56.24588,allocentric
+sid,T,5,Forward,no,0,56.59732,allocentric
+sid,D,1,Turns Left,N/A,0,58.31224,none
+sid,D,1,Forward,no,0,58.69141,none
+sid,D,1,Turns Right,N/A,0,59.04049,none
+sid,D,1,Forward,no,0,59.37204,none
+sid,D,1,Forward,yes,0,59.71408,none
+sid,D,1,Turns Right,N/A,0,59.99562,none
+sid,D,1,Forward,no,0,60.5021,none
+sid,D,2,Turns Left,N/A,0,61.65759,none
+sid,D,2,Forward,yes,0,62.00296,none
+sid,D,2,Turns Right,N/A,0,62.37938,none
+sid,D,2,Forward,yes,0,62.93134,none
+sid,D,2,Forward,no,0,63.27971,none
+sid,D,2,Turns Right,N/A,0,63.57616,none
+sid,D,2,Forward,no,0,63.96143,none
+sid,D,3,Turns Left,N/A,0,65.1946,none
+sid,D,3,Forward,yes,0,65.55317,none
+sid,D,3,Turns Right,N/A,0,66.03877,none
+sid,D,3,Forward,yes,0,66.5535,none
+sid,D,3,Forward,no,0,66.88656,none
+sid,D,3,Turns Right,N/A,0,67.1923,none
+sid,D,3,Forward,no,0,67.54016,none
+sid,T,4,Turns Left,N/A,0,69.08826,none
+sid,T,4,Turns Left,N/A,0,69.41019,none
+sid,T,4,Forward,yes,0,69.79314,none
+sid,T,4,Turns Right,N/A,0,70.05783,none
+sid,T,4,Forward,yes,0,70.43005,none
+sid,T,4,Forward,no,0,70.77269,none
+sid,T,4,Turns Right,N/A,0,71.02613,none
+sid,T,4,Forward,no,0,71.3533,none
+sid,T,5,Turns Left,N/A,0,72.53745,none
+sid,T,5,Turns Left,N/A,0,72.85909,none
+sid,T,5,Forward,yes,0,73.16788,none
+sid,T,5,Turns Right,N/A,0,73.55701,none
+sid,T,5,Forward,yes,0,73.93142,none
+sid,T,5,Forward,no,0,74.30382,none
+sid,T,5,Turns Right,N/A,0,74.65704,none
+sid,T,5,Forward,no,0,75.15924,none
+sid,S,5, Survey Data,N/A,6,82.67703,none,Male,5

@@ -1,0 +1,596 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame
+sid,D,1,Turns Right,N/A,0,48.28449
+sid,D,1,Forward,yes,0,48.69039
+sid,D,1,Forward,yes,0,49.22268
+sid,D,1,Turns Left,N/A,0,49.57124
+sid,D,1,Forward,yes,0,50.27372
+sid,D,1,Turns Right,N/A,0,50.75609
+sid,D,1,Turns Right,N/A,0,51.15631
+sid,D,1,Forward,yes,0,51.43043
+sid,D,1,Turns Left,N/A,0,51.78025
+sid,D,1,Forward,yes,0,52.0859
+sid,D,1,Forward,yes,0,52.29256
+sid,D,1,Turns Left,N/A,0,52.65201
+sid,D,1,Forward,yes,0,52.93113
+sid,D,1,Forward,yes,0,53.1611
+sid,D,1,Forward,yes,0,53.35942
+sid,D,1,Forward,yes,0,53.54107
+sid,D,1,Forward,yes,0,53.72149
+sid,D,1,Forward,yes,0,53.90355
+sid,D,1,Turns Right,N/A,49,54.31561
+sid,D,1,Forward,yes,49,54.7295
+sid,D,1,Forward,yes,49,55.21055
+sid,D,2,Turns Right,N/A,54,56.11569
+sid,D,2,Forward,yes,54,56.37254
+sid,D,2,Forward,yes,54,56.63866
+sid,D,2,Forward,yes,54,56.87158
+sid,D,2,Forward,yes,54,57.23883
+sid,D,2,Turns Left,N/A,54,57.46501
+sid,D,2,Forward,yes,54,57.73948
+sid,D,2,Forward,yes,54,57.94264
+sid,D,2,Forward,yes,54,58.13742
+sid,D,2,Forward,yes,54,58.34962
+sid,D,2,Forward,yes,54,58.71527
+sid,D,2,Forward,yes,54,59.22625
+sid,D,2,Turns Right,N/A,18,59.59721
+sid,D,2,Forward,yes,18,59.99896
+sid,D,2,Forward,yes,18,60.42405
+sid,D,3,Turns Left,N/A,39,61.20629
+sid,D,3,Turns Right,N/A,39,61.5043
+sid,D,3,Turns Right,N/A,39,61.72683
+sid,D,3,Forward,yes,39,61.99133
+sid,D,3,Forward,yes,39,62.22398
+sid,D,3,Forward,yes,39,62.51996
+sid,D,3,Forward,yes,0,62.89132
+sid,D,3,Turns Left,N/A,0,63.51078
+sid,D,3,Forward,yes,0,63.86604
+sid,D,3,Forward,yes,0,64.14606
+sid,D,3,Forward,yes,0,64.38943
+sid,D,3,Forward,yes,0,64.62537
+sid,D,3,Forward,yes,0,64.87092
+sid,D,3,Forward,yes,0,65.17001
+sid,D,3,Turns Right,N/A,11,65.48811
+sid,D,3,Forward,yes,11,65.90588
+sid,D,3,Forward,yes,11,66.42596
+sid,D,4,Turns Right,N/A,6,67.42654
+sid,D,4,Forward,yes,6,67.78313
+sid,D,4,Forward,yes,6,68.06737
+sid,D,4,Forward,yes,6,68.36032
+sid,D,4,Forward,yes,6,68.82491
+sid,D,4,Turns Left,N/A,6,69.08159
+sid,D,4,Forward,yes,6,69.39886
+sid,D,4,Forward,yes,6,69.58836
+sid,D,4,Forward,yes,6,69.75597
+sid,D,4,Forward,yes,6,69.92635
+sid,D,4,Forward,yes,6,70.10496
+sid,D,4,Forward,yes,6,70.49445
+sid,D,4,Turns Right,N/A,52,70.82338
+sid,D,4,Forward,yes,52,71.07249
+sid,D,4,Forward,yes,52,71.27626
+sid,D,5,Turns Right,N/A,59,72.16104
+sid,D,5,Forward,yes,59,72.41605
+sid,D,5,Forward,yes,59,72.59422
+sid,D,5,Forward,yes,59,72.77123
+sid,D,5,Forward,yes,59,72.94551
+sid,D,5,Turns Left,N/A,59,73.39088
+sid,D,5,Forward,yes,59,73.66604
+sid,D,5,Forward,yes,59,73.85011
+sid,D,5,Forward,yes,59,74.00774
+sid,D,5,Forward,yes,59,74.16301
+sid,D,5,Forward,yes,0,74.32622
+sid,D,5,Forward,yes,0,74.50756
+sid,D,5,Turns Right,N/A,53,74.7926
+sid,D,5,Turns Right,N/A,53,74.99418
+sid,D,5,Turns Left,N/A,53,75.36977
+sid,D,5,Forward,yes,53,75.67152
+sid,D,5,Forward,yes,53,75.8436
+sid,T,6,Turns Right,N/A,23,82.78896
+sid,T,6,Forward,yes,23,83.12818
+sid,T,6,Forward,yes,23,83.36592
+sid,T,6,Forward,yes,0,83.63107
+sid,T,6,Turns Left,N/A,0,83.91132
+sid,T,6,Forward,yes,0,84.21069
+sid,T,6,Forward,yes,0,84.42693
+sid,T,6,Turns Left,N/A,0,84.70853
+sid,T,6,Forward,yes,0,84.994
+sid,T,6,Forward,yes,0,85.21347
+sid,T,6,Forward,yes,0,85.41258
+sid,T,6,Forward,yes,0,85.61331
+sid,T,6,Forward,yes,0,85.80834
+sid,T,6,Forward,yes,0,86.18844
+sid,T,6,Turns Right,N/A,43,86.50359
+sid,T,6,Forward,yes,43,86.83063
+sid,T,6,Forward,yes,43,87.06075
+sid,T,7,Turns Right,N/A,56,87.98846
+sid,T,7,Forward,yes,56,88.35495
+sid,T,7,Forward,yes,56,88.57953
+sid,T,7,Turns Left,N/A,56,88.92393
+sid,T,7,Forward,yes,56,89.20693
+sid,T,7,Forward,yes,56,89.44905
+sid,T,7,Turns Left,N/A,56,89.73866
+sid,T,7,Forward,yes,56,90.02217
+sid,T,7,Forward,yes,56,90.26297
+sid,T,7,Forward,yes,56,90.47334
+sid,T,7,Forward,yes,56,90.71436
+sid,T,7,Forward,yes,56,91.10841
+sid,T,7,Forward,yes,56,91.47621
+sid,T,7,Turns Right,N/A,1,91.77094
+sid,T,7,Forward,yes,1,91.99281
+sid,T,7,Forward,yes,1,92.20413
+sid,T,1,Turns Left,N/A,0,99.58852
+sid,T,1,Turns Right,N/A,0,100.0789
+sid,T,1,Turns Right,N/A,0,100.3957
+sid,T,1,Forward,yes,0,100.7036
+sid,T,1,Forward,yes,0,100.9264
+sid,T,1,Forward,yes,0,101.075
+sid,T,1,Forward,yes,0,101.3687
+sid,T,1,Forward,yes,0,101.5209
+sid,T,1,Forward,yes,0,101.7312
+sid,T,1,Turns Left,N/A,0,101.969
+sid,T,1,Forward,yes,0,102.2634
+sid,T,1,Forward,yes,0,102.5671
+sid,T,1,Turns Left,N/A,0,102.8543
+sid,T,1,Forward,yes,0,103.1333
+sid,T,1,Forward,yes,0,103.4527
+sid,T,1,Turns Left,N/A,0,103.7583
+sid,T,1,Turns Right,N/A,0,104.0935
+sid,T,1,Turns Right,N/A,0,104.2937
+sid,T,1,Forward,yes,0,104.5528
+sid,T,1,Forward,yes,0,104.8014
+sid,T,1,Turns Right,N/A,0,105.1224
+sid,T,1,Forward,yes,0,105.4612
+sid,T,1,Forward,yes,0,105.6669
+sid,T,1,Turns Left,N/A,0,105.9249
+sid,T,1,Forward,yes,0,106.2029
+sid,T,1,Forward,yes,0,106.3886
+sid,T,1,Turns Left,N/A,0,107.0349
+sid,T,1,Turns Left,N/A,0,107.3085
+sid,T,1,Forward,yes,0,107.6084
+sid,T,1,Forward,yes,0,107.7969
+sid,T,1,Turns Right,N/A,0,108.1931
+sid,T,1,Forward,yes,0,108.4419
+sid,T,1,Forward,yes,0,108.6759
+sid,T,1,Turns Left,N/A,0,108.9763
+sid,T,1,Forward,yes,0,109.2333
+sid,T,1,Forward,yes,0,109.4422
+sid,T,1,Turns Left,N/A,0,109.7021
+sid,T,1,Forward,yes,0,109.9722
+sid,T,1,Forward,yes,0,110.1593
+sid,T,1,Turns Right,N/A,0,110.6253
+sid,T,1,Forward,yes,0,110.8991
+sid,T,1,Forward,yes,0,111.1453
+sid,T,1,Turns Right,N/A,0,111.4315
+sid,T,1,Forward,yes,0,111.6324
+sid,T,1,Forward,yes,0,111.8192
+sid,T,1,Forward,yes,0,111.995
+sid,T,1,Forward,yes,0,112.1638
+sid,T,1,Forward,yes,0,112.3248
+sid,T,1,Forward,yes,0,112.4833
+sid,T,1,Turns Right,N/A,0,112.8613
+sid,T,1,Forward,yes,0,113.118
+sid,T,1,Forward,yes,0,113.3009
+sid,T,1,Forward,yes,0,113.4671
+sid,T,1,Forward,yes,0,113.6327
+sid,T,1,Forward,yes,0,113.7913
+sid,T,1,Forward,yes,0,113.9594
+sid,T,1,Turns Right,N/A,0,114.4338
+sid,T,1,Forward,yes,0,114.7522
+sid,T,1,Forward,yes,0,115.5384
+sid,D,2,Forward,yes,0,116.3267
+sid,D,2,Forward,yes,0,116.5246
+sid,D,2,Forward,yes,0,116.6902
+sid,D,2,Forward,yes,0,116.8496
+sid,D,2,Forward,yes,0,117.1402
+sid,D,2,Forward,yes,0,117.2003
+sid,D,2,Turns Right,N/A,0,117.733
+sid,D,2,Forward,yes,0,118.0724
+sid,D,2,Forward,yes,0,118.4919
+sid,D,3,Forward,yes,0,119.1164
+sid,D,3,Forward,yes,0,119.2946
+sid,D,3,Forward,yes,0,119.4603
+sid,D,3,Forward,yes,0,119.6304
+sid,D,3,Forward,yes,0,119.7872
+sid,D,3,Forward,yes,0,120.1751
+sid,D,3,Turns Right,N/A,0,120.4731
+sid,D,3,Forward,yes,0,120.7666
+sid,D,3,Forward,yes,0,120.968
+sid,D,4,Forward,yes,0,121.5707
+sid,D,4,Forward,yes,0,121.7531
+sid,D,4,Forward,yes,0,121.9189
+sid,D,4,Forward,yes,0,122.0842
+sid,D,4,Forward,yes,0,122.2812
+sid,D,4,Forward,yes,0,122.5172
+sid,D,4,Turns Right,N/A,0,122.9353
+sid,D,4,Forward,yes,0,123.2472
+sid,D,4,Forward,yes,0,123.7198
+sid,D,5,Forward,yes,0,124.3513
+sid,D,5,Forward,yes,0,124.5466
+sid,D,5,Forward,yes,0,124.8289
+sid,D,5,Forward,yes,0,124.9327
+sid,D,5,Forward,yes,0,125.3715
+sid,D,5,Forward,yes,0,125.7732
+sid,D,5,Turns Right,N/A,0,125.9997
+sid,D,5,Forward,yes,0,126.323
+sid,D,5,Forward,yes,0,126.5374
+sid,T,6,Turns Left,N/A,0,129.0882
+sid,T,6,Turns Left,N/A,0,129.3941
+sid,T,6,Forward,yes,0,129.7089
+sid,T,6,Forward,yes,0,129.9051
+sid,T,6,Forward,yes,0,130.0948
+sid,T,6,Forward,yes,0,130.2835
+sid,T,6,Forward,yes,0,130.5026
+sid,T,6,Turns Right,N/A,0,130.8705
+sid,T,6,Forward,yes,0,131.144
+sid,T,6,Forward,yes,0,131.3553
+sid,T,6,Forward,yes,0,131.6108
+sid,T,6,Forward,yes,0,131.7478
+sid,T,6,Forward,yes,0,132.0365
+sid,T,6,Forward,yes,0,132.4218
+sid,T,6,Turns Right,N/A,0,132.7165
+sid,T,6,Forward,yes,0,133.0332
+sid,T,6,Forward,yes,0,133.3713
+sid,T,7,Turns Left,N/A,0,134.0762
+sid,T,7,Turns Left,N/A,0,134.5502
+sid,T,7,Forward,yes,0,134.7738
+sid,T,7,Turns Right,N/A,0,135.1194
+sid,T,7,Forward,yes,0,135.3758
+sid,T,7,Forward,yes,0,135.5932
+sid,T,7,Forward,yes,0,135.8804
+sid,T,7,Forward,yes,0,135.9671
+sid,T,7,Forward,yes,0,136.1371
+sid,T,7,Forward,yes,0,136.3198
+sid,T,7,Turns Right,N/A,0,136.8201
+sid,T,7,Forward,yes,0,137.1348
+sid,T,7,Forward,yes,0,137.3805
+sid,T,1,Turns Left,N/A,0,140.2216
+sid,T,1,Forward,yes,0,140.7275
+sid,T,1,Turns Right,N/A,0,141.0761
+sid,T,1,Forward,yes,0,141.3646
+sid,T,1,Forward,yes,0,141.5754
+sid,T,1,Turns Left,N/A,0,141.9551
+sid,T,1,Forward,yes,0,142.1914
+sid,T,1,Forward,yes,0,142.408
+sid,T,1,Turns Right,N/A,0,142.966
+sid,T,1,Turns Right,N/A,0,143.2104
+sid,T,1,Forward,yes,0,143.455
+sid,T,1,Forward,yes,0,143.7045
+sid,T,1,Turns Right,N/A,0,144.0332
+sid,T,1,Forward,yes,0,144.3192
+sid,T,1,Forward,yes,0,144.5485
+sid,T,1,Turns Left,N/A,0,144.8551
+sid,T,1,Forward,yes,0,145.141
+sid,T,1,Forward,yes,0,145.3421
+sid,T,1,Turns Left,N/A,0,145.653
+sid,T,1,Forward,yes,0,145.8991
+sid,T,1,Forward,yes,0,146.103
+sid,T,1,Turns Right,N/A,0,146.3962
+sid,T,1,Forward,yes,0,146.6414
+sid,T,1,Forward,yes,0,146.8714
+sid,T,1,Turns Left,N/A,0,147.1671
+sid,T,1,Forward,yes,0,147.4052
+sid,T,1,Forward,yes,0,147.6709
+sid,T,1,Forward,yes,0,147.7855
+sid,T,1,Forward,yes,0,147.96
+sid,T,1,Turns Left,N/A,0,148.2239
+sid,T,1,Forward,yes,0,148.4393
+sid,T,1,Forward,yes,0,148.6489
+sid,D,2,Turns Right,N/A,0,149.5914
+sid,D,2,Forward,yes,0,149.848
+sid,D,2,Turns Left,N/A,0,150.1341
+sid,D,2,Forward,yes,0,150.3748
+sid,D,2,Forward,yes,0,150.573
+sid,D,2,Turns Right,N/A,0,150.7777
+sid,D,2,Forward,yes,0,151.0001
+sid,D,2,Forward,yes,0,151.2279
+sid,D,2,Turns Left,N/A,0,151.4664
+sid,D,2,Forward,yes,0,151.7007
+sid,D,2,Forward,yes,0,151.8815
+sid,D,2,Forward,yes,0,152.0506
+sid,D,2,Forward,yes,0,152.4392
+sid,D,2,Turns Left,N/A,0,152.6564
+sid,D,2,Forward,yes,0,152.9173
+sid,D,2,Forward,yes,0,153.3557
+sid,D,3,Turns Right,N/A,0,154.3875
+sid,D,3,Forward,yes,0,154.7005
+sid,D,3,Turns Left,N/A,0,155.0781
+sid,D,3,Forward,yes,0,155.3209
+sid,D,3,Forward,yes,0,155.5313
+sid,D,3,Turns Right,N/A,0,155.8063
+sid,D,3,Forward,yes,0,156.0522
+sid,D,3,Forward,yes,0,156.5268
+sid,D,3,Turns Left,N/A,0,156.7505
+sid,D,3,Forward,yes,0,157.06
+sid,D,3,Forward,yes,0,157.2469
+sid,D,3,Forward,yes,0,157.4362
+sid,D,3,Forward,yes,0,157.7245
+sid,D,3,Turns Left,N/A,0,158.1363
+sid,D,3,Forward,yes,0,158.3969
+sid,D,3,Forward,yes,0,158.8187
+sid,D,4,Turns Right,N/A,0,159.3531
+sid,D,4,Forward,yes,0,159.6642
+sid,D,4,Turns Left,N/A,0,159.9502
+sid,D,4,Forward,yes,0,160.2116
+sid,D,4,Forward,yes,0,160.4183
+sid,D,4,Turns Right,N/A,0,160.7303
+sid,D,4,Forward,yes,0,160.972
+sid,D,4,Forward,yes,0,161.2176
+sid,D,4,Turns Left,N/A,0,161.4442
+sid,D,4,Forward,yes,0,161.7403
+sid,D,4,Forward,yes,0,162.0139
+sid,D,4,Forward,yes,0,162.3714
+sid,D,4,Forward,yes,0,162.765
+sid,D,4,Turns Left,N/A,0,163.0519
+sid,D,4,Forward,yes,0,163.2884
+sid,D,4,Forward,yes,0,163.6908
+sid,D,5,Turns Right,N/A,0,164.46
+sid,D,5,Forward,yes,0,164.7013
+sid,D,5,Turns Left,N/A,0,165.0405
+sid,D,5,Forward,yes,0,165.2809
+sid,D,5,Forward,yes,0,165.4863
+sid,D,5,Turns Right,N/A,0,165.7143
+sid,D,5,Forward,yes,0,165.9709
+sid,D,5,Forward,yes,0,166.1728
+sid,D,5,Turns Left,N/A,0,166.4065
+sid,D,5,Forward,yes,0,166.6911
+sid,D,5,Forward,yes,0,166.9828
+sid,D,5,Forward,yes,0,167.0474
+sid,D,5,Forward,yes,0,167.2168
+sid,D,5,Turns Left,N/A,0,167.6162
+sid,D,5,Forward,yes,0,167.831
+sid,D,5,Forward,yes,0,168.2511
+sid,T,6,Turns Left,N/A,0,179.6944
+sid,T,6,Turns Right,N/A,0,180.0893
+sid,T,6,Forward,yes,0,180.4262
+sid,T,6,Forward,yes,0,180.8908
+sid,T,6,Turns Left,N/A,0,181.1949
+sid,T,6,Turns Right,N/A,0,181.5812
+sid,T,6,Turns Right,N/A,0,182.1006
+sid,T,6,Forward,yes,0,182.34
+sid,T,6,Turns Right,N/A,0,182.7221
+sid,T,6,Forward,yes,0,183.0249
+sid,T,6,Forward,yes,0,183.3452
+sid,T,6,Turns Left,N/A,0,183.8689
+sid,T,6,Forward,yes,0,184.1689
+sid,T,6,Forward,yes,0,184.3732
+sid,T,6,Forward,yes,0,184.5526
+sid,T,6,Forward,yes,0,184.7425
+sid,T,6,Turns Left,N/A,0,185.0026
+sid,T,6,Forward,yes,0,185.2917
+sid,T,6,Forward,yes,0,185.4959
+sid,T,6,Turns Left,N/A,0,186.1234
+sid,T,6,Turns Right,N/A,0,186.6765
+sid,T,6,Forward,yes,0,186.9583
+sid,T,6,Turns Left,N/A,0,187.2767
+sid,T,6,Turns Left,N/A,0,187.6403
+sid,T,6,Forward,yes,0,187.8758
+sid,T,7,Turns Left,N/A,0,188.6022
+sid,T,7,Forward,yes,0,189.0818
+sid,T,7,Forward,yes,0,189.4668
+sid,T,7,Turns Right,N/A,0,189.8186
+sid,T,7,Forward,yes,0,190.1143
+sid,T,7,Turns Left,N/A,0,190.675
+sid,T,7,Turns Right,N/A,0,191.1937
+sid,T,7,Forward,yes,0,191.422
+sid,T,7,Turns Left,N/A,0,191.7011
+sid,T,7,Turns Left,N/A,0,192.5067
+sid,T,7,Turns Right,N/A,0,192.9688
+sid,T,7,Turns Left,N/A,0,193.4738
+sid,T,7,Forward,yes,0,193.674
+sid,T,7,Turns Right,N/A,0,194.0696
+sid,T,7,Turns Right,N/A,0,194.9348
+sid,T,7,Forward,yes,0,195.2006
+sid,T,7,Turns Left,N/A,0,195.4844
+sid,T,7,Turns Left,N/A,0,196.0671
+sid,T,7,Forward,yes,0,196.3419
+sid,T,7,Turns Left,N/A,0,196.7817
+sid,T,7,Turns Right,N/A,0,197.1844
+sid,T,7,Forward,yes,0,197.5047
+sid,T,7,Turns Left,N/A,0,197.9179
+sid,T,7,Forward,yes,0,198.1864
+sid,T,7,Turns Right,N/A,0,198.4528
+sid,T,7,Turns Right,N/A,0,198.9337
+sid,T,7,Turns Left,N/A,0,199.3432
+sid,T,7,Turns Right,N/A,0,199.8494
+sid,T,7,Forward,yes,0,200.1463
+sid,T,7,Turns Right,N/A,0,200.6217
+sid,T,7,Forward,yes,0,200.9167
+sid,T,7,Forward,yes,0,201.1706
+sid,T,7,Turns Left,N/A,0,201.3754
+sid,T,7,Forward,yes,0,201.7628
+sid,T,7,Forward,yes,0,201.9468
+sid,T,7,Forward,yes,0,202.2404
+sid,T,7,Forward,yes,0,202.407
+sid,T,7,Turns Left,N/A,0,202.8055
+sid,T,7,Forward,yes,0,203.2036
+sid,T,7,Forward,yes,0,203.5572
+sid,T,7,Forward,yes,0,204.4103
+sid,T,1,Turns Right,N/A,0,236.8331
+sid,T,1,Forward,yes,0,237.1467
+sid,T,1,Forward,yes,0,237.4044
+sid,T,1,Forward,yes,0,237.6115
+sid,T,1,Forward,yes,0,237.7959
+sid,T,1,Turns Left,N/A,0,238.065
+sid,T,1,Turns Left,N/A,0,238.3506
+sid,T,1,Forward,yes,0,238.5735
+sid,T,1,Turns Right,N/A,0,238.8853
+sid,T,1,Forward,yes,0,239.1426
+sid,T,1,Forward,yes,0,239.3592
+sid,T,1,Turns Right,N/A,0,239.7014
+sid,T,1,Forward,yes,0,239.9516
+sid,T,1,Forward,yes,0,240.1446
+sid,T,1,Turns Left,N/A,0,240.4124
+sid,T,1,Forward,yes,0,240.6643
+sid,T,1,Forward,yes,0,240.8752
+sid,T,1,Forward,yes,0,241.0318
+sid,T,1,Forward,yes,0,241.19
+sid,T,1,Turns Left,N/A,0,241.5462
+sid,T,1,Forward,yes,0,241.82
+sid,T,1,Forward,yes,0,242.0155
+sid,T,1,Turns Right,N/A,0,242.4838
+sid,T,1,Turns Right,N/A,0,242.7213
+sid,T,1,Forward,yes,0,243.0298
+sid,T,1,Forward,yes,0,243.2272
+sid,T,1,Turns Right,N/A,0,243.5339
+sid,T,1,Forward,yes,0,243.782
+sid,T,1,Forward,yes,0,243.9825
+sid,T,1,Forward,yes,0,244.1651
+sid,T,1,Forward,yes,0,244.3266
+sid,T,1,Turns Right,N/A,0,245.1474
+sid,T,1,Forward,yes,0,245.5618
+sid,T,1,Forward,yes,0,245.773
+sid,T,1,Turns Left,N/A,0,246.0122
+sid,T,1,Forward,yes,0,246.267
+sid,T,1,Forward,yes,0,246.4478
+sid,T,1,Turns Right,N/A,0,246.6983
+sid,T,1,Forward,yes,0,247.0046
+sid,T,1,Forward,yes,0,247.2072
+sid,T,1,Forward,yes,0,247.3932
+sid,T,1,Forward,yes,0,247.584
+sid,T,1,Turns Right,N/A,0,247.9081
+sid,T,1,Forward,yes,0,248.1314
+sid,T,1,Forward,yes,0,248.3707
+sid,T,1,Forward,yes,0,248.5281
+sid,T,1,Forward,yes,0,248.7068
+sid,T,1,Forward,yes,0,248.8808
+sid,T,1,Forward,yes,0,249.0569
+sid,T,1,Turns Right,N/A,0,249.932
+sid,T,1,Forward,yes,0,250.2786
+sid,T,1,Forward,yes,0,250.5616
+sid,D,2,Turns Left,N/A,0,251.2532
+sid,D,2,Forward,yes,0,251.485
+sid,D,2,Turns Right,N/A,0,252.8844
+sid,D,2,Forward,yes,0,253.2341
+sid,D,2,Forward,yes,0,253.4951
+sid,D,2,Forward,yes,0,253.673
+sid,D,2,Forward,yes,0,253.8805
+sid,D,2,Forward,yes,0,254.0595
+sid,D,2,Forward,yes,0,254.2439
+sid,D,2,Turns Right,N/A,0,254.5264
+sid,D,2,Forward,yes,0,254.792
+sid,D,2,Forward,yes,0,255.0839
+sid,D,3,Turns Left,N/A,0,255.6923
+sid,D,3,Forward,yes,0,255.9469
+sid,D,3,Turns Right,N/A,0,256.4193
+sid,D,3,Forward,yes,0,256.7606
+sid,D,3,Forward,yes,0,257.0175
+sid,D,3,Forward,yes,0,257.2086
+sid,D,3,Forward,yes,0,257.4075
+sid,D,3,Forward,yes,0,257.6164
+sid,D,3,Forward,yes,0,257.8616
+sid,D,3,Turns Right,N/A,0,258.1757
+sid,D,3,Forward,yes,0,258.6064
+sid,D,3,Forward,yes,0,258.8718
+sid,D,4,Turns Left,N/A,0,259.4998
+sid,D,4,Forward,yes,0,259.7633
+sid,D,4,Turns Right,N/A,0,260.1388
+sid,D,4,Forward,yes,0,260.9481
+sid,D,4,Forward,yes,0,261.1344
+sid,D,4,Forward,yes,0,261.3125
+sid,D,4,Forward,yes,0,261.4878
+sid,D,4,Forward,yes,0,261.7131
+sid,D,4,Forward,yes,0,261.8997
+sid,D,4,Turns Right,N/A,0,262.1792
+sid,D,4,Forward,yes,0,262.4653
+sid,D,4,Forward,yes,0,262.645
+sid,D,5,Turns Left,N/A,0,263.2583
+sid,D,5,Forward,yes,0,263.5284
+sid,D,5,Turns Right,N/A,0,263.9312
+sid,D,5,Forward,yes,0,265.1757
+sid,D,5,Forward,yes,0,265.4037
+sid,D,5,Forward,yes,0,265.6267
+sid,D,5,Forward,yes,0,265.8267
+sid,D,5,Forward,yes,0,266.0661
+sid,D,5,Forward,yes,0,266.423
+sid,D,5,Turns Right,N/A,0,266.7619
+sid,D,5,Forward,yes,0,267.0591
+sid,D,5,Forward,yes,0,267.4925
+sid,T,6,Turns Left,N/A,0,284.885
+sid,T,6,Turns Left,N/A,0,285.2436
+sid,T,6,Forward,yes,0,285.4598
+sid,T,6,Forward,yes,0,285.6612
+sid,T,6,Turns Right,N/A,0,285.9345
+sid,T,6,Forward,yes,0,286.1763
+sid,T,6,Forward,yes,0,286.3604
+sid,T,6,Forward,yes,0,286.5168
+sid,T,6,Forward,yes,0,286.6773
+sid,T,6,Forward,yes,0,286.8437
+sid,T,6,Forward,yes,0,287.2257
+sid,T,6,Turns Right,N/A,0,287.9727
+sid,T,6,Forward,yes,0,288.2962
+sid,T,6,Forward,yes,0,288.5261
+sid,T,7,Turns Left,N/A,0,289.0999
+sid,T,7,Turns Left,N/A,0,289.4015
+sid,T,7,Forward,yes,0,289.6664
+sid,T,7,Forward,yes,0,289.8562
+sid,T,7,Turns Right,N/A,0,290.0598
+sid,T,7,Forward,yes,0,290.3523
+sid,T,7,Forward,yes,0,290.5282
+sid,T,7,Forward,yes,0,290.6941
+sid,T,7,Forward,yes,0,290.8519
+sid,T,7,Forward,yes,0,291.0181
+sid,T,7,Forward,yes,0,291.1969
+sid,T,7,Turns Right,N/A,0,291.4772
+sid,T,7,Forward,yes,0,291.7625
+sid,T,7,Forward,yes,0,291.9337
+sid,T,1,Turns Left,N/A,0,294.0926
+sid,T,1,Forward,yes,0,294.3265
+sid,T,1,Forward,yes,0,294.5177
+sid,T,1,Turns Right,N/A,0,294.7253
+sid,T,1,Forward,yes,0,294.9713
+sid,T,1,Forward,yes,0,295.133
+sid,T,1,Turns Left,N/A,0,295.9246
+sid,T,1,Forward,yes,0,296.303
+sid,T,1,Forward,yes,0,296.4805
+sid,T,1,Turns Left,N/A,0,297.1494
+sid,T,1,Forward,yes,0,297.416
+sid,T,1,Forward,yes,0,297.5845
+sid,T,1,Turns Right,N/A,0,297.9156
+sid,T,1,Forward,yes,0,298.1827
+sid,T,1,Forward,yes,0,298.3707
+sid,T,1,Turns Right,N/A,0,298.7073
+sid,T,1,Forward,yes,0,298.9603
+sid,T,1,Turns Left,N/A,0,299.5215
+sid,T,1,Turns Left,N/A,0,299.8216
+sid,T,1,Forward,yes,0,300.0533
+sid,T,1,Turns Left,N/A,0,300.3807
+sid,T,1,Forward,yes,0,300.6095
+sid,T,1,Forward,yes,0,300.8696
+sid,T,1,Turns Left,N/A,0,301.0743
+sid,T,1,Forward,yes,0,301.3748
+sid,T,1,Forward,yes,0,301.5702
+sid,T,1,Turns Right,N/A,0,301.8495
+sid,T,1,Forward,yes,0,302.1238
+sid,T,1,Forward,yes,0,302.4041
+sid,T,1,Turns Right,N/A,0,303.0583
+sid,T,1,Forward,yes,0,303.3411
+sid,T,1,Forward,yes,0,303.917
+sid,T,1,Turns Left,N/A,0,304.1991
+sid,T,1,Forward,yes,0,310.5325
+sid,T,1,Turns Left,N/A,0,310.8546
+sid,T,1,Turns Right,N/A,0,311.2746
+sid,T,1,Forward,yes,0,311.5541
+sid,T,1,Turns Left,N/A,0,311.8067
+sid,T,1,Forward,yes,0,312.196
+sid,T,1,Forward,yes,0,312.4503
+sid,T,1,Forward,yes,0,312.7365
+sid,T,1,Forward,yes,0,313.0237
+sid,T,1,Forward,yes,0,313.3437
+sid,T,1,Forward,yes,0,313.8394
+sid,T,1,Turns Left,N/A,0,314.1944
+sid,T,1,Forward,yes,0,314.5314
+sid,T,1,Forward,yes,0,314.8115
+sid,T,1,Turns Right,N/A,0,315.1621
+sid,T,1,Turns Right,N/A,0,315.3964
+sid,T,1,Forward,yes,0,315.7627
+sid,T,1,Forward,yes,0,315.9645
+sid,T,1,Turns Right,N/A,0,316.2164
+sid,T,1,Forward,yes,0,316.5453
+sid,T,1,Forward,yes,0,316.8154
+sid,T,1,Turns Right,N/A,0,317.0845
+sid,T,1,Forward,yes,0,317.3741
+sid,T,1,Forward,yes,0,317.5751
+sid,T,1,Forward,yes,0,317.7672
+sid,T,1,Forward,yes,0,317.9897
+sid,T,1,Turns Right,N/A,0,318.5119
+sid,T,1,Forward,yes,0,318.8414
+sid,T,1,Forward,yes,0,319.3033

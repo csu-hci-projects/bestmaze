@@ -1,0 +1,9 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+newtest3,P,1,Forward,yes,0,17.66589,egocentric
+newtest3,P,1,Forward,yes,0,33.03197,egocentric
+newtest3,P,1,Turns Right,N/A,0,33.43156,egocentric
+newtest3,P,1,Forward,yes,0,33.86607,egocentric
+newtest3,T,2,Forward,yes,37,65.24538,egocentric
+newtest3,T,2,Turns Right,N/A,37,65.59328,egocentric
+newtest3,T,2,Forward,yes,37,68.83829,egocentric
+newtest3,P,1,Forward,yes,0,22.87369,egocentric

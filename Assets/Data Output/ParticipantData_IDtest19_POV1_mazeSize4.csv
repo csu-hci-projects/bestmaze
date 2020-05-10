@@ -1,0 +1,13 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+test19,P,1,Turns Right,N/A,0,10.27394,practice
+test19,P,1,Forward,no,0,10.76266,practice
+test19,P,1,Forward,no,0,28.78986,practice
+test19,P,1,Turns Left,N/A,0,30.68385,practice
+test19,P,1,Turns Left,N/A,0,31.24439,practice
+test19,P,1,Forward,no,0,34.15206,practice
+test19,P,1,Forward,no,0,44.0304,practice
+test19,P,1,Turns Right,N/A,0,44.88881,practice
+test19,P,1,Turns Right,N/A,0,45.16681,practice
+test19,P,1,Forward,no,0,45.5593,practice
+test19,P,1,Forward,no,0,46.14703,practice
+test19,P,1,Turns Left,N/A,0,47.56676,practice

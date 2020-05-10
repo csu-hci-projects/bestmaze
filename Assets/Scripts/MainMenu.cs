@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
 
     public void DisplayConsent()
     {
-        trialType = "D";
+        trialType = "P";
         SceneManager.LoadScene("Consent");
     }
 

@@ -31,9 +31,15 @@ public class Spawner : MonoBehaviour
     public static ArrayList mazeRaw;
     public static Quaternion playerRotation;
     public static ArrayList mazeCopy;
-    public static GameObject PracticeAlert;
-    public static GameObject TestAlert;
+    public static GameObject ExperimentIntro;
+    public static GameObject PracticeIntro;
     public static GameObject Survey;
+    public static GameObject LearningVictory;
+    public static GameObject TestIntro1;
+    public static GameObject TestIntro2;
+    public static GameObject EndSection;
+    public static string currentAudioType;
+    public static string[] audioTypes;
 
     void Start()
     {
@@ -44,30 +50,82 @@ public class Spawner : MonoBehaviour
         playerStart = new Vector3(1f, 0.7f, 1f);
         SpawnPlatform(worldSize, mazeRaw);
         SpawnPlayer();
-        mazeCopy = mazeRaw;
+        //mazeCopy = mazeRaw;
+        mazeCopy = new ArrayList();
+        for (int i = 0; i < mazeRaw.Count; i++)
+        {
+            mazeCopy.Add(mazeRaw[i].ToString());
+        }
         SpawnFences(mazeRaw);
         audioCueBank = new List<int>();
         audioCueBank.Clear();
         attemptNumber = 1;
+        audioTypes = new string[] {"practice", "egocentric", "allocentric", "none"};
+        currentAudioType = audioTypes[AudioCue.perspective];
         Survey = GameObject.Find("Survey");
         Survey.SetActive(false);
-        TestAlert = GameObject.Find("TestIntro");
-        TestAlert.SetActive(false);
-        PracticeAlert = GameObject.Find("PracticeIntro");
-}
+        ExperimentIntro = GameObject.Find("ExperimentIntro");
+        ExperimentIntro.SetActive(false);
+        LearningVictory = GameObject.Find("LearningVictory");
+        LearningVictory.SetActive(false);
+        TestIntro1 = GameObject.Find("TestIntro1");
+        TestIntro1.SetActive(false);
+        TestIntro2 = GameObject.Find("TestIntro2");
+        TestIntro2.SetActive(false);
+        EndSection = GameObject.Find("EndSection");
+        EndSection.SetActive(false);
+        PracticeIntro = GameObject.Find("PracticeIntro");
+        PracticeIntro.SetActive(false);
+        if (AudioCue.perspective == 0)
+        {
+            PracticeIntro.SetActive(true);
+        }
+        if (AudioCue.perspective == 1)
+        {
+            ExperimentIntro.SetActive(true);
+        }
+    }
     void Update()
     {
         if (Input.GetKey(KeyCode.Escape))
             SceneManager.LoadScene("Menu");
     }
 
-    public void hidePracticePanel()
+    public void hidePracticeIntro()
     {
-        PracticeAlert.SetActive(false);
+        PracticeIntro.SetActive(false);
     }
-    public void hideTestPanel()
+    public void hideExperimentIntro()
     {
-        TestAlert.SetActive(false);
+        ExperimentIntro.SetActive(false);
+    }
+    public void hideLearningVictory()
+    {
+        LearningVictory.SetActive(false);
+    }
+    public void hideTestIntro1()
+    {
+        TestIntro1.SetActive(false);
+    }
+    public void hideTestIntro2()
+    {
+        TestIntro2.SetActive(false);
+    }
+    public void hideEndSection()
+    {
+        EndSection.SetActive(false);
+        if (AudioCue.perspective < 4)
+        {
+            MainMenu.trialType = "D";
+            Spawner.attemptNumber = 1;
+            //regenerate maze
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        else
+        {
+            SceneManager.LoadScene("Survey");
+        }
+
     }
 
     void CreateCSV()
@@ -75,7 +133,7 @@ public class Spawner : MonoBehaviour
         if (!System.IO.File.Exists(Application.dataPath + path))
         {
             StreamWriter sw = new StreamWriter(Application.dataPath + path, true);
-            sw.WriteLine("ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,Gender,VideoGame");
+            sw.WriteLine("ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame");
             sw.Close();
         }
     }

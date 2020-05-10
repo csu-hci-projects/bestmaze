@@ -1,0 +1,99 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+siddddd,P,1,Turns Left,N/A,0,31.25842,practice
+siddddd,P,1,Forward,yes,0,31.82186,practice
+siddddd,P,1,Turns Right,N/A,0,32.19532,practice
+siddddd,P,1,Turns Right,N/A,0,32.54488,practice
+siddddd,P,1,Forward,yes,0,32.87827,practice
+siddddd,P,1,Turns Left,N/A,0,33.17232,practice
+siddddd,P,1,Forward,no,0,33.49945,practice
+siddddd,P,1,Forward,no,35,34.01921,practice
+siddddd,D,1,Forward,yes,0,37.27676,egocentric
+siddddd,D,1,Forward,no,11,37.80967,egocentric
+siddddd,D,2,Forward,no,20,40.20928,egocentric
+siddddd,D,2,Forward,no,49,40.59723,egocentric
+siddddd,D,3,Forward,yes,3,42.44892,egocentric
+siddddd,D,3,Forward,yes,55,42.95786,egocentric
+siddddd,T,4,Turns Left,N/A,54,47.24664,egocentric
+siddddd,T,4,Forward,yes,54,47.5394,egocentric
+siddddd,T,4,Turns Right,N/A,59,47.94194,egocentric
+siddddd,T,4,Forward,no,59,48.32724,egocentric
+siddddd,T,4,Forward,no,51,48.69584,egocentric
+siddddd,T,5,Turns Left,N/A,23,51.28539,egocentric
+siddddd,T,5,Forward,no,23,51.60035,egocentric
+siddddd,T,5,Turns Right,N/A,29,52.05222,egocentric
+siddddd,T,5,Forward,no,29,54.59993,egocentric
+siddddd,T,5,Forward,no,22,55.07543,egocentric
+siddddd,D,1,Turns Right,N/A,0,57.4258,allocentric
+siddddd,D,1,Forward,no,0,57.76155,allocentric
+siddddd,D,1,Forward,no,0,58.13605,allocentric
+siddddd,D,1,Turns Left,N/A,0,58.394,allocentric
+siddddd,D,1,Forward,no,0,58.76208,allocentric
+siddddd,D,1,Forward,no,0,59.16684,allocentric
+siddddd,D,1,Turns Left,N/A,0,59.51369,allocentric
+siddddd,D,1,Forward,no,0,59.98738,allocentric
+siddddd,D,2,Turns Right,N/A,0,61.63048,allocentric
+siddddd,D,2,Forward,yes,0,61.91645,allocentric
+siddddd,D,2,Forward,yes,0,62.21293,allocentric
+siddddd,D,2,Turns Left,N/A,0,62.46213,allocentric
+siddddd,D,2,Forward,yes,0,62.75435,allocentric
+siddddd,D,2,Forward,no,0,63.06419,allocentric
+siddddd,D,2,Turns Left,N/A,0,63.34805,allocentric
+siddddd,D,2,Forward,no,0,63.62532,allocentric
+siddddd,D,3,Turns Right,N/A,0,64.69958,allocentric
+siddddd,D,3,Forward,yes,0,64.9797,allocentric
+siddddd,D,3,Forward,yes,0,65.28489,allocentric
+siddddd,D,3,Turns Left,N/A,0,65.49693,allocentric
+siddddd,D,3,Forward,yes,0,65.76201,allocentric
+siddddd,D,3,Forward,no,0,66.04974,allocentric
+siddddd,D,3,Turns Left,N/A,0,66.40434,allocentric
+siddddd,D,3,Forward,yes,0,66.74277,allocentric
+siddddd,T,4,Turns Right,N/A,0,68.89288,allocentric
+siddddd,T,4,Forward,yes,0,69.1935,allocentric
+siddddd,T,4,Forward,yes,0,69.46832,allocentric
+siddddd,T,4,Turns Left,N/A,0,69.73193,allocentric
+siddddd,T,4,Forward,no,0,69.99107,allocentric
+siddddd,T,5,Turns Right,N/A,0,71.2835,allocentric
+siddddd,T,5,Forward,no,0,71.58832,allocentric
+siddddd,T,5,Turns Left,N/A,0,72.08558,allocentric
+siddddd,T,5,Forward,no,0,72.40952,allocentric
+siddddd,D,1,Turns Left,N/A,0,73.74452,none
+siddddd,D,1,Turns Right,N/A,0,74.06884,none
+siddddd,D,1,Turns Right,N/A,0,74.41116,none
+siddddd,D,1,Forward,no,0,74.69764,none
+siddddd,D,1,Forward,no,0,74.90005,none
+siddddd,D,1,Turns Left,N/A,0,75.49828,none
+siddddd,D,1,Forward,no,0,75.8166,none
+siddddd,D,1,Forward,no,0,76.00414,none
+siddddd,D,1,Turns Left,N/A,0,76.37642,none
+siddddd,D,1,Forward,no,0,76.58193,none
+siddddd,D,2,Turns Right,N/A,0,77.97665,none
+siddddd,D,2,Forward,yes,0,78.46382,none
+siddddd,D,2,Forward,yes,0,78.66376,none
+siddddd,D,2,Turns Left,N/A,0,78.93464,none
+siddddd,D,2,Forward,yes,0,79.18265,none
+siddddd,D,2,Forward,yes,0,79.34779,none
+siddddd,D,2,Turns Left,N/A,0,79.66799,none
+siddddd,D,2,Forward,no,0,79.90623,none
+siddddd,D,3,Turns Right,N/A,0,80.99895,none
+siddddd,D,3,Forward,yes,0,81.27583,none
+siddddd,D,3,Forward,yes,0,81.44346,none
+siddddd,D,3,Turns Left,N/A,0,81.76389,none
+siddddd,D,3,Forward,no,0,82.0096,none
+siddddd,D,3,Forward,no,0,82.2021,none
+siddddd,D,3,Turns Left,N/A,0,82.57452,none
+siddddd,D,3,Turns Right,N/A,0,83.20398,none
+siddddd,D,3,Turns Left,N/A,0,83.98629,none
+siddddd,D,3,Forward,no,0,84.77322,none
+siddddd,D,3,Turns Right,N/A,0,85.23753,none
+siddddd,D,3,Turns Right,N/A,0,85.76125,none
+siddddd,D,3,Forward,no,0,87.15587,none
+siddddd,D,3,Turns Left,N/A,0,88.08415,none
+siddddd,D,3,Turns Left,N/A,0,88.50932,none
+siddddd,D,3,Forward,no,0,88.86898,none
+siddddd,D,3,Forward,no,0,89.33155,none
+siddddd,D,3,Turns Right,N/A,0,89.58026,none
+siddddd,D,3,Turns Right,N/A,0,90.06725,none
+siddddd,D,3,Forward,yes,0,90.52313,none
+siddddd,D,3,Forward,no,0,91.20302,none
+siddddd,T,4,Forward,yes,0,91.43183,none
+siddddd,T,4,Turns Left,N/A,0,93.26131,none

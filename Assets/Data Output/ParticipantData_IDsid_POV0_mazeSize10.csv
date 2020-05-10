@@ -1,0 +1,70 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+sid,P,1,Turns Left,N/A,0,12.58249,practice
+sid,P,1,Forward,no,0,12.86342,practice
+sid,P,1,Turns Right,N/A,0,13.15605,practice
+sid,P,1,Forward,no,0,13.56218,practice
+sid,P,1,Forward,no,0,13.9567,practice
+sid,P,1,Turns Left,N/A,0,14.19375,practice
+sid,P,1,Forward,no,0,14.53634,practice
+sid,P,1,Forward,no,0,14.91825,practice
+sid,P,1,Turns Right,N/A,0,15.15611,practice
+sid,P,1,Forward,no,0,15.54944,practice
+sid,P,1,Forward,no,0,15.92859,practice
+sid,P,1,Turns Right,N/A,0,16.14938,practice
+sid,P,1,Forward,yes,0,25.03487,practice
+sid,P,1,Forward,yes,0,25.36303,practice
+sid,P,1,Forward,yes,0,25.77553,practice
+sid,P,1,Forward,yes,0,26.2261,practice
+sid,P,1,Turns Left,N/A,0,26.49167,practice
+sid,P,1,Forward,no,0,26.83042,practice
+sid,P,1,Forward,no,0,27.19159,practice
+sid,P,1,Turns Right,N/A,0,27.41325,practice
+sid,P,1,Forward,yes,0,27.80382,practice
+sid,P,1,Forward,yes,0,28.15597,practice
+sid,P,1,Turns Left,N/A,0,28.42527,practice
+sid,P,1,Forward,no,0,28.83377,practice
+sid,P,1,Forward,no,0,29.32123,practice
+sid,P,1,Turns Left,N/A,0,29.63331,practice
+sid,P,1,Forward,yes,0,30.14449,practice
+sid,P,1,Forward,yes,0,30.69665,practice
+sid,P,1,Forward,yes,0,31.13096,practice
+sid,P,1,Forward,yes,0,31.53643,practice
+sid,P,1,Forward,yes,0,31.95364,practice
+sid,P,1,Forward,yes,0,32.43302,practice
+sid,P,1,Forward,yes,0,32.88311,practice
+sid,P,1,Forward,yes,0,44.21988,practice
+sid,D,1,Forward,no,0,50.32244,egocentric
+sid,D,1,Forward,yes,0,63.1501,egocentric
+sid,D,1,Turns Right,N/A,0,63.45194,egocentric
+sid,D,1,Turns Right,N/A,0,64.01952,egocentric
+sid,D,1,Forward,no,0,64.36608,egocentric
+sid,D,1,Forward,no,0,64.73154,egocentric
+sid,D,1,Turns Left,N/A,0,64.96314,egocentric
+sid,D,1,Forward,no,0,65.2821,egocentric
+sid,D,1,Forward,yes,0,65.57952,egocentric
+sid,D,1,Turns Left,N/A,0,67.30711,egocentric
+sid,D,1,Turns Left,N/A,0,67.59965,egocentric
+sid,D,1,Forward,yes,0,67.89605,egocentric
+sid,D,1,Forward,no,0,68.12522,egocentric
+sid,D,1,Turns Right,N/A,0,68.35951,egocentric
+sid,D,1,Forward,no,0,68.66309,egocentric
+sid,D,1,Forward,yes,0,68.86707,egocentric
+sid,D,1,Turns Right,N/A,0,69.10649,egocentric
+sid,D,1,Forward,no,0,69.4044,egocentric
+sid,D,1,Forward,yes,0,69.59915,egocentric
+sid,D,1,Forward,yes,0,69.78652,egocentric
+sid,D,1,Forward,yes,0,69.98499,egocentric
+sid,D,1,Forward,yes,0,70.18029,egocentric
+sid,D,1,Forward,yes,0,70.38369,egocentric
+sid,D,1,Turns Right,N/A,0,70.59549,egocentric
+sid,D,1,Forward,yes,0,70.87854,egocentric
+sid,D,1,Forward,yes,0,71.11795,egocentric
+sid,D,1,Turns Left,N/A,0,71.3527,egocentric
+sid,D,1,Forward,yes,0,71.62386,egocentric
+sid,D,1,Turns Right,N/A,0,71.97935,egocentric
+sid,D,1,Turns Right,N/A,0,73.71358,egocentric
+sid,D,1,Turns Right,N/A,0,74.03607,egocentric
+sid,D,1,Turns Left,N/A,0,74.37734,egocentric
+sid,D,1,Forward,no,0,74.59664,egocentric
+sid,D,1,Forward,yes,0,74.78319,egocentric
+sid,D,1,Forward,yes,0,75.22156,egocentric
