@@ -1,0 +1,67 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+exampleParticipant,P,1,Forward,no,0,27.5425,practice
+exampleParticipant,P,1,Turns Left,N/A,0,27.97618,practice
+exampleParticipant,P,1,Forward,no,0,28.15378,practice
+exampleParticipant,P,1,Forward,no,0,29.21073,practice
+exampleParticipant,P,1,Turns Right,N/A,0,29.7898,practice
+exampleParticipant,P,1,Forward,no,0,29.8286,practice
+exampleParticipant,P,1,Forward,no,0,30.99529,practice
+exampleParticipant,P,1,Forward,no,0,31.58533,practice
+exampleParticipant,P,1,Turns Right,N/A,0,31.69141,practice
+exampleParticipant,P,1,Forward,no,0,32.75761,practice
+exampleParticipant,P,1,Forward,no,0,33.41908,practice
+exampleParticipant,P,1,Forward,no,0,34.05962,practice
+exampleParticipant,P,1,Forward,no,0,34.5597,practice
+exampleParticipant,P,1,Forward,no,0,35.25595,practice
+exampleParticipant,P,1,Forward,no,0,35.81824,practice
+exampleParticipant,P,1,Turns Left,N/A,0,35.92379,practice
+exampleParticipant,P,1,Forward,no,0,36.87734,practice
+exampleParticipant,P,1,Turns Left,N/A,0,37.32675,practice
+exampleParticipant,P,1,Forward,no,0,37.42604,practice
+exampleParticipant,P,1,Forward,no,0,38.29326,practice
+exampleParticipant,P,1,Turns Right,N/A,0,39.0243,practice
+exampleParticipant,P,1,Forward,no,0,39.22593,practice
+exampleParticipant,P,1,Forward,no,0,40.12491,practice
+exampleParticipant,P,1,Turns Left,N/A,0,40.48315,practice
+exampleParticipant,P,1,Forward,no,0,40.57329,practice
+exampleParticipant,P,1,Turns Left,N/A,0,41.37868,practice
+exampleParticipant,P,1,Forward,yes,0,42.30857,practice
+exampleParticipant,P,1,Forward,yes,0,43.02543,practice
+exampleParticipant,P,1,Turns Left,N/A,0,43.09238,practice
+exampleParticipant,P,1,Forward,yes,0,43.99326,practice
+exampleParticipant,P,1,Forward,yes,0,44.64653,practice
+exampleParticipant,P,1,Turns Right,N/A,0,44.80837,practice
+exampleParticipant,P,1,Forward,yes,0,46.0071,practice
+exampleParticipant,P,1,Forward,yes,0,46.64531,practice
+exampleParticipant,P,1,Turns Right,N/A,0,46.82318,practice
+exampleParticipant,P,1,Forward,yes,0,47.94629,practice
+exampleParticipant,P,1,Turns Left,N/A,0,48.08702,practice
+exampleParticipant,P,1,Turns Left,N/A,0,48.71624,practice
+exampleParticipant,P,1,Forward,no,0,49.62789,practice
+exampleParticipant,P,1,Turns Left,N/A,0,49.69479,practice
+exampleParticipant,P,1,Forward,no,0,50.59395,practice
+exampleParticipant,P,1,Forward,no,0,51.17512,practice
+exampleParticipant,P,1,Forward,yes,0,51.63469,practice
+exampleParticipant,P,1,Forward,yes,0,52.3961,practice
+exampleParticipant,P,1,Turns Right,N/A,0,52.50592,practice
+exampleParticipant,P,1,Turns Right,N/A,0,52.97355,practice
+exampleParticipant,P,1,Forward,no,0,53.97892,practice
+exampleParticipant,P,1,Forward,no,0,54.39701,practice
+exampleParticipant,P,1,Forward,yes,0,55.10188,practice
+exampleParticipant,P,1,Forward,yes,0,55.56831,practice
+exampleParticipant,P,1,Turns Right,N/A,0,55.59924,practice
+exampleParticipant,P,1,Forward,yes,0,56.62024,practice
+exampleParticipant,P,1,Forward,yes,0,56.9737,practice
+exampleParticipant,P,1,Forward,yes,0,57.45543,practice
+exampleParticipant,P,1,Forward,yes,0,57.79362,practice
+exampleParticipant,P,1,Forward,yes,0,58.22771,practice
+exampleParticipant,P,1,Turns Left,N/A,0,58.78765,practice
+exampleParticipant,P,1,Forward,yes,0,58.85697,practice
+exampleParticipant,P,1,Turns Left,N/A,0,59.26081,practice
+exampleParticipant,P,1,Forward,no,0,60.2965,practice
+exampleParticipant,P,1,Turns Right,N/A,0,60.56303,practice
+exampleParticipant,P,1,Turns Right,N/A,0,61.04068,practice
+exampleParticipant,P,1,Turns Left,N/A,0,61.44854,practice
+exampleParticipant,P,1,Turns Left,N/A,0,61.91031,practice
+exampleParticipant,P,1,Forward,no,0,62.78825,practice
+exampleParticipant,P,1,Forward,no,0,63.30266,practice
