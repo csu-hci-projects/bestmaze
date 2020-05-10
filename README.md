@@ -21,3 +21,4 @@ The following project aims to create a Unity program that creates randomly gener
 2. Make sure that the Menu scene is selected from the Scenes folder
 3. Make sure "Maximize on Play" is highlighted and "Mute Audio," "Stats," and "Gizmos" are all unhighlighted.
 4. Press the play button at the middle of the top of the window
+5. After an experimental trial is complete, data will be available in a .csv file in "Assets/Data Output"
