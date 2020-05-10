@@ -13,7 +13,7 @@ public class Spawner : MonoBehaviour
     public GameObject fence;
     public GameObject player;
     public GameObject cam;
-    public new GameObject light;
+    public GameObject lights;
     public static float worldSize = (int)MainMenu.mazeSize;
     public Vector3 platformSize; 
     public Vector3 playerStart;
@@ -159,7 +159,7 @@ public class Spawner : MonoBehaviour
     void SpawnPlayer()
     {   
         playr = Instantiate(player, playerStart, Quaternion.identity);
-        GameObject lighting = Instantiate(light, new Vector3(1f, 0.7f, 1f), Quaternion.identity);
+        GameObject lighting = Instantiate(lights, new Vector3(1f, 0.7f, 1f), Quaternion.identity);
         lighting.transform.SetParent(playr.transform);
 
         

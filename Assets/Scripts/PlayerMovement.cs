@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
 
             
 
-        Debug.Log("x: " + (int)Mathf.Round(GameObject.Find("Player(Clone)").transform.position.x) + ", z: " + (int)Mathf.Round(GameObject.Find("Player(Clone)").transform.position.z));
+        //Debug.Log("x: " + (int)Mathf.Round(GameObject.Find("Player(Clone)").transform.position.x) + ", z: " + (int)Mathf.Round(GameObject.Find("Player(Clone)").transform.position.z));
 
         if (MazeGen.mazeRaw[(int)Mathf.Round(GameObject.Find("Player(Clone)").transform.position.x)].ToString()[(int)Mathf.Round(GameObject.Find("Player(Clone)").transform.position.z)] == ' ')
         {
