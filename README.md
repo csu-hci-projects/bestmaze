@@ -20,6 +20,7 @@ The following project aims to create a Unity program that creates randomly gener
 
 ### How to Run
 *Make sure not to reuse participant IDs. Remind participants not to input key presses too rapidly. If you ever want to get back to the main menu, press "esc" or just restart the game.*
+
 *If an error "SerializedObject Target has been destroyed" begins appearing at the bottom left of the game screen, the Unity Editor needs to be restarted. The game will sometimes appear very laggy when this error is happening. This is an error with the Unity Editor.*
 
 1. Open the project in the Unity Editor
