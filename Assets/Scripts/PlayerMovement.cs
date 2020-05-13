@@ -113,7 +113,8 @@ public class PlayerMovement : MonoBehaviour
                 str[(int)Mathf.Round(GameObject.Find("Player(Clone)").transform.position.z)] = ' ';
                 MazeGen.mazeRaw[(int)Mathf.Round(GameObject.Find("Player(Clone)").transform.position.x)] = str;
 
-                StartCoroutine("Forward");
+                //StartCoroutine("Forward");
+                StartCoroutine(SmoothLerp(0.2f));
             }
 
             lastTime = Time.time;
@@ -165,13 +166,34 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    
-    public IEnumerator Forward()
+
+    //public IEnumerator Forward()
+    //{
+    //    moved = true;
+    //    for (int i = 0; i < 25; i++)
+    //    {
+    //        transform.Translate(Vector3.forward * 0.04f);
+    //        yield return null;
+    //    }
+    //    check();
+    //}
+
+    public IEnumerator SmoothLerp(float t)
     {
+
         moved = true;
-        for (int i = 0; i < 25; i++)
+        //for (int i = 0; i < 25; i++)
+        //{
+        //    transform.Translate(Vector3.forward * 0.04f);
+        //    yield return null;
+        //}
+        Vector3 startingPos = transform.position;
+        Vector3 finalPos = transform.position + transform.forward;
+        float elapsed = 0;
+        while(elapsed < t)
         {
-            transform.Translate(Vector3.forward * 0.04f);
+            transform.position = Vector3.Lerp(startingPos, finalPos, (elapsed / t));
+            elapsed += Time.deltaTime;
             yield return null;
         }
         check();

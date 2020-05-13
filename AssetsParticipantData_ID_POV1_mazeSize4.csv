@@ -27,3 +27,8 @@ ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioTy
 ,P,1,Turns Left,N/A,0,10.68752,practice
 ,P,1,Forward,yes,0,11.10762,practice
 ,P,1,Forward,yes,0,11.3342,practice
+,P,1,Turns Left,N/A,35,14.74446,practice
+,P,1,Forward,no,35,15.88174,practice
+,P,1,Forward,no,35,16.74601,practice
+,P,1,Turns Right,N/A,35,16.96531,practice
+,P,1,Forward,no,35,17.78495,practice
