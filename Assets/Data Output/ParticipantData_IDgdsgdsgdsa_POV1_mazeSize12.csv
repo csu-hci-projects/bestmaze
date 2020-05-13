@@ -1,0 +1,39 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+gdsgdsgdsa,P,1,Turns Right,N/A,0,110.2096,practice
+gdsgdsgdsa,P,1,Forward,no,0,111.0246,practice
+gdsgdsgdsa,P,1,Turns Left,N/A,0,111.1184,practice
+gdsgdsgdsa,P,1,Forward,no,0,111.9129,practice
+gdsgdsgdsa,P,1,Forward,no,0,112.4096,practice
+gdsgdsgdsa,P,1,Turns Right,N/A,0,112.5017,practice
+gdsgdsgdsa,P,1,Forward,no,0,113.3449,practice
+gdsgdsgdsa,P,1,Turns Left,N/A,0,113.7954,practice
+gdsgdsgdsa,P,1,Forward,no,0,113.878,practice
+gdsgdsgdsa,P,1,Forward,no,0,114.6932,practice
+gdsgdsgdsa,P,1,Turns Left,N/A,0,115.0737,practice
+gdsgdsgdsa,P,1,Forward,no,0,115.2206,practice
+gdsgdsgdsa,P,1,Forward,no,0,116.0991,practice
+gdsgdsgdsa,P,1,Forward,no,0,116.6885,practice
+gdsgdsgdsa,P,1,Forward,no,0,117.2416,practice
+gdsgdsgdsa,P,1,Forward,no,0,117.7625,practice
+gdsgdsgdsa,P,1,Turns Right,N/A,0,118.3596,practice
+gdsgdsgdsa,P,1,Forward,no,0,119.4966,practice
+gdsgdsgdsa,P,1,Turns Right,N/A,0,119.5486,practice
+gdsgdsgdsa,P,1,Turns Right,N/A,0,119.9897,practice
+gdsgdsgdsa,P,1,Forward,yes,0,121.0746,practice
+gdsgdsgdsa,P,1,Turns Left,N/A,0,121.2554,practice
+gdsgdsgdsa,P,1,Forward,yes,0,122.109,practice
+gdsgdsgdsa,P,1,Turns Right,N/A,0,122.5225,practice
+gdsgdsgdsa,P,1,Turns Right,N/A,0,123.1797,practice
+gdsgdsgdsa,P,1,Turns Right,N/A,0,151.5224,practice
+gdsgdsgdsa,P,1,Forward,no,0,151.5224,practice
+gdsgdsgdsa,P,1,Forward,no,0,152.3547,practice
+gdsgdsgdsa,P,1,Forward,no,0,153.3723,practice
+gdsgdsgdsa,P,1,Forward,yes,21,154.1208,practice
+gdsgdsgdsa,P,1,Turns Left,N/A,21,154.4708,practice
+gdsgdsgdsa,P,1,Forward,yes,21,154.5504,practice
+gdsgdsgdsa,P,1,Forward,no,21,157.3859,practice
+gdsgdsgdsa,P,1,Turns Left,N/A,21,157.7038,practice
+gdsgdsgdsa,P,1,Turns Left,N/A,21,158.1662,practice
+gdsgdsgdsa,P,1,Forward,yes,21,158.9262,practice
+gdsgdsgdsa,P,1,Turns Right,N/A,21,159.0385,practice
+gdsgdsgdsa,P,1,Turns Right,N/A,21,159.451,practice
