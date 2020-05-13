@@ -1,0 +1,58 @@
+ParticipantID,DataType,AttemptNumber,Movement,Error,AudioCue,Time,CurrentAudioType,Gender,VideoGame
+,P,1,Forward,no,0,11.30598,practice
+,P,1,Forward,no,0,11.58887,practice
+,P,1,Turns Left,N/A,0,11.77522,practice
+,P,1,Turns Left,N/A,0,12.09571,practice
+,P,1,Turns Left,N/A,0,12.402,practice
+,P,1,Turns Right,N/A,0,12.72791,practice
+,P,1,Turns Right,N/A,0,13.00955,practice
+,P,1,Turns Left,N/A,0,13.32717,practice
+,P,1,Turns Right,N/A,0,7.463787,practice
+,P,1,Forward,yes,0,7.949378,practice
+,P,1,Turns Left,N/A,0,8.124846,practice
+,P,1,Turns Left,N/A,0,8.42209,practice
+,P,1,Forward,no,0,8.798152,practice
+,P,1,Turns Right,N/A,0,9.071902,practice
+,P,1,Turns Right,N/A,0,9.357223,practice
+,P,1,Forward,yes,0,9.942301,practice
+,P,1,Turns Left,N/A,0,10.13475,practice
+,P,1,Turns Left,N/A,0,10.39809,practice
+,P,1,Forward,no,0,10.77629,practice
+,P,1,Turns Right,N/A,0,10.89002,practice
+,P,1,Turns Right,N/A,0,11.16768,practice
+,P,1,Forward,yes,0,11.53471,practice
+,P,1,Turns Left,N/A,34,12.05985,practice
+,P,1,Forward,yes,34,12.0842,practice
+,P,1,Turns Left,N/A,34,12.63776,practice
+,P,1,Forward,no,34,13.04135,practice
+,P,1,Forward,no,34,13.41339,practice
+,P,1,Turns Right,N/A,34,13.57519,practice
+,P,1,Turns Right,N/A,0,9.90733,practice
+,P,1,Forward,no,0,10.49648,practice
+,P,1,Turns Left,N/A,0,10.63014,practice
+,P,1,Forward,no,0,11.03119,practice
+,P,1,Forward,no,0,11.27637,practice
+,P,1,Turns Left,N/A,0,11.40571,practice
+,D,1,Turns Right,N/A,39,13.45675,egocentric
+,D,1,Forward,no,39,13.83317,egocentric
+,D,1,Turns Left,N/A,39,14.01155,egocentric
+,D,1,Forward,no,39,14.39599,egocentric
+,D,1,Forward,no,39,14.61919,egocentric
+,D,1,Turns Left,N/A,39,14.76251,egocentric
+,T,2,Turns Left,N/A,0,16.2979,egocentric
+,T,2,Turns Left,N/A,0,16.61683,egocentric
+,T,2,Turns Left,N/A,0,16.83616,egocentric
+,T,2,Turns Right,N/A,0,17.16216,egocentric
+,T,2,Forward,yes,25,17.66289,egocentric
+,T,2,Forward,yes,25,17.7513,egocentric
+,T,2,Turns Left,N/A,25,17.87391,egocentric
+,T,2,Forward,no,25,18.24697,egocentric
+,T,2,Forward,no,25,18.48598,egocentric
+,T,2,Turns Left,N/A,25,18.59487,egocentric
+,P,1,Turns Right,N/A,0,9.01257,practice
+,P,1,Forward,yes,0,9.520916,practice
+,P,1,Turns Left,N/A,0,9.994149,practice
+,P,1,Turns Left,N/A,0,10.24084,practice
+,P,1,Forward,no,0,10.67217,practice
+,P,1,Turns Right,N/A,0,12.03327,practice
+,P,1,Forward,no,0,12.59844,practice
