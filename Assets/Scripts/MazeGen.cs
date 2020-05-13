@@ -180,7 +180,7 @@ public class MazeGen : MonoBehaviour
             str[col] = '.';
             Maze[row] = str;
 
-            string file = "Assets/Scripts/Maze.txt";
+            string file = Application.dataPath + "Maze.txt";
             StreamWriter writer = new StreamWriter(file);
             for (int i = 0; i < Maze.Count; i++)
             {

@@ -13,18 +13,18 @@ public class Spawner : MonoBehaviour
     public GameObject fence;
     public GameObject player;
     public GameObject cam;
-    public GameObject lights;
+    public Light lights;
     public static float worldSize = (int)MainMenu.mazeSize;
     public Vector3 platformSize; 
     public Vector3 playerStart;
     public MazeGen mazeGen;
     //public MainMenu menu;
-    public int perspective = MainMenu.POV; //egocentric: 0, allocentric: 1
+    public int perspective; //egocentric: 0, allocentric: 1
     public List<Material> colors;
     public GameObject pole;
     public GameObject audioCue;
     public GameObject playr;
-    public static string path = "/Data Output/ParticipantData_ID" + MainMenu.ID + "_POV" + MainMenu.POV + "_mazeSize" + MainMenu.mazeSize + ".csv";
+    public static string path = "ParticipantData_ID" + MainMenu.ID + "_POV" + MainMenu.POV + "_mazeSize" + MainMenu.mazeSize + ".csv";
     public static List<int> audioCueBank;
     public static int attemptNumber;
     public static Vector3 playerSpawn;
@@ -43,6 +43,7 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
+        perspective = MainMenu.POV;
         if ((int)worldSize <= 0) worldSize = 10;                                                       
         ArrayList mazeRaw = mazeGen.create((int)worldSize);
         CreateCSV();
@@ -159,7 +160,8 @@ public class Spawner : MonoBehaviour
     void SpawnPlayer()
     {   
         playr = Instantiate(player, playerStart, Quaternion.identity);
-        GameObject lighting = Instantiate(lights, new Vector3(1f, 0.7f, 1f), Quaternion.identity);
+        Light lighting = Instantiate(lights, new Vector3(1f, 0.7f, 1f), Quaternion.identity);
+        lighting.renderMode = LightRenderMode.ForcePixel;
         lighting.transform.SetParent(playr.transform);
 
         
